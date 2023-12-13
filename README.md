@@ -9,6 +9,7 @@
 
   <h3 > audios </h3>
         8-bit music - [https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623]
+        8-bit music too! [https://assetstore.unity.com/packages/audio/music/electronic/miru-far-from-home-free-8bit-inspired-music-pack-202961]
  
   <h3 > scenes </h3>
         [https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010]
