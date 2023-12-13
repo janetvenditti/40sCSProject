@@ -17,7 +17,6 @@
  <br > [https://assetstore.unity.com/packages/audio/sound-fx/free-casual-soundfx-pack-164843]
         
   <h3 > scenes </h3>
-        [https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010]
   <br > [https://assetstore.unity.com/packages/2d/characters/retro-act-rpg-sprite-pack-01-71965]
   <br > goth castle - [https://assetstore.unity.com/packages/2d/characters/medieval-king-pack-2-174863]
   <br > goth town - [https://assetstore.unity.com/packages/2d/characters/gothicvania-town-101407]
@@ -26,10 +25,14 @@
   <br > [https://assetstore.unity.com/packages/2d/characters/sunny-land-forest-108124]
   <br > [https://assetstore.unity.com/packages/2d/characters/sunny-land-forest-108124]
   <br > [https://assetstore.unity.com/packages/audio/sound-fx/true-8-bit-sound-effect-collection-lite-version-264063]
-  
-  
+
   <h3 > players </h3>
         [https://assetstore.unity.com/packages/2d/characters/warrior-free-asset-195707]
+  <br >  [https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010]
+</details>
+
+<h3 > potions and objects </h3>
+        [https://assetstore.unity.com/packages/2d/gui/icons/2d-potions-pixel-art-196023]
   <br > CATS!!!!!!!!!! [https://assetstore.unity.com/packages/2d/characters/pet-cats-pixel-art-pack-248340]
   <br > [https://assetstore.unity.com/packages/2d/characters/pixel-flamer-x-130001]
   <br > pigs for jane [https://assetstore.unity.com/packages/2d/characters/basic-pixel-farm-asset-pack-64192]
