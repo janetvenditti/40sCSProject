@@ -6,6 +6,9 @@
   <h3> fonts and stuff </h3>
         pixel font - [https://assetstore.unity.com/packages/2d/fonts/pixel-font-tripfive-64734]
   <br > cursors - [https://assetstore.unity.com/packages/2d/gui/icons/pixel-cursors-109256]
+
+  <h3 > audios </h3>
+        8-bit music - [https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623]
  
   <h3 > scenes </h3>
         [https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010]
@@ -18,6 +21,6 @@
   
   <h3 > players </h3>
         [https://assetstore.unity.com/packages/2d/characters/warrior-free-asset-195707]
-        [https://assetstore.unity.com/packages/2d/characters/pet-cats-pixel-art-pack-248340]
+  <br > [https://assetstore.unity.com/packages/2d/characters/pet-cats-pixel-art-pack-248340]
   <br > [https://assetstore.unity.com/packages/2d/characters/pixel-flamer-x-130001]
 </details>
