@@ -12,4 +12,5 @@
   [https://assetstore.unity.com/packages/2d/characters/sunny-land-forest-108124]
   [https://assetstore.unity.com/packages/2d/characters/warrior-free-asset-195707]
   [https://assetstore.unity.com/packages/2d/environments/rogue-fantasy-castle-164725]
+  [https://assetstore.unity.com/packages/2d/gui/icons/pixel-cursors-109256]
 </details>
