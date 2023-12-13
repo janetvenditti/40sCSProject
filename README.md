@@ -4,7 +4,7 @@
 <details>
  <summary><h3> 🎀 Assets Instead of Art</h3></summary>
   <h3> fonts and stuff </h3>
-  <br > pixel font - [https://assetstore.unity.com/packages/2d/fonts/pixel-font-tripfive-64734]
+        pixel font - [https://assetstore.unity.com/packages/2d/fonts/pixel-font-tripfive-64734]
   <br > cursors - [https://assetstore.unity.com/packages/2d/gui/icons/pixel-cursors-109256]
   <h3 > scenes </h3>
   <br > [https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010]
