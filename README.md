@@ -18,6 +18,7 @@
  <br > cat footsteps [https://freesound.org/people/IENBA/sounds/658429/]
  <br > cat meows [https://freesound.org/people/Kim_Kimovna/sounds/563746/]
  <br > cat purrs [https://freesound.org/people/Abolla/sounds/322012/]
+ <br > goats [https://freesound.org/people/shadeslayer99/sounds/161194/]
         
   <h3 > scenes </h3>
   <br > [https://assetstore.unity.com/packages/2d/characters/retro-act-rpg-sprite-pack-01-71965]
