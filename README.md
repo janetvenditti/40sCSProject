@@ -3,16 +3,17 @@
 
 <details>
  <summary><h3> 🎀 Assets Instead of Art</h3></summary>
-  **fonts**
+  <h3> fonts and stuff 
   <br > pixel font - [https://assetstore.unity.com/packages/2d/fonts/pixel-font-tripfive-64734]
   <br > cursors - [https://assetstore.unity.com/packages/2d/gui/icons/pixel-cursors-109256]
-  <br > **scenes**
+  <h3 > scenes
   <br > [https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010]
   <br > [https://assetstore.unity.com/packages/2d/characters/retro-act-rpg-sprite-pack-01-71965]
   <br > goth castle - [https://assetstore.unity.com/packages/2d/characters/medieval-king-pack-2-174863]
   <br > goth town - [https://assetstore.unity.com/packages/2d/characters/gothicvania-town-101407]
   <br > [https://assetstore.unity.com/packages/2d/characters/warped-caves-103250]
   <br > [https://assetstore.unity.com/packages/2d/characters/sunny-land-forest-108124]
-  <br > [https://assetstore.unity.com/packages/2d/characters/warrior-free-asset-195707]
   <br > castle - [https://assetstore.unity.com/packages/2d/environments/rogue-fantasy-castle-164725]
+  <h3 > players
+  <br > [https://assetstore.unity.com/packages/2d/characters/warrior-free-asset-195707]
 </details>
