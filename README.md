@@ -16,4 +16,5 @@
   <br > castle - [https://assetstore.unity.com/packages/2d/environments/rogue-fantasy-castle-164725]
   <h3 > players
   <br > [https://assetstore.unity.com/packages/2d/characters/warrior-free-asset-195707]
+        [https://assetstore.unity.com/packages/2d/characters/pet-cats-pixel-art-pack-248340]
 </details>
