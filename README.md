@@ -29,3 +29,8 @@
   <br > [https://assetstore.unity.com/packages/2d/characters/pet-cats-pixel-art-pack-248340]
   <br > [https://assetstore.unity.com/packages/2d/characters/pixel-flamer-x-130001]
 </details>
+
+<details>
+ <summary><h3> 🎀 Resources</h3></summary>
+   [https://gamedevbeginner.com/how-to-play-audio-in-unity-with-examples/]
+</details>
