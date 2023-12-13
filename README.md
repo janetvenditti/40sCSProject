@@ -3,9 +3,9 @@
 
 <details>
  <summary><h3> 🎀 Assets Instead of Art</h3></summary>
-  <br > fonts
-  [https://assetstore.unity.com/packages/2d/fonts/pixel-font-tripfive-64734]
-  cursors - [https://assetstore.unity.com/packages/2d/gui/icons/pixel-cursors-109256]
+  fonts
+  <br > [https://assetstore.unity.com/packages/2d/fonts/pixel-font-tripfive-64734]
+  <br > cursors - [https://assetstore.unity.com/packages/2d/gui/icons/pixel-cursors-109256]
   scenes
   [https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010]
   [https://assetstore.unity.com/packages/2d/characters/retro-act-rpg-sprite-pack-01-71965]
