@@ -12,6 +12,7 @@
  <br > 8-bit music too! [https://assetstore.unity.com/packages/audio/music/electronic/miru-far-from-home-free-8bit-inspired-music-pack-202961]
  <br > even more 8-bit music! [https://assetstore.unity.com/packages/audio/music/8bit-music-album-051321-196147]
         undertale music to download [https://archive.org/details/undertaleost_202004/Undertale+-+Lossless+Soundtrack+(toby+fox)/toby+fox+-+UNDERTALE+Soundtrack+-+18+Uwa!!+So+Holiday♫.flac]
+ <br> dialogue sound effect: [https://assetstore.unity.com/packages/audio/sound-fx/dialog-text-sound-effects-222079]       
         
   <h3 > scenes </h3>
         [https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010]
