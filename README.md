@@ -49,7 +49,7 @@
  <h3> plans for upcoming weeks </h3>
 
        - writing questions 
-       - diagram of each step of the game 
+       - diagram of each step of the game - detailed plan
        - break up into coding background, players and effects 
        - learn version control stuff
   
