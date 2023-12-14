@@ -43,6 +43,14 @@
   <h3> potions and objects </h3>
         [https://assetstore.unity.com/packages/2d/gui/icons/2d-potions-pixel-art-196023]
   <br > https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010
+
+  <h3> plans for upcoming weeks </h3>
+
+       - writing questions 
+       - diagram of each step of the game 
+       - break up into coding background, players and effects 
+       - learn version control stuff
+  
 </details>
 
 <details>
