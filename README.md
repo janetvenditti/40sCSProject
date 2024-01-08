@@ -2,7 +2,7 @@
 40s CS Project Code
 
 <details>
- <summary><h3> 🪸 Assets Instead of Art</h3></summary>
+ <summary><h3> 🍓 Assets Instead of Art</h3></summary>
   <h3> fonts and stuff </h3>
         pixel font - [https://assetstore.unity.com/packages/2d/fonts/pixel-font-tripfive-64734]
   <br > cursors - [https://assetstore.unity.com/packages/2d/gui/icons/pixel-cursors-109256]
