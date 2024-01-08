@@ -51,13 +51,11 @@
        - diagram of each step of the game - detailed plan
        - break up into coding background, players and effects 
        - learn version control stuff
-
- link to canva 
- https://www.canva.com/design/DAF5UdO3Gxw/BM0pE9ps5UornBcANUm0aQ/edit?utm_content=DAF5UdO3Gxw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
   
 <details>
  <summary><h3> 🌸 Resources</h3></summary>
    [https://gamedevbeginner.com/how-to-play-audio-in-unity-with-examples/]
  <br > [https://www.youtube.com/watch?v=PAA_lCutsfE]
+ <br > link to canva - [https://www.canva.com/design/DAF5UdO3Gxw/BM0pE9ps5UornBcANUm0aQ/edit?utm_content=DAF5UdO3Gxw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
 </details>
 
