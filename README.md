@@ -44,7 +44,6 @@
         [https://assetstore.unity.com/packages/2d/gui/icons/2d-potions-pixel-art-196023]
   <br > https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010
 
- 
 </details>
  <h3> plans for upcoming weeks </h3>
 
@@ -52,6 +51,9 @@
        - diagram of each step of the game - detailed plan
        - break up into coding background, players and effects 
        - learn version control stuff
+
+ link to canva 
+ https://www.canva.com/design/DAF5UdO3Gxw/BM0pE9ps5UornBcANUm0aQ/edit?utm_content=DAF5UdO3Gxw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
   
 <details>
  <summary><h3> 🌸 Resources</h3></summary>
