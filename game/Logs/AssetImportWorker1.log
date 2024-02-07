@@ -1,0 +1,397 @@
+Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.7 (Build 20G817)
+Darwin version:          20.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/claire/Documents/GitHub/40sCSProject/game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55402
+Successfully changed project path to: /Users/claire/Documents/GitHub/40sCSProject/game
+/Users/claire/Documents/GitHub/40sCSProject/game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4472028480] Host "[IP] 10.200.2.7 [Port] 0 [Flags] 2 [Guid] 989454913 [EditorId] 989454913 [Version] 1048832 [Id] OSXEditor(0,claires-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4472028480] Host "[IP] 10.200.2.7 [Port] 0 [Flags] 2 [Guid] 989454913 [EditorId] 989454913 [Version] 1048832 [Id] OSXEditor(0,claires-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 11.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/claire/Documents/GitHub/40sCSProject/game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56369
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004113 seconds.
+- Loaded All Assemblies, in  0.346 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.186 seconds
+Domain Reload Profiling: 531ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (141ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 1089ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (497ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (225.1 KB). Loaded Objects now: 4493.
+Memory consumption went from 263.7 MB to 263.5 MB.
+Total: 4.737958 ms (FindLiveObjects: 0.569583 ms CreateObjectMapping: 0.056375 ms MarkObjects: 3.707000 ms  DeleteObjects: 0.403958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 684402.121482 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ecd432d6851b178b6680dbff19ab2d') in 0.101702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 239.190545 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Shadow.mat
+  artifactKey: Guid(6f3f1f0060a4d6a4980ea3283643fbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Shadow.mat using Guid(6f3f1f0060a4d6a4980ea3283643fbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620e20396e7cc80def8074957f293636') in 0.167448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 113.897360 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png
+  artifactKey: Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376a99a57628359d99551b6cf369ccd7') in 0.085668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png
+  artifactKey: Guid(dda6bbdb704d84847b38f9eced72bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png using Guid(dda6bbdb704d84847b38f9eced72bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24877d7a31ebe82e0d332698a03cee4') in 0.042772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png
+  artifactKey: Guid(a07735877a3bd644094331b137b71878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png using Guid(a07735877a3bd644094331b137b71878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a3975eff5630b924e8ab442466ffa3') in 0.081410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png
+  artifactKey: Guid(9f8f114589864b6489859a58fbb6baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png using Guid(9f8f114589864b6489859a58fbb6baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36417073c2a81bbe599bf2359caa82d0') in 0.103260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png
+  artifactKey: Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png using Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0b3d99c46ee072809187bac67da3c0') in 0.081400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2965ab000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 1470ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1016ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4015 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (200.1 KB). Loaded Objects now: 4627.
+Memory consumption went from 265.0 MB to 264.8 MB.
+Total: 3.459375 ms (FindLiveObjects: 0.371500 ms CreateObjectMapping: 0.061875 ms MarkObjects: 2.865750 ms  DeleteObjects: 0.159708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 740.110851 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass A.prefab
+  artifactKey: Guid(a0a66c9b152e801409fc26c4ca493d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass A.prefab using Guid(a0a66c9b152e801409fc26c4ca493d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6557de4e07c13de7d89845eefba65a74') in 0.089922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass D.prefab
+  artifactKey: Guid(fd980c817c63af4458df40a61e529e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass D.prefab using Guid(fd980c817c63af4458df40a61e529e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b623ccc223556e1936b1f7fa8205f000') in 0.007077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass E.prefab
+  artifactKey: Guid(019ab1af1d7a4b742a982c009534c058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass E.prefab using Guid(019ab1af1d7a4b742a982c009534c058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0061153a9900323d08e39e82297c438f') in 0.004125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T2.prefab
+  artifactKey: Guid(7277dd75e907b27448ec1de08238d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T2.prefab using Guid(7277dd75e907b27448ec1de08238d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232ecbbc27a4f37d63959454b4eb81cf') in 0.121200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab
+  artifactKey: Guid(403080d7568a4f949b4bfc7128477a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab using Guid(403080d7568a4f949b4bfc7128477a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5fe3216da117a623e6c10367167887') in 0.004096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass N.prefab
+  artifactKey: Guid(af67ceadc087899479232f75d2b79d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass N.prefab using Guid(af67ceadc087899479232f75d2b79d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fc6b0a9f77f92aaf0e38036fa7b1ff') in 0.004319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab
+  artifactKey: Guid(8c66149e58003104daf96668db118b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab using Guid(8c66149e58003104daf96668db118b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9753004931ce06af2799176be670dd02') in 0.004046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass L.prefab
+  artifactKey: Guid(1dc4948f20ddc324f84c815af63aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass L.prefab using Guid(1dc4948f20ddc324f84c815af63aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a158ee3cda382b4cd4aab12fb602f7b5') in 0.005021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T4.prefab
+  artifactKey: Guid(4bd7b41600416b54395bf9936a05dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T4.prefab using Guid(4bd7b41600416b54395bf9936a05dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b30e672cbd24ea0aba326fe640be457') in 0.005352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab
+  artifactKey: Guid(5b94bf9107369684a8153921f763da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab using Guid(5b94bf9107369684a8153921f763da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014bd3b3c0ada395d3e398ce1e9ce87a') in 0.004906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass K.prefab
+  artifactKey: Guid(4800845c2c4caa84eb6194552ae9c841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass K.prefab using Guid(4800845c2c4caa84eb6194552ae9c841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef6e5365c8378287199bd3f8aed5fc9') in 0.003635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
