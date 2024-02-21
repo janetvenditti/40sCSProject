@@ -15,7 +15,7 @@ C:/Users/njsan/OneDrive/Documents/GitHub/40sCSProject/game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50111
+57751
 Successfully changed project path to: C:/Users/njsan/OneDrive/Documents/GitHub/40sCSProject/game
 C:/Users/njsan/OneDrive/Documents/GitHub/40sCSProject/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/njsan/OneDrive/Documents/GitHub/40sCSProject/game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23064] Host "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 1362895353 [EditorId] 1362895353 [Version] 1048832 [Id] WindowsEditor(7,Pirate) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24888] Host "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 2253180554 [EditorId] 2253180554 [Version] 1048832 [Id] WindowsEditor(7,Pirate) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23064] Host "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 1362895353 [EditorId] 1362895353 [Version] 1048832 [Id] WindowsEditor(7,Pirate) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24888] Host "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 2253180554 [EditorId] 2253180554 [Version] 1048832 [Id] WindowsEditor(7,Pirate) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 388.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 19.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014293 seconds.
-- Loaded All Assemblies, in  0.805 seconds
+Registered in 0.006896 seconds.
+- Loaded All Assemblies, in  0.441 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.376 seconds
-Domain Reload Profiling: 1178ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 736ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (466ms)
-		LoadAssemblies (188ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (134ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (463ms)
-			TypeCache.Refresh (461ms)
-				TypeCache.ScanAssembly (445ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (140ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (376ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (297ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (277ms)
+		SetupLoadedEditorAssemblies (220ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (165ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 1178ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.102 seconds
-Refreshing native plugins compatible for Editor in 18.62 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.700 seconds
+Refreshing native plugins compatible for Editor in 7.42 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.902 seconds
-Domain Reload Profiling: 1983ms
-	BeginReloadAssembly (234ms)
+- Finished resetting the current domain, in  0.641 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (758ms)
-		LoadAssemblies (659ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (374ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (256ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (198ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (903ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (642ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (672ms)
+		SetupLoadedEditorAssemblies (467ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (494ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (317ms)
 			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (21ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 14.69 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 11.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 64 unused Assets / (60.9 KB). Loaded Objects now: 4498.
-Memory consumption went from 149.0 MB to 149.0 MB.
-Total: 4.776200 ms (FindLiveObjects: 0.262300 ms CreateObjectMapping: 0.141900 ms MarkObjects: 4.192000 ms  DeleteObjects: 0.177900 ms)
+Memory consumption went from 149.2 MB to 149.1 MB.
+Total: 3.615400 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.105800 ms MarkObjects: 3.157400 ms  DeleteObjects: 0.134200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,57 +180,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 553.888524 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/house-a.asset
-  artifactKey: Guid(0e6dcfe36bfaa2e43b9a51775bcff1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/house-a.asset using Guid(0e6dcfe36bfaa2e43b9a51775bcff1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a646b541fcfae771dfb4743819774d3d') in 0.109605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/background.asset
-  artifactKey: Guid(6262488cd177b3847b7adaae071f8961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/background.asset using Guid(6262488cd177b3847b7adaae071f8961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1472e75a13e521b9a345bf6fd818cefc') in 0.026468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 325.290924 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/crate-stack.asset
-  artifactKey: Guid(713863d606a18e1478aa4564e0219526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/crate-stack.asset using Guid(713863d606a18e1478aa4564e0219526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e0d7c96393f80422550cd5b558f19b') in 0.068080 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-b.asset
-  artifactKey: Guid(cf4676d8f570240459750caa7e44395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-b.asset using Guid(cf4676d8f570240459750caa7e44395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cd594f9ef4d4c5e593186f99e7e93d') in 0.024919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-wood-legs.asset
-  artifactKey: Guid(00c112154ce340f4f94cc1ed0b5795b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-wood-legs.asset using Guid(00c112154ce340f4f94cc1ed0b5795b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358356fb9f64553398f05ea0219533ca') in 0.036504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/right-roof.asset
-  artifactKey: Guid(c7c0d90a20d04ad4ebe1f85384f9f43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/right-roof.asset using Guid(c7c0d90a20d04ad4ebe1f85384f9f43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2ded1004396ce3a55ef32b362f5e0a') in 0.036885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground.png
-  artifactKey: Guid(4aa0a50e546194c289de175afdd9e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground.png using Guid(4aa0a50e546194c289de175afdd9e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb55c70e2a9d36c7e4516755fa068787') in 0.056530 seconds
+  Time since last request: 54558.860787 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-wood.asset
+  artifactKey: Guid(09e053723e3d5f145a8afdaa223612d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-wood.asset using Guid(09e053723e3d5f145a8afdaa223612d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3826b1f07d74051058b04a56bd636373') in 0.112433 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
