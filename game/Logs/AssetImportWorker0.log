@@ -22,7 +22,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 54293
+=======
+53553
+>>>>>>> Stashed changes
 Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +60,21 @@ Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [140704351500032] Host "[IP] 10.200.1.165 [Port] 0 [Flags] 2 [Guid] 3351687467 [EditorId] 3351687467 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [140704351500032] Host "[IP] 10.200.1.165 [Port] 0 [Flags] 2 [Guid] 3351687467 [EditorId] 3351687467 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 33.85 ms, found 3 plugins.
+=======
+Player connection [140704526845696] Host "[IP] 10.200.1.58 [Port] 0 [Flags] 2 [Guid] 1192850439 [EditorId] 1192850439 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704526845696] Host "[IP] 10.200.1.58 [Port] 0 [Flags] 2 [Guid] 1192850439 [EditorId] 1192850439 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 48.67 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,6 +89,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56262
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -87,11 +101,25 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.581 seconds
 Domain Reload Profiling: 1395ms
 	BeginReloadAssembly (248ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56509
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005627 seconds.
+- Loaded All Assemblies, in  0.731 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.523 seconds
+Domain Reload Profiling: 1254ms
+	BeginReloadAssembly (234ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (91ms)
 	RebuildNativeTypeToScriptingClass (30ms)
 	initialDomainReloadingComplete (114ms)
@@ -114,6 +142,30 @@ Domain Reload Profiling: 1395ms
 			BeforeProcessingInitializeOnLoad (6ms)
 			ProcessInitializeOnLoadAttributes (298ms)
 			ProcessInitializeOnLoadMethodAttributes (98ms)
+=======
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (263ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (524ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,14 +173,20 @@ Domain Reload Profiling: 1395ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.871 seconds
 Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  1.442 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  1.777 seconds
 Domain Reload Profiling: 3652ms
 	BeginReloadAssembly (347ms)
@@ -160,17 +218,59 @@ Domain Reload Profiling: 3652ms
 			ProcessInitializeOnLoadAttributes (1123ms)
 			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (3ms)
+=======
+- Finished resetting the current domain, in  1.551 seconds
+Domain Reload Profiling: 2992ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1026ms)
+		LoadAssemblies (738ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (400ms)
+			TypeCache.Refresh (336ms)
+				TypeCache.ScanAssembly (301ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1552ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (1034ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (2ms)
+>>>>>>> Stashed changes
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 4.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 64 unused Assets / (55.5 KB). Loaded Objects now: 4498.
 Memory consumption went from 155.7 MB to 155.7 MB.
 Total: 8.302497 ms (FindLiveObjects: 0.432681 ms CreateObjectMapping: 0.411066 ms MarkObjects: 7.237076 ms  DeleteObjects: 0.220112 ms)
+=======
+Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (55.4 KB). Loaded Objects now: 4526.
+Memory consumption went from 165.6 MB to 165.5 MB.
+Total: 8.427275 ms (FindLiveObjects: 0.449786 ms CreateObjectMapping: 0.430284 ms MarkObjects: 7.332398 ms  DeleteObjects: 0.213324 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,30 +287,292 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 985258.193031 seconds.
   path: Assets/Gothicvania-Town
   artifactKey: Guid(7bdf30ced30424e4d83d2a1b8396d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Gothicvania-Town using Guid(7bdf30ced30424e4d83d2a1b8396d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f26b8637d2d7e21674da8b333cd5d8') in 0.010361 seconds
+=======
+  Time since last request: 24734.449379 seconds.
+  path: Assets/HeneGames/Dialogue System/Animators/Player Controller.controller
+  artifactKey: Guid(11cd4b84c572e4747a1277cb99813331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Animators/Player Controller.controller using Guid(11cd4b84c572e4747a1277cb99813331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6605886e5b86c9440ae6b72a34f18788') in 0.029787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/HeneGames
+  artifactKey: Guid(955d7e5bdd4514b1880eabef1e244c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames using Guid(955d7e5bdd4514b1880eabef1e244c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04b2bc5f7d86b25cab60fd145613c73') in 0.000611 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 15.937799 seconds.
   path: Assets/Cainos/Pixel Art Top Down - Basic/Material
   artifactKey: Guid(0379c5940f27a7049b6c9e8a3c23041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material using Guid(0379c5940f27a7049b6c9e8a3c23041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96266ecc84aca9a797e632e61710bd8a') in 0.001015 seconds
+=======
+  Time since last request: 0.000245 seconds.
+  path: Assets/HeneGames/Dialogue System/Animators
+  artifactKey: Guid(62772b5468a996649b8af5e531ffda99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Animators using Guid(62772b5468a996649b8af5e531ffda99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e901b3cdd793c7bd44558ef8d33fe941') in 0.000431 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 43.774237 seconds.
   path: Assets/Scenes/catScene.unity
   artifactKey: Guid(373fc153c7d4444d99acc29f733309ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/catScene.unity using Guid(373fc153c7d4444d99acc29f733309ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7515bda27b77fe21401c2cbca51cdc74') in 0.002610 seconds
+=======
+  Time since last request: 0.000530 seconds.
+  path: Assets/HeneGames/Dialogue System
+  artifactKey: Guid(11b98011f37d8384abcf767b3fed7f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System using Guid(11b98011f37d8384abcf767b3fed7f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cc7a98267aea4590c1daa28076e33e') in 0.000418 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+  Time since last request: 2.560017 seconds.
+  path: Assets/HeneGames/Dialogue System/Prefabs
+  artifactKey: Guid(d7a169af91ec11148bd148f75cf53dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Prefabs using Guid(d7a169af91ec11148bd148f75cf53dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c34678cb9641c19b6a1042609c8050b') in 0.000617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098784 seconds.
+  path: Assets/HeneGames/Dialogue System/Prefabs/Camera rig.prefab
+  artifactKey: Guid(99c7eb47e4810034393fdba0e712f48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Prefabs/Camera rig.prefab using Guid(99c7eb47e4810034393fdba0e712f48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adabe4141dff2cf09d9780284bb42768') in 0.032309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/HeneGames/Dialogue System/Prefabs/Player.prefab
+  artifactKey: Guid(8ef03724950e4a24abed83beaf7a1497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Prefabs/Player.prefab using Guid(8ef03724950e4a24abed83beaf7a1497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56417ca5402bd9e1559f654404b5a9e0') in 0.870294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/HeneGames/Dialogue System/Prefabs/Dialogue 3D.prefab
+  artifactKey: Guid(cc0b3ff4467379548b7df5f7e83dd6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Prefabs/Dialogue 3D.prefab using Guid(cc0b3ff4467379548b7df5f7e83dd6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46889444a105b3f3270bf74948dbe202') in 0.005793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 105.703469 seconds.
+  path: Assets/HeneGames/Dialogue System/Characters/Elrataz.asset
+  artifactKey: Guid(3e5e644d8d5725941b79d3277f39cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Characters/Elrataz.asset using Guid(3e5e644d8d5725941b79d3277f39cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c0607318edd602c61828bee1900a5e') in 0.003869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006414 seconds.
+  path: Assets/HeneGames/Dialogue System/Characters/Player.asset
+  artifactKey: Guid(4752645aa0d4f144783c729ff9e40e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Characters/Player.asset using Guid(4752645aa0d4f144783c729ff9e40e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8465d54bcd84bf1451ebec13e54fed29') in 0.002724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/HeneGames/Dialogue System/Characters/Villager.asset
+  artifactKey: Guid(0779ef71b4ee2b94791b1a73fb6de447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Characters/Villager.asset using Guid(0779ef71b4ee2b94791b1a73fb6de447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5fce511555181ffa556c8497cc2b47') in 0.002563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 57.267757 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/Background/background.png
+  artifactKey: Guid(5680c1a9719b046e0bc08d861902f606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/Background/background.png using Guid(5680c1a9719b046e0bc08d861902f606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae52ae48ddd43275fc82459583ba174') in 0.183252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.803431 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-1.png
+  artifactKey: Guid(e4ab738c3a9c842b69fa93cbbff0ea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-1.png using Guid(e4ab738c3a9c842b69fa93cbbff0ea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fb51e2ead77be25016a2e747ffdd9f') in 0.015518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-3.png
+  artifactKey: Guid(e5d48ddba917147d4984d60c82de0138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-3.png using Guid(e5d48ddba917147d4984d60c82de0138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0389aa751431a17a5a32417eb10c4d5a') in 0.014069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.079507 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-5.png
+  artifactKey: Guid(015cc9e6c3749435f8a1905cadfa8fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-5.png using Guid(015cc9e6c3749435f8a1905cadfa8fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7fffde69a3a01baf982bfe8286c42f') in 0.018078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.172488 seconds.
+  path: Assets/HeneGames/Dialogue System/Images/Villager.png
+  artifactKey: Guid(2c3939a2ae6c08b40bbe533253e6bbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Images/Villager.png using Guid(2c3939a2ae6c08b40bbe533253e6bbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662ff9d7058e08c07fab0d67fad58455') in 0.024927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.011662 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-wood-legs.png
+  artifactKey: Guid(a9bd55e4cd24a469793a6b3c35ec8e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-wood-legs.png using Guid(a9bd55e4cd24a469793a6b3c35ec8e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a9fd71c199ef2d9976739124719bd7') in 0.014139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-wood.png
+  artifactKey: Guid(ff6ad7f0b84f646e5a733fe95155c65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-wood.png using Guid(ff6ad7f0b84f646e5a733fe95155c65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfdbed10b198fe4e9b728f726e68e9d') in 0.022468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.581890 seconds.
+  path: Assets/HeneGames/Dialogue System/Materials/Ground.mat
+  artifactKey: Guid(c825b22e76cc3744eb17c342d58b2e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Materials/Ground.mat using Guid(c825b22e76cc3744eb17c342d58b2e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441e5621627d914b6967856eaafa4a57') in 0.096512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183880648dfa3d89aab4cf6d5bb121a5') in 0.098215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc01572fc77791ba5fde605cf413501') in 0.072562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/HeneGames/Dialogue System/FBX/Character.fbx
+  artifactKey: Guid(2735fca8965d4144eb85b3add50039e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/FBX/Character.fbx using Guid(2735fca8965d4144eb85b3add50039e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367b7bbc23fe2284c997b9af843224ef') in 0.156527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 70.272944 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wood-legs.png
+  artifactKey: Guid(d6f3eaee1d2e043658f43a5ae7600886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wood-legs.png using Guid(d6f3eaee1d2e043658f43a5ae7600886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946dc82b19683b7b5bc7715790ffe513') in 0.015372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 85.067791 seconds.
+  path: Assets/Pixel Font - Tripfive/Sample Textmesh.prefab
+  artifactKey: Guid(92d60a2e17d9a4bb8bd3801b14fc2926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/Sample Textmesh.prefab using Guid(92d60a2e17d9a4bb8bd3801b14fc2926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1729988955a99485b7a334b6246732c9') in 0.008309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.342800 seconds.
+  path: Assets/Pixel Font - Tripfive/Fonts
+  artifactKey: Guid(7a9e2b9a8d7c549d3a46ef8f66cf8c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/Fonts using Guid(7a9e2b9a8d7c549d3a46ef8f66cf8c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52df7ce01dff38168368565c80284f35') in 0.000840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.410295 seconds.
+  path: Assets/Pixel Font - Tripfive/_README.txt
+  artifactKey: Guid(d6c1545eeaccd4df49042a0f57ac774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/_README.txt using Guid(d6c1545eeaccd4df49042a0f57ac774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71673aadf814dedeb3670dba672eaf54') in 0.001652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 81.962898 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Tripfive.fontsettings
+  artifactKey: Guid(ea4a0bf1fe13a4d74a05ec5b52144b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Tripfive.fontsettings using Guid(ea4a0bf1fe13a4d74a05ec5b52144b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cc46132d4fe950f9e96162f4b25af1') in 0.002712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 157.123577 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Tripfive.asset
+  artifactKey: Guid(c3e615b02a5d44863bb8b66cd44b9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Tripfive.asset using Guid(c3e615b02a5d44863bb8b66cd44b9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5046ee5fbc123220782322b3c4d7537a') in 0.027038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.405724 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Tripfive.fontsettings
+  artifactKey: Guid(ea4a0bf1fe13a4d74a05ec5b52144b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Tripfive.fontsettings using Guid(ea4a0bf1fe13a4d74a05ec5b52144b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71abe228256d22cf9c14e10edad637eb') in 0.002289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 95.557976 seconds.
+  path: Assets/BlackBold + GreyBold Font Pack/GreyBold
+  artifactKey: Guid(7b2b84a95dfca5343ad5a1fb3888e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackBold + GreyBold Font Pack/GreyBold using Guid(7b2b84a95dfca5343ad5a1fb3888e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7990f52835b34b1a4244a3e18d5fea19') in 0.000832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.124790 seconds.
+  path: Assets/BlackBold + GreyBold Font Pack/GreyBold/Font Conversion Sheet GreyBold-export.png
+  artifactKey: Guid(69cea12a286df7e4ca618a9a42ef4723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackBold + GreyBold Font Pack/GreyBold/Font Conversion Sheet GreyBold-export.png using Guid(69cea12a286df7e4ca618a9a42ef4723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0151ce0269830d0c62ef02f0d1b8c9') in 0.074476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.263959 seconds.
+  path: Assets/BlackBold + GreyBold Font Pack/BlackBold/BLACKBOLD FONT FILE.fontsettings
+  artifactKey: Guid(9d35e559553e3de4fbb66a9c3ebd6661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackBold + GreyBold Font Pack/BlackBold/BLACKBOLD FONT FILE.fontsettings using Guid(9d35e559553e3de4fbb66a9c3ebd6661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa92b78e09f7c4b3722c1214679390fb') in 0.080341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.500470 seconds.
+  path: Assets/Scenes/catScene.unity
+  artifactKey: Guid(373fc153c7d4444d99acc29f733309ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/catScene.unity using Guid(373fc153c7d4444d99acc29f733309ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e617c9cf350e6ef4fca7c1d3efa328e') in 0.000788 seconds
+>>>>>>> Stashed changes
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 93.933104 seconds.
   path: Assets/Scenes/catScene.unity
   artifactKey: Guid(373fc153c7d4444d99acc29f733309ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -412,3 +774,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+  Time since last request: 103.611207 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/BLACKBOLD FONT FILE.fontsettings
+  artifactKey: Guid(98654a9b53eae4f828f3ffc9f23a2347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/BLACKBOLD FONT FILE.fontsettings using Guid(98654a9b53eae4f828f3ffc9f23a2347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02461cc2f85b0022457b5be3e8912ea6') in 0.012354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 63.713575 seconds.
+  path: Assets/BlackBold + GreyBold Font Pack/Fonts.unity
+  artifactKey: Guid(9cd03ea82d3fdfc46849b31e87c2ce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackBold + GreyBold Font Pack/Fonts.unity using Guid(9cd03ea82d3fdfc46849b31e87c2ce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa872d3872b936a1a9c71330a7d2194') in 0.000759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.270566 seconds.
+  path: Assets/HeneGames/Dialogue System/Prefabs/Dialogue UI.prefab
+  artifactKey: Guid(66a0aba2ba55058439c92574558222ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Prefabs/Dialogue UI.prefab using Guid(66a0aba2ba55058439c92574558222ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5693f1b0e8240d33462eeb5d26fb2604') in 0.103184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+>>>>>>> Stashed changes

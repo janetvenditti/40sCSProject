@@ -22,7 +22,11 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< Updated upstream
 54293
+=======
+53553
+>>>>>>> Stashed changes
 Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +60,21 @@ Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [140704351500032] Host "[IP] 10.200.1.165 [Port] 0 [Flags] 2 [Guid] 4252749499 [EditorId] 4252749499 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [140704351500032] Host "[IP] 10.200.1.165 [Port] 0 [Flags] 2 [Guid] 4252749499 [EditorId] 4252749499 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 46.71 ms, found 3 plugins.
+=======
+Player connection [140704526845696] Host "[IP] 10.200.1.58 [Port] 0 [Flags] 2 [Guid] 1710301039 [EditorId] 1710301039 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704526845696] Host "[IP] 10.200.1.58 [Port] 0 [Flags] 2 [Guid] 1710301039 [EditorId] 1710301039 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 32.07 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,6 +89,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -87,11 +101,25 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.582 seconds
 Domain Reload Profiling: 1395ms
 	BeginReloadAssembly (246ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56511
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.006255 seconds.
+- Loaded All Assemblies, in  0.731 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.523 seconds
+Domain Reload Profiling: 1254ms
+	BeginReloadAssembly (234ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (93ms)
 	RebuildNativeTypeToScriptingClass (30ms)
 	initialDomainReloadingComplete (113ms)
@@ -114,6 +142,30 @@ Domain Reload Profiling: 1395ms
 			BeforeProcessingInitializeOnLoad (5ms)
 			ProcessInitializeOnLoadAttributes (298ms)
 			ProcessInitializeOnLoadMethodAttributes (102ms)
+=======
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (264ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (524ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (406ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,21 +173,33 @@ Domain Reload Profiling: 1395ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.863 seconds
 Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  1.440 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  1.784 seconds
 Domain Reload Profiling: 3650ms
 	BeginReloadAssembly (346ms)
+=======
+- Finished resetting the current domain, in  1.552 seconds
+Domain Reload Profiling: 2991ms
+	BeginReloadAssembly (244ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (63ms)
 	RebuildCommonClasses (78ms)
 	RebuildNativeTypeToScriptingClass (24ms)
@@ -226,10 +290,29 @@ Domain Reload Profiling: 4003ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (1017ms)
+=======
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (1025ms)
+		LoadAssemblies (739ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (398ms)
+			TypeCache.Refresh (334ms)
+				TypeCache.ScanAssembly (300ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1552ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1225ms)
+>>>>>>> Stashed changes
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
+<<<<<<< Updated upstream
 			BeforeProcessingInitializeOnLoad (99ms)
 			ProcessInitializeOnLoadAttributes (842ms)
 			ProcessInitializeOnLoadMethodAttributes (57ms)
@@ -243,8 +326,24 @@ Unloading 4009 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 36 unused Assets / (35.1 KB). Loaded Objects now: 4503.
 Memory consumption went from 157.7 MB to 157.7 MB.
 Total: 6.970949 ms (FindLiveObjects: 0.392264 ms CreateObjectMapping: 0.470004 ms MarkObjects: 6.023625 ms  DeleteObjects: 0.083869 ms)
+=======
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (1034ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (55.4 KB). Loaded Objects now: 4526.
+Memory consumption went from 165.6 MB to 165.5 MB.
+Total: 7.053237 ms (FindLiveObjects: 0.429759 ms CreateObjectMapping: 0.332908 ms MarkObjects: 6.005928 ms  DeleteObjects: 0.283381 ms)
+>>>>>>> Stashed changes
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -259,6 +358,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  1.014 seconds
@@ -388,3 +488,124 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+Received Import Request.
+  Time since last request: 24737.152576 seconds.
+  path: Assets/HeneGames/Dialogue System/Prefabs/Dialogue 2D.prefab
+  artifactKey: Guid(a0dbeffc84669e24f994d387893a803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Prefabs/Dialogue 2D.prefab using Guid(a0dbeffc84669e24f994d387893a803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc23ce2aca20f292e73d391deb8e5c5') in 0.055789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/HeneGames/Dialogue System/Prefabs/Dialogue UI.prefab
+  artifactKey: Guid(66a0aba2ba55058439c92574558222ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Prefabs/Dialogue UI.prefab using Guid(66a0aba2ba55058439c92574558222ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbeb9bc66e8e8cd6d11bc3a9f41a143') in 0.090235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/HeneGames/Dialogue System/Prefabs/Wizard.prefab
+  artifactKey: Guid(8e9f9ec3ddd244846ad2994a83fb38f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Prefabs/Wizard.prefab using Guid(8e9f9ec3ddd244846ad2994a83fb38f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d2cd58da0784b3ed28feb6e817b4ba') in 0.880963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 105.593882 seconds.
+  path: Assets/HeneGames/Dialogue System/Characters/Tutorial.asset
+  artifactKey: Guid(9624ffe5663bfbd4fa77a5da6ae3df8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Characters/Tutorial.asset using Guid(9624ffe5663bfbd4fa77a5da6ae3df8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2443ec3771c8dc80d7c23fa323c9ed') in 0.003336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 57.272774 seconds.
+  path: Assets/HeneGames/Dialogue System/Images/Background 2D.png
+  artifactKey: Guid(5f37d376f652e2042a659b6db8436308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Images/Background 2D.png using Guid(5f37d376f652e2042a659b6db8436308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5764d8fe4a02de02803ffdca7040f205') in 0.189806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.797850 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-2.png
+  artifactKey: Guid(945b6607d85804ca6b5bc6f6d628e68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-2.png using Guid(945b6607d85804ca6b5bc6f6d628e68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ecc52af0ffdd237ebb7dc6187ab17f') in 0.015171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-4.png
+  artifactKey: Guid(b7c237ced05de4c44a8337e4c9d5da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-4.png using Guid(b7c237ced05de4c44a8337e4c9d5da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81025d5ab7cb88f583f40a97d5413ad') in 0.014773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.270309 seconds.
+  path: Assets/HeneGames/Dialogue System/Images/Villager head.png
+  artifactKey: Guid(30b889a4f550bc14d9363694ecfba282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Images/Villager head.png using Guid(30b889a4f550bc14d9363694ecfba282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40cf3b6b7aa7b3a717a02d6dae374f9') in 0.024128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.012189 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-left-wood.png
+  artifactKey: Guid(2cc76c8c4b12247ccb7a15d03fef738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-left-wood.png using Guid(2cc76c8c4b12247ccb7a15d03fef738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd570444624a27a723ce06d0bda0ae57') in 0.013951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-right-wood.png
+  artifactKey: Guid(edac48a28c5cd4707ba4047dfe4f451d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-right-wood.png using Guid(edac48a28c5cd4707ba4047dfe4f451d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928e1879bd6e91e7280e4beb05237cb5') in 0.019105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.582404 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943a6c61ae6042d1546bf700277596df') in 0.179077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/HeneGames/Dialogue System/Materials/Master.mat
+  artifactKey: Guid(3d0087a458d4adb46a982d480979416b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeneGames/Dialogue System/Materials/Master.mat using Guid(3d0087a458d4adb46a982d480979416b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a0db531d31ec37a64679f00e231361') in 0.043590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba46208fba1ba4ec592f031312ec45eb') in 0.090850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 506.447596 seconds.
+  path: Assets/BlackBold + GreyBold Font Pack/GreyBold/GREYBOLD FONT FILE.fontsettings
+  artifactKey: Guid(edd9d1b71748c05488d0d8e0ebf32a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackBold + GreyBold Font Pack/GreyBold/GREYBOLD FONT FILE.fontsettings using Guid(edd9d1b71748c05488d0d8e0ebf32a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb3b9e751434e160be5af04bff5e288') in 0.120508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.212144 seconds.
+  path: Assets/BlackBold + GreyBold Font Pack/BlackBold/Conversion sheet-export.png
+  artifactKey: Guid(3450dc0ae2747c642b65f41eff9c61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackBold + GreyBold Font Pack/BlackBold/Conversion sheet-export.png using Guid(3450dc0ae2747c642b65f41eff9c61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5452cc7f48da787c8d534bfbe92524e') in 0.045421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+>>>>>>> Stashed changes

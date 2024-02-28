@@ -22,7 +22,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 60442
+=======
+54201
+>>>>>>> Stashed changes
 Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +60,21 @@ Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [140704351500032] Host "[IP] 10.200.1.165 [Port] 0 [Flags] 2 [Guid] 4142831750 [EditorId] 4142831750 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [140704351500032] Host "[IP] 10.200.1.165 [Port] 0 [Flags] 2 [Guid] 4142831750 [EditorId] 4142831750 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 36.27 ms, found 3 plugins.
+=======
+Player connection [140704351500032] Host "[IP] 10.200.1.165 [Port] 0 [Flags] 2 [Guid] 844995802 [EditorId] 844995802 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704351500032] Host "[IP] 10.200.1.165 [Port] 0 [Flags] 2 [Guid] 844995802 [EditorId] 844995802 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 34.50 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,6 +89,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56717
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -87,11 +101,25 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.578 seconds
 Domain Reload Profiling: 1371ms
 	BeginReloadAssembly (236ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003917 seconds.
+- Loaded All Assemblies, in  0.755 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.475 seconds
+Domain Reload Profiling: 1230ms
+	BeginReloadAssembly (302ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (84ms)
 	RebuildNativeTypeToScriptingClass (30ms)
 	initialDomainReloadingComplete (109ms)
@@ -114,6 +142,30 @@ Domain Reload Profiling: 1371ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (281ms)
 			ProcessInitializeOnLoadMethodAttributes (108ms)
+=======
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (305ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (239ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,14 +173,20 @@ Domain Reload Profiling: 1371ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  2.946 seconds
 Refreshing native plugins compatible for Editor in 7.06 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  1.492 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  2.122 seconds
 Domain Reload Profiling: 5074ms
 	BeginReloadAssembly (559ms)
@@ -152,10 +210,36 @@ Domain Reload Profiling: 5074ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (1547ms)
+=======
+- Finished resetting the current domain, in  1.649 seconds
+Domain Reload Profiling: 3143ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (1039ms)
+		LoadAssemblies (756ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (403ms)
+			TypeCache.Refresh (338ms)
+				TypeCache.ScanAssembly (302ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1650ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1291ms)
+>>>>>>> Stashed changes
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
+<<<<<<< Updated upstream
 			BeforeProcessingInitializeOnLoad (126ms)
 			ProcessInitializeOnLoadAttributes (1269ms)
 			ProcessInitializeOnLoadMethodAttributes (125ms)
@@ -171,10 +255,31 @@ Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 64 unused Assets / (55.7 KB). Loaded Objects now: 4497.
 Memory consumption went from 155.4 MB to 155.3 MB.
 Total: 11.350089 ms (FindLiveObjects: 0.481707 ms CreateObjectMapping: 0.528220 ms MarkObjects: 10.077282 ms  DeleteObjects: 0.261303 ms)
+=======
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (1088ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (55.3 KB). Loaded Objects now: 4517.
+Memory consumption went from 165.7 MB to 165.6 MB.
+Total: 9.472026 ms (FindLiveObjects: 0.488181 ms CreateObjectMapping: 0.372383 ms MarkObjects: 8.395370 ms  DeleteObjects: 0.214396 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/InteractiveTriggerInspector.cs: ca7c7c53d62be524b92c4fd6fa572fe0 -> 
+  custom:scripting/monoscript/fileName/TimerNarrationTrigger.cs: c5ff983c419f7876716c9ca1a11bd6b9 -> 
+  custom:scripting/monoscript/fileName/KeyEnabler.cs: b9d53b1c41584bc29d38f993e673e789 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+<<<<<<< Updated upstream
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -196,16 +301,52 @@ Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+=======
+  custom:scripting/monoscript/fileName/TheEnd.cs: e1bfa2ee2a8d0fa0c6381b14a28b3d68 -> 
+  custom:scripting/monoscript/fileName/ObjRotate.cs: 3163a7915dce2acef929a5d29798f9e0 -> 
+  custom:scripting/monoscript/fileName/NarrationManagerInspector.cs: 9b83002fbbdd8ab0a010d2a89f942129 -> 
+  custom:scripting/monoscript/fileName/NarrationTriggerInspector.cs: 01a88013b69d141f3677dac4cd60a7c3 -> 
+  custom:scripting/monoscript/fileName/NarrationManager.cs: f92530d732713959b49b2a607c9c65df -> 
+  custom:scripting/monoscript/fileName/CollisionNarrationTrigger.cs: bd606710330dcc7670b6d18e20ab96b8 -> 
+  custom:scripting/monoscript/fileName/Narration.cs: a5ef1b9bde1148fc43d4186a8266ed4d -> 
+>>>>>>> Stashed changes
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/SubtitleManagerInspector.cs: 339aa36ed8d7fbd8721dc7140cb59926 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CountEventArgs.cs: 3aa2530368d8ccd5bcf2f33bfe72e7cd -> 
+  custom:scripting/monoscript/fileName/ChainLink.cs: ef73ffa75d316d764c9402f8e022ca97 -> 
+  custom:scripting/monoscript/fileName/KeyChecker.cs: 4c4777f35ef5eeb43e2d9bed14a01c4e -> 
+  custom:scripting/monoscript/fileName/SubtitleManager.cs: 3f732d3ceb74097f4ad2a3823db6ffa3 -> 
+  custom:scripting/monoscript/fileName/ProximityNarrationTrigger.cs: f2a8d282cf351f64177a8bcc7d96e203 -> 
+  custom:scripting/monoscript/fileName/OnEnableTriggerInspector.cs: 3db3d94c779029d2b703223ef8c7591b -> 
+  custom:scripting/monoscript/fileName/Phrase.cs: 233780ce975ae0db21be65c00db40b33 -> 
+  custom:scripting/monoscript/fileName/NarrationChain.cs: e3c3c65a5a75d28dc7106a290fbef025 -> 
+  custom:scripting/monoscript/fileName/ProximityNarrationTriggerInspector.cs: c5736446a1b1ef9fc499db0dbf29c59f -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/CountingNarrationTrigger.cs: 6ef89b364c96ba65f2acaec160b898d7 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Elevator.cs: 9bfc8ab26cefd65fc9da723c32d4eb5d -> 
+  custom:scripting/monoscript/fileName/OnDisableBox.cs: 8fd16fe70606b790493a5c8c2071f58a -> 
+  custom:scripting/monoscript/fileName/TimerTriggerInspector.cs: 6f1df4ef1f9c098f17ee3102fa3dd369 -> 
+  custom:scripting/monoscript/fileName/NarrationCountElement.cs: 87c0e88ad4575247459b552ddd81fe41 -> 
+  custom:scripting/monoscript/fileName/CollisionNarrationTriggerInspector.cs: 072787d86591f23ec8d67f3d083d623e -> 
+  custom:scripting/monoscript/fileName/SimpleTranslate.cs: 1203a56a5ac5125df10daab5e4cdcb29 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/NarrationPropertyDrawer.cs: 6b3d8007d005c6860f462d753bf51f3a -> 
+  custom:scripting/monoscript/fileName/NarrationTrigger.cs: 0e925d5cd8c3c03f56073ba9ff42626c -> 
+  custom:scripting/monoscript/fileName/CountTriggerInspector.cs: 2695f57df24a86ac82de27e77334ff89 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/OnEnableNarrationTrigger.cs: 101582d42a1882b4754bbadcb2cd304f -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BoxCounter.cs: c26cc354b4ef3312f86444e48f0ff65b -> 
+  custom:scripting/monoscript/fileName/Generator.cs: 20a350c82a81e347b3e59762366db55e -> 
+  custom:scripting/monoscript/fileName/MovementController.cs: adb7dd969f15152451a1068bc63bd926 -> 
+  custom:scripting/monoscript/fileName/PhrasePropertyDrawer.cs: fc392f83a7aa3e426b42bb04a402190b -> 
+  custom:scripting/monoscript/fileName/InteractiveNarrationTrigger.cs: 37b5f2dc97b1fd1ae69aab1b41844a9e -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< Updated upstream
 ========================================================================
 Received Import Request.
   Time since last request: 886798.411412 seconds.
@@ -694,3 +835,114 @@ Received Import Request.
 Start importing Assets/Scenes/catScene.unity using Guid(373fc153c7d4444d99acc29f733309ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8515db8178186683eb57c44ebe49fd0a') in 0.002328 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+=======
+  custom:scripting/monoscript/fileName/GeneratorManager.cs: 9f3c11c3e51a2ca4a3feb7c6112c4a08 -> 
+  custom:scripting/monoscript/fileName/NarrationList.cs: cf134abbe3e1fec793b5e4e3625e4ec0 -> 
+  custom:scripting/monoscript/fileName/CharacterController.cs: 488821dce7c36fa4bace46b98d4561ca -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.770 seconds
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.295 seconds
+Domain Reload Profiling: 5065ms
+	BeginReloadAssembly (796ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (59ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (253ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (827ms)
+		LoadAssemblies (1183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (3296ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (960ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 4.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.1 KB). Loaded Objects now: 4522.
+Memory consumption went from 167.8 MB to 167.8 MB.
+Total: 12.441183 ms (FindLiveObjects: 0.807093 ms CreateObjectMapping: 0.676502 ms MarkObjects: 10.831793 ms  DeleteObjects: 0.124242 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/InteractiveTriggerInspector.cs: ca7c7c53d62be524b92c4fd6fa572fe0 -> 
+  custom:scripting/monoscript/fileName/TimerNarrationTrigger.cs: c5ff983c419f7876716c9ca1a11bd6b9 -> 
+  custom:scripting/monoscript/fileName/KeyEnabler.cs: b9d53b1c41584bc29d38f993e673e789 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TheEnd.cs: e1bfa2ee2a8d0fa0c6381b14a28b3d68 -> 
+  custom:scripting/monoscript/fileName/ObjRotate.cs: 3163a7915dce2acef929a5d29798f9e0 -> 
+  custom:scripting/monoscript/fileName/NarrationManagerInspector.cs: 9b83002fbbdd8ab0a010d2a89f942129 -> 
+  custom:scripting/monoscript/fileName/NarrationTriggerInspector.cs: 01a88013b69d141f3677dac4cd60a7c3 -> 
+  custom:scripting/monoscript/fileName/NarrationManager.cs: f92530d732713959b49b2a607c9c65df -> 
+  custom:scripting/monoscript/fileName/CollisionNarrationTrigger.cs: bd606710330dcc7670b6d18e20ab96b8 -> 
+  custom:scripting/monoscript/fileName/Narration.cs: a5ef1b9bde1148fc43d4186a8266ed4d -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/SubtitleManagerInspector.cs: 339aa36ed8d7fbd8721dc7140cb59926 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CountEventArgs.cs: 3aa2530368d8ccd5bcf2f33bfe72e7cd -> 
+  custom:scripting/monoscript/fileName/ChainLink.cs: ef73ffa75d316d764c9402f8e022ca97 -> 
+  custom:scripting/monoscript/fileName/KeyChecker.cs: 4c4777f35ef5eeb43e2d9bed14a01c4e -> 
+  custom:scripting/monoscript/fileName/SubtitleManager.cs: 3f732d3ceb74097f4ad2a3823db6ffa3 -> 
+  custom:scripting/monoscript/fileName/ProximityNarrationTrigger.cs: f2a8d282cf351f64177a8bcc7d96e203 -> 
+  custom:scripting/monoscript/fileName/OnEnableTriggerInspector.cs: 3db3d94c779029d2b703223ef8c7591b -> 
+  custom:scripting/monoscript/fileName/Phrase.cs: 233780ce975ae0db21be65c00db40b33 -> 
+  custom:scripting/monoscript/fileName/NarrationChain.cs: e3c3c65a5a75d28dc7106a290fbef025 -> 
+  custom:scripting/monoscript/fileName/ProximityNarrationTriggerInspector.cs: c5736446a1b1ef9fc499db0dbf29c59f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/CountingNarrationTrigger.cs: 6ef89b364c96ba65f2acaec160b898d7 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Elevator.cs: 9bfc8ab26cefd65fc9da723c32d4eb5d -> 
+  custom:scripting/monoscript/fileName/OnDisableBox.cs: 8fd16fe70606b790493a5c8c2071f58a -> 
+  custom:scripting/monoscript/fileName/TimerTriggerInspector.cs: 6f1df4ef1f9c098f17ee3102fa3dd369 -> 
+  custom:scripting/monoscript/fileName/NarrationCountElement.cs: 87c0e88ad4575247459b552ddd81fe41 -> 
+  custom:scripting/monoscript/fileName/CollisionNarrationTriggerInspector.cs: 072787d86591f23ec8d67f3d083d623e -> 
+  custom:scripting/monoscript/fileName/SimpleTranslate.cs: 1203a56a5ac5125df10daab5e4cdcb29 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/NarrationPropertyDrawer.cs: 6b3d8007d005c6860f462d753bf51f3a -> 
+  custom:scripting/monoscript/fileName/NarrationTrigger.cs: 0e925d5cd8c3c03f56073ba9ff42626c -> 
+  custom:scripting/monoscript/fileName/CountTriggerInspector.cs: 2695f57df24a86ac82de27e77334ff89 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/OnEnableNarrationTrigger.cs: 101582d42a1882b4754bbadcb2cd304f -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BoxCounter.cs: c26cc354b4ef3312f86444e48f0ff65b -> 
+  custom:scripting/monoscript/fileName/Generator.cs: 20a350c82a81e347b3e59762366db55e -> 
+  custom:scripting/monoscript/fileName/MovementController.cs: adb7dd969f15152451a1068bc63bd926 -> 
+  custom:scripting/monoscript/fileName/PhrasePropertyDrawer.cs: fc392f83a7aa3e426b42bb04a402190b -> 
+  custom:scripting/monoscript/fileName/InteractiveNarrationTrigger.cs: 37b5f2dc97b1fd1ae69aab1b41844a9e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GeneratorManager.cs: 9f3c11c3e51a2ca4a3feb7c6112c4a08 -> 
+  custom:scripting/monoscript/fileName/NarrationList.cs: cf134abbe3e1fec793b5e4e3625e4ec0 -> 
+  custom:scripting/monoscript/fileName/CharacterController.cs: 488821dce7c36fa4bace46b98d4561ca -> 
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> Stashed changes
