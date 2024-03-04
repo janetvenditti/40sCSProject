@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer Sr;
  
     private float dirX = 0f;
+    private float dirY = 0f;
     [SerializeField] private float RunSpeed = 7f;
     [SerializeField] private float JumpHeight = 9f;
  
@@ -33,13 +34,16 @@ public class PlayerMovement : MonoBehaviour
  
     private void PlayerControl()
     {
-        dirX = Input.GetAxisRaw("Horizontal");
+
+        float dirX = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(dirX * RunSpeed, rb.velocity.y);
+        dirY = Input.GetAxisRaw("Vertical");
+        rb.velocity = new Vector2(rb.velocity.x, dirY * RunSpeed);
  
  
         if (Input.GetButtonDown("Jump"))
         {
-            rb.velocity = new Vector3(rb.velocity.x, JumpHeight);
+            rb.velocity = new Vector3(0, 14f, 0);
         }
     }
 }
