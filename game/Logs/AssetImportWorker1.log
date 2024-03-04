@@ -1,0 +1,583 @@
+Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.7 (Build 20G817)
+Darwin version:          20.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/claire/Documents/GitHub/40sCSProject/game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49828
+Successfully changed project path to: /Users/claire/Documents/GitHub/40sCSProject/game
+/Users/claire/Documents/GitHub/40sCSProject/game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4472077632] Host "[IP] 10.200.1.254 [Port] 0 [Flags] 2 [Guid] 2409561051 [EditorId] 2409561051 [Version] 1048832 [Id] OSXEditor(0,claires-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4472077632] Host "[IP] 10.200.1.254 [Port] 0 [Flags] 2 [Guid] 2409561051 [EditorId] 2409561051 [Version] 1048832 [Id] OSXEditor(0,claires-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 96.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/claire/Documents/GitHub/40sCSProject/game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.008039 seconds.
+- Loaded All Assemblies, in  0.641 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.178 seconds
+Domain Reload Profiling: 820ms
+	BeginReloadAssembly (357ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (179ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (136ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.501 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 1033ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (225.2 KB). Loaded Objects now: 4533.
+Memory consumption went from 265.3 MB to 265.1 MB.
+Total: 3.153417 ms (FindLiveObjects: 0.134750 ms CreateObjectMapping: 0.052875 ms MarkObjects: 2.772125 ms  DeleteObjects: 0.193125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1382.389342 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_36.asset
+  artifactKey: Guid(bbeebbc7356524701a8550aed8daff08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_36.asset using Guid(bbeebbc7356524701a8550aed8daff08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd94d60732270713e63ac2e481dcc421') in 0.110299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_64.asset
+  artifactKey: Guid(6a5c8c40f505f4f9e903a9ba46c8d489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_64.asset using Guid(6a5c8c40f505f4f9e903a9ba46c8d489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6627d9bee4b2ea74a195b6e72bd7dd76') in 0.003519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_38.asset
+  artifactKey: Guid(f27b85d787d9c4ae6b052e6939ca2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_38.asset using Guid(f27b85d787d9c4ae6b052e6939ca2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5526a0d24cd2672cb5e45e3aefc675') in 0.003011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_43.asset
+  artifactKey: Guid(3df7fe00b8e884013ba9d65380a33ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_43.asset using Guid(3df7fe00b8e884013ba9d65380a33ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c3cacc23246f39c6ab6399b7620143') in 0.005214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_69.asset
+  artifactKey: Guid(1c061cf09a7bd46a5a6ad41e5e886f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_69.asset using Guid(1c061cf09a7bd46a5a6ad41e5e886f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1037e97f2b980ddf2aa8ddf13813f4c1') in 0.006639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_62.asset
+  artifactKey: Guid(893030c1b289544f19605f9deaa4c7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_62.asset using Guid(893030c1b289544f19605f9deaa4c7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eff5127f5a6a740d71e6c2d6822a948') in 0.003486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_37.asset
+  artifactKey: Guid(023072fdf795740a6a481efe2dc050fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_37.asset using Guid(023072fdf795740a6a481efe2dc050fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dea1bc327c129e22dd0854556601f7') in 0.003286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_67.asset
+  artifactKey: Guid(1961c306ebd4e45b5b0a32f01b6a69c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_67.asset using Guid(1961c306ebd4e45b5b0a32f01b6a69c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5726f5a2dedd0e8a9e71cf411244146e') in 0.003365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.446458 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_71.asset
+  artifactKey: Guid(ba87a39d078b94dd58fc889b8ffa179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_71.asset using Guid(ba87a39d078b94dd58fc889b8ffa179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596aff9cd7e4057bc20c231c4c31b95e') in 0.003722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_72.asset
+  artifactKey: Guid(79de728483fe1485cae6b47f607121b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_72.asset using Guid(79de728483fe1485cae6b47f607121b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca8aa36cc299b8003196e4807b4954e') in 0.003642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_74.asset
+  artifactKey: Guid(d3195740aa4b74971b32857915b9ce92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_74.asset using Guid(d3195740aa4b74971b32857915b9ce92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f229037bec6e23fc6588e19e1bd2cb0') in 0.003300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_78.asset
+  artifactKey: Guid(fef581c272d8b4412b423f8d93b21584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_78.asset using Guid(fef581c272d8b4412b423f8d93b21584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740c397e2c51de7f15b898fa97bda583') in 0.003468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_80.asset
+  artifactKey: Guid(444b9e8883bd6468a9691b4ea19e32cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_80.asset using Guid(444b9e8883bd6468a9691b4ea19e32cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce173306c33fffc77038a2f85baf8d3') in 0.003949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_75.asset
+  artifactKey: Guid(a4bbc7a01c0e347c3b073fe6e665fe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_75.asset using Guid(a4bbc7a01c0e347c3b073fe6e665fe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1187666b2dd13ac3521a9fd7257ed7') in 0.003368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.937434 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_0 1.asset
+  artifactKey: Guid(eb94159d012c449ffa7f216497a79ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_0 1.asset using Guid(eb94159d012c449ffa7f216497a79ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc088c35f97fd36e9dadfe90c8a5e0f') in 0.017447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_14 1.asset
+  artifactKey: Guid(34d19a596c35e47f4ab50966e87f6325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_14 1.asset using Guid(34d19a596c35e47f4ab50966e87f6325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8ccd352477964b41430c0a5b9f5cd3') in 0.004210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_5 1.asset
+  artifactKey: Guid(86541816e6e594b9eaa3480ea2f5eeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_5 1.asset using Guid(86541816e6e594b9eaa3480ea2f5eeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826328c1f56cdf4e0df90ac82bf90b90') in 0.003316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_21 1.asset
+  artifactKey: Guid(22e11821cb50c4ce49022148c35f3b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_21 1.asset using Guid(22e11821cb50c4ce49022148c35f3b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b0b292b9bc5c07c0dc544af8b6a3c1') in 0.003159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_23 1.asset
+  artifactKey: Guid(dd924e856d5214908bb4b85fbc498c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_23 1.asset using Guid(dd924e856d5214908bb4b85fbc498c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722fbfa0122a056d99640e6dd1d81e1c') in 0.003463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_26 1.asset
+  artifactKey: Guid(6050f03dd89f4488e9a78235a0261ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_26 1.asset using Guid(6050f03dd89f4488e9a78235a0261ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6991e2764b94667c0ca3f55af0858cb8') in 0.004829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_31 1.asset
+  artifactKey: Guid(1e110b03d68d34ad893ccb1be7fa1898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_31 1.asset using Guid(1e110b03d68d34ad893ccb1be7fa1898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58de48d7e5fa7e4b44ee38cb1fd16d66') in 0.003044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_33 1.asset
+  artifactKey: Guid(306533cc903a34361bd89f2b1dcb9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_33 1.asset using Guid(306533cc903a34361bd89f2b1dcb9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00530a252b26338986918158846db979') in 0.004738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_16 1.asset
+  artifactKey: Guid(ce3b78c547e1244a78263bc424cf521c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_16 1.asset using Guid(ce3b78c547e1244a78263bc424cf521c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4acf76d4b137ed438577bd7f795919') in 0.003981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_12 1.asset
+  artifactKey: Guid(944c09d6ea29e423196530df3ab7bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_12 1.asset using Guid(944c09d6ea29e423196530df3ab7bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc66c508c5e75901672c1c89b0e852b') in 0.003128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_24 1.asset
+  artifactKey: Guid(1955f4929be6c42a88f43ce91c6dfd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_24 1.asset using Guid(1955f4929be6c42a88f43ce91c6dfd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cee9cdf74ae23baa621485bc4e07bf') in 0.005233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_27 1.asset
+  artifactKey: Guid(8582b3e7a2681445d9aac228b9c8db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_27 1.asset using Guid(8582b3e7a2681445d9aac228b9c8db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dd2a389d8c81dc236a226b735beeb3') in 0.003693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_19 1.asset
+  artifactKey: Guid(991a8932c0c384f3ab8945ba25ad765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_19 1.asset using Guid(991a8932c0c384f3ab8945ba25ad765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7582fcc3983dd24f3da565236d31fabb') in 0.004227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_6 1.asset
+  artifactKey: Guid(fdab533ee472945c690f0991d36b3e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_6 1.asset using Guid(fdab533ee472945c690f0991d36b3e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bc47a18410e7aa0baf5309c3f21eee') in 0.005058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_3 1.asset
+  artifactKey: Guid(b504c0a24a5ae4fd6b8873d42593997b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_3 1.asset using Guid(b504c0a24a5ae4fd6b8873d42593997b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bc8fda59768aeab6ff1fa1719d562c') in 0.002938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_25 1.asset
+  artifactKey: Guid(bad89abb04e974df79f0d25253383ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_25 1.asset using Guid(bad89abb04e974df79f0d25253383ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa11b501d314bffb4d89b6b5e6098ae') in 0.002960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_10 1.asset
+  artifactKey: Guid(b3a0bc04223674d269d6826a64874ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_10 1.asset using Guid(b3a0bc04223674d269d6826a64874ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f06bd47aaca07f5916e10a9a479d43') in 0.003060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_9 1.asset
+  artifactKey: Guid(39872ddcb84be40e695eff87c3a6c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_9 1.asset using Guid(39872ddcb84be40e695eff87c3a6c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a070eed9dcd4b46361ba11a6f615941') in 0.003014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_32 1.asset
+  artifactKey: Guid(ba32761090db34f48b054a5afbf7dc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_32 1.asset using Guid(ba32761090db34f48b054a5afbf7dc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5805e78c1cb822fb7f860f0808d991b5') in 0.006353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_34 1.asset
+  artifactKey: Guid(003d9d75e12904b4bbd8786d76b0c7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_34 1.asset using Guid(003d9d75e12904b4bbd8786d76b0c7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ba2e12c7ccca6bf982221edd9ac201') in 0.003257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_4 1.asset
+  artifactKey: Guid(a40984a9679b54c28a6cef4142b439b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_4 1.asset using Guid(a40984a9679b54c28a6cef4142b439b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6887d4aaa2764166243419d7293b76f9') in 0.003543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_11 1.asset
+  artifactKey: Guid(71ff25cfe46274db9b9ed8450a458ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_11 1.asset using Guid(71ff25cfe46274db9b9ed8450a458ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69986546de517742c1df1b0430f34329') in 0.004923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_17 1.asset
+  artifactKey: Guid(60041e22bb5504b9989a223536a5e1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_17 1.asset using Guid(60041e22bb5504b9989a223536a5e1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c948b2b05c879627685f642172fb39e2') in 0.003463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_8 1.asset
+  artifactKey: Guid(8265152e585e64458bfa6220767eb13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_8 1.asset using Guid(8265152e585e64458bfa6220767eb13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b070773751d8afe8a1c7feb9ed7a977') in 0.003358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_15 1.asset
+  artifactKey: Guid(45d2d3119c4d842818a91b604a9bd4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_15 1.asset using Guid(45d2d3119c4d842818a91b604a9bd4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85e6897015cf37b8d89589892e1ead1') in 0.003208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_7 1.asset
+  artifactKey: Guid(bb9ac7e13fbf74d28b19aa0fcbf2a4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_7 1.asset using Guid(bb9ac7e13fbf74d28b19aa0fcbf2a4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589b795abf12859cc97fff774ff0aefa') in 0.003969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_22 1.asset
+  artifactKey: Guid(2de556d1185ee4011ab7951cb5fb6961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_22 1.asset using Guid(2de556d1185ee4011ab7951cb5fb6961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90c534750550bad6c88d5a50ba44fb9') in 0.004033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_28 1.asset
+  artifactKey: Guid(06a918aab9020471081923783cea50ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_28 1.asset using Guid(06a918aab9020471081923783cea50ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202cafd3538f1bae290d37d3264e66be') in 0.003124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_30 1.asset
+  artifactKey: Guid(0e522855194014ac78fcfedcdfe286c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_30 1.asset using Guid(0e522855194014ac78fcfedcdfe286c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2257e51bc8df3e6316aebabfc4799480') in 0.003071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_2 1.asset
+  artifactKey: Guid(00454bb1245474da0b1cad8c1b978531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_2 1.asset using Guid(00454bb1245474da0b1cad8c1b978531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b1b511a1a9f31f06bcb5b19da048e8') in 0.002961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_1 1.asset
+  artifactKey: Guid(d15777c6b999d42a9bbfa56198bdf0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_1 1.asset using Guid(d15777c6b999d42a9bbfa56198bdf0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46add2fb2974a6fc15dc2a1f0f99db7') in 0.003283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_29 1.asset
+  artifactKey: Guid(5c267af536335433db015821bd79e908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_29 1.asset using Guid(5c267af536335433db015821bd79e908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669e922e21f43262171810158ceb29f0') in 0.003944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_13 1.asset
+  artifactKey: Guid(ed7492157627c435d98efd8ab388fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_13 1.asset using Guid(ed7492157627c435d98efd8ab388fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d14f4ec1c1c13e48dae998fac78975') in 0.003358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild_20 1.asset
+  artifactKey: Guid(1bcc28e57a8d54382bb1701f73dfaa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild_20 1.asset using Guid(1bcc28e57a8d54382bb1701f73dfaa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a2d3690595626262438b213952350b') in 0.003825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
