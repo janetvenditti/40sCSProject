@@ -12,12 +12,16 @@ namespace HeneGames.DialogueSystem
 
         public static DialogueUI instance { get; private set; }
 
+         //editing here to remove Object.DontDestroyOnLoad which was leading to
+        //dissapearing text on play, instead always DestroyOnLoad
+
         private void Awake()
         {
             if (instance == null)
             {
                 instance = this;
-                DontDestroyOnLoad(gameObject);
+                //DontDestroyOnLoad(gameObject);
+                Destroy(gameObject);
             }
             else
             {
