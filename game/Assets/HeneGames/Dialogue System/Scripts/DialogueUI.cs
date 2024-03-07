@@ -12,20 +12,18 @@ namespace HeneGames.DialogueSystem
 
         public static DialogueUI instance { get; private set; }
 
-         //editing here to remove Object.DontDestroyOnLoad which was leading to
-        //dissapearing text on play, instead always DestroyOnLoad
+        //editing here to add the Object.DontDestroyOnLoad and remove DestroyOnLoad, to avoid dissapearing on the text box 
 
         private void Awake()
         {
             if (instance == null)
-            {
                 instance = this;
-                //DontDestroyOnLoad(gameObject);
-                Destroy(gameObject);
+                DontDestroyOnLoad(gameObject);
+                //Destroy(gameObject);
             }
             else
             {
-                Destroy(gameObject);
+                DontDestroyOnLoad(gameObject);
             }
         }
 
@@ -62,7 +60,7 @@ namespace HeneGames.DialogueSystem
         private void Update()
         {
             //Delay timer
-            if(startDialogueDelayTimer > 0f)
+            if (startDialogueDelayTimer > 0f)
             {
                 startDialogueDelayTimer -= Time.deltaTime;
             }
@@ -70,7 +68,7 @@ namespace HeneGames.DialogueSystem
             //Next dialogue input
             if (Input.GetKeyDown(actionInput))
             {
-                if(startDialogueDelayTimer <= 0f)
+                if (startDialogueDelayTimer <= 0f)
                 {
                     if (!typing)
                     {
@@ -146,7 +144,7 @@ namespace HeneGames.DialogueSystem
 
         public bool IsProcessingDialogue()
         {
-            if(currentDialogueManager != null)
+            if (currentDialogueManager != null)
             {
                 return true;
             }
@@ -163,11 +161,11 @@ namespace HeneGames.DialogueSystem
 
             float _speed = 1f - textAnimationSpeed;
 
-            foreach(char _letter in _letters)
+            foreach (char _letter in _letters)
             {
                 _textMeshObject.text += _letter;
 
-                if(_textMeshObject.text.Length == _letters.Length)
+                if (_textMeshObject.text.Length == _letters.Length)
                 {
                     typing = false;
                 }
