@@ -12,20 +12,22 @@ namespace HeneGames.DialogueSystem
 
         public static DialogueUI instance { get; private set; }
 
-        //editing here to add the Object.DontDestroyOnLoad and remove DestroyOnLoad, to avoid dissapearing on the text box 
+            //editing here to add the Object.DontDestroyOnLoad and remove DestroyOnLoad, to avoid dissapearing on the text box 
+           //easier solution was to just set a true false boolean to reveal the text boxes 
 
-        private void Awake()
-        {
-            if (instance == null)
-                instance = this;
-                DontDestroyOnLoad(gameObject);
-                //Destroy(gameObject);
-            }
-            else
-            {
-                DontDestroyOnLoad(gameObject);
-            }
-        }
+        // private void Awake()
+        // {
+            // if (instance == null)
+            // {
+            //     instance = this;
+            //     DontDestroyOnLoad(gameObject);
+            // }
+            // else
+            // {
+            //     Destroy(gameObject);
+            // }
+        //     DontDestroyOnLoad(gameObject);
+        // }
 
         #endregion
 
@@ -52,9 +54,9 @@ namespace HeneGames.DialogueSystem
 
         private void Start()
         {
-            //Hide dialogue and interaction UI at start
-            dialogueWindow.SetActive(false);
-            interactionUI.SetActive(false);
+            //Reveal the dialogue and interaction UI at start by setting this to true
+            dialogueWindow.SetActive(true);
+            interactionUI.SetActive(true);
         }
 
         private void Update()
