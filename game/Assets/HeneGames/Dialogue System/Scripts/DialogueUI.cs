@@ -4,33 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
+//note that the dialougeWindow reveals the main text box, the interactionUI reveals another box for text, not needed yet!
+
 namespace HeneGames.DialogueSystem
 {
     public class DialogueUI : MonoBehaviour
     {
         #region Singleton
-
+        //make an instance of the dialouge box object 
         public static DialogueUI instance { get; private set; }
 
-            //editing here to add the Object.DontDestroyOnLoad and remove DestroyOnLoad, to avoid dissapearing on the text box 
-           //easier solution was to just set a true false boolean to reveal the text boxes 
-
-        // private void Awake()
-        // {
-            // if (instance == null)
-            // {
-            //     instance = this;
-            //     DontDestroyOnLoad(gameObject);
-            // }
-            // else
-            // {
-            //     Destroy(gameObject);
-            // }
-        //     DontDestroyOnLoad(gameObject);
-        // }
-
         #endregion
-
+        //set up for animation and spaces filled in the text box 
         private DialogueManager currentDialogueManager;
         private bool typing;
         private string currentMessage;
@@ -54,20 +40,21 @@ namespace HeneGames.DialogueSystem
 
         private void Start()
         {
-            //Reveal the dialogue and interaction UI at start by setting this to true
+            //reveal the main charecter dialogue UI at start (on play) by setting this to true
             dialogueWindow.SetActive(true);
-            interactionUI.SetActive(true);
+            //set this to true if you need more text space, not needed now so it's set to false
+            interactionUI.SetActive(false);
         }
 
         private void Update()
         {
-            //Delay timer
+            //delay timer
             if (startDialogueDelayTimer > 0f)
             {
                 startDialogueDelayTimer -= Time.deltaTime;
             }
 
-            //Next dialogue input
+            //next dialogue input, if there is any 
             if (Input.GetKeyDown(actionInput))
             {
                 if (startDialogueDelayTimer <= 0f)
@@ -88,14 +75,14 @@ namespace HeneGames.DialogueSystem
 
         public void NextSentence()
         {
-            //Continue only if we have dialogue
+            //continue only if we have dialogue
             if (currentDialogueManager == null)
                 return;
 
-            //Tell the current dialogue manager to display the next sentence. This function also gives information if we are at the last sentence
+            //tell the current dialogue manager to display the next sentence. This function also gives information if we are at the last sentence
             currentDialogueManager.NextSentence(out bool lastSentence);
 
-            //If last sentence remove current dialogue manager
+            //if last sentence remove current dialogue manager
             if (lastSentence)
             {
                 currentDialogueManager = null;
@@ -104,13 +91,13 @@ namespace HeneGames.DialogueSystem
 
         public void StartDialogue(DialogueManager _dialogueManager)
         {
-            //Delay timer
+            //delay timer
             startDialogueDelayTimer = 0.1f;
 
-            //Store dialogue manager
+            //store dialogue manager
             currentDialogueManager = _dialogueManager;
 
-            //Start displaying dialogue
+            //start displaying dialogue
             currentDialogueManager.StartDialogue();
         }
 
