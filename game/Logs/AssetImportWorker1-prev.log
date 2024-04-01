@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64795
+61840
 Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704526845696] Host "[IP] 10.200.0.252 [Port] 0 [Flags] 2 [Guid] 3608374943 [EditorId] 3608374943 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704526845696] Host "[IP] 10.200.1.229 [Port] 0 [Flags] 2 [Guid] 3000129342 [EditorId] 3000129342 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704526845696] Host "[IP] 10.200.0.252 [Port] 0 [Flags] 2 [Guid] 3608374943 [EditorId] 3608374943 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704526845696] Host "[IP] 10.200.1.229 [Port] 0 [Flags] 2 [Guid] 3000129342 [EditorId] 3000129342 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 45.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56061
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56935
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.006069 seconds.
-- Loaded All Assemblies, in  1.151 seconds
+Registered in 0.005410 seconds.
+- Loaded All Assemblies, in  0.969 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.607 seconds
-Domain Reload Profiling: 1758ms
-	BeginReloadAssembly (452ms)
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1569ms
+	BeginReloadAssembly (325ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (131ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (160ms)
-	LoadAllAssembliesAndSetupDomain (381ms)
-		LoadAssemblies (456ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (325ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (366ms)
-			TypeCache.Refresh (361ms)
-				TypeCache.ScanAssembly (331ms)
+		AnalyzeDomain (400ms)
+			TypeCache.Refresh (393ms)
+				TypeCache.ScanAssembly (363ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (608ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (601ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
+		SetupLoadedEditorAssemblies (458ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (18ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (93ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,56 +121,56 @@ Domain Reload Profiling: 1758ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.660 seconds
-Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.782 seconds
+Refreshing native plugins compatible for Editor in 5.97 ms, found 3 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.931 seconds
-Domain Reload Profiling: 3588ms
-	BeginReloadAssembly (267ms)
+- Finished resetting the current domain, in  1.875 seconds
+Domain Reload Profiling: 3662ms
+	BeginReloadAssembly (313ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (70ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (82ms)
 	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (1209ms)
-		LoadAssemblies (841ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (1284ms)
+		LoadAssemblies (882ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (503ms)
-			TypeCache.Refresh (439ms)
-				TypeCache.ScanAssembly (393ms)
-			ScanForSourceGeneratedMonoScriptInfo (45ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1932ms)
+		AnalyzeDomain (545ms)
+			TypeCache.Refresh (456ms)
+				TypeCache.ScanAssembly (376ms)
+			ScanForSourceGeneratedMonoScriptInfo (59ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1876ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1499ms)
+		SetupLoadedEditorAssemblies (1393ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (11ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (1223ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (1156ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
-Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 76 unused Assets / (0.6 MB). Loaded Objects now: 4548.
-Memory consumption went from 166.3 MB to 165.6 MB.
-Total: 10.954833 ms (FindLiveObjects: 0.752318 ms CreateObjectMapping: 0.632576 ms MarkObjects: 8.713266 ms  DeleteObjects: 0.854837 ms)
+Memory consumption went from 166.3 MB to 165.7 MB.
+Total: 8.675898 ms (FindLiveObjects: 0.482878 ms CreateObjectMapping: 0.542635 ms MarkObjects: 7.075294 ms  DeleteObjects: 0.573898 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,9 +187,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 207080.804773 seconds.
-  path: Assets/HeneGames/Dialogue System/FBX/Wizard.fbx
-  artifactKey: Guid(9fcb2b16cbea65e428dc7c32b1cda382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HeneGames/Dialogue System/FBX/Wizard.fbx using Guid(9fcb2b16cbea65e428dc7c32b1cda382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df9f50bfc6ca0012aadfea0cc528f70') in 0.585310 seconds
+  Time since last request: 130169.213194 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/window.png
+  artifactKey: Guid(cae3fd9ef702e4c01a8eac69044d2213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/window.png using Guid(cae3fd9ef702e4c01a8eac69044d2213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a281bf07207c220f824259ab0756e9') in 0.178096 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
+Number of asset objects unloaded after import = 3

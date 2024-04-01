@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61840
+64795
 Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704526845696] Host "[IP] 10.200.1.229 [Port] 0 [Flags] 2 [Guid] 4014513764 [EditorId] 4014513764 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704526845696] Host "[IP] 10.200.0.252 [Port] 0 [Flags] 2 [Guid] 724570749 [EditorId] 724570749 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704526845696] Host "[IP] 10.200.1.229 [Port] 0 [Flags] 2 [Guid] 4014513764 [EditorId] 4014513764 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704526845696] Host "[IP] 10.200.0.252 [Port] 0 [Flags] 2 [Guid] 724570749 [EditorId] 724570749 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 46.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56933
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56059
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.005595 seconds.
-- Loaded All Assemblies, in  0.973 seconds
+Registered in 0.004451 seconds.
+- Loaded All Assemblies, in  1.151 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.596 seconds
-Domain Reload Profiling: 1569ms
-	BeginReloadAssembly (325ms)
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling: 1758ms
+	BeginReloadAssembly (452ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (96ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (409ms)
-		LoadAssemblies (325ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (131ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (159ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (456ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (404ms)
-			TypeCache.Refresh (399ms)
-				TypeCache.ScanAssembly (363ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (361ms)
+				TypeCache.ScanAssembly (331ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (597ms)
+	FinalizeReload (608ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (456ms)
+		SetupLoadedEditorAssemblies (476ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (15ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (19ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (315ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,56 +121,56 @@ Domain Reload Profiling: 1569ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.775 seconds
-Refreshing native plugins compatible for Editor in 10.93 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.661 seconds
+Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.879 seconds
-Domain Reload Profiling: 3657ms
-	BeginReloadAssembly (316ms)
+- Finished resetting the current domain, in  1.934 seconds
+Domain Reload Profiling: 3593ms
+	BeginReloadAssembly (268ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (82ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (1274ms)
-		LoadAssemblies (884ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (1209ms)
+		LoadAssemblies (842ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (538ms)
-			TypeCache.Refresh (450ms)
-				TypeCache.ScanAssembly (376ms)
-			ScanForSourceGeneratedMonoScriptInfo (62ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1880ms)
+		AnalyzeDomain (502ms)
+			TypeCache.Refresh (437ms)
+				TypeCache.ScanAssembly (395ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1936ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1398ms)
+		SetupLoadedEditorAssemblies (1493ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (11ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (1164ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (1218ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
-Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 76 unused Assets / (0.6 MB). Loaded Objects now: 4548.
 Memory consumption went from 166.3 MB to 165.7 MB.
-Total: 8.776482 ms (FindLiveObjects: 0.457187 ms CreateObjectMapping: 0.553209 ms MarkObjects: 7.154993 ms  DeleteObjects: 0.609530 ms)
+Total: 11.251239 ms (FindLiveObjects: 0.853536 ms CreateObjectMapping: 0.773230 ms MarkObjects: 8.632399 ms  DeleteObjects: 0.989936 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,59 +185,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 130169.211613 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/window-bars.png
-  artifactKey: Guid(6c065a0a39cdb40e1903a66cd5c58495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/window-bars.png using Guid(6c065a0a39cdb40e1903a66cd5c58495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2c114a682275d798c318e49bfaf9cb') in 0.180264 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 516.911374 seconds.
-  path: Assets/Gothicvania-Town/Art/Sprites/undertale-textbox
-  artifactKey: Guid(84f78294a11dc47fc9797fe8512197ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Sprites/undertale-textbox using Guid(84f78294a11dc47fc9797fe8512197ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e72a6f92054d5f750320f2329d4b30') in 0.015847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.235362 seconds.
-  path: Assets/Gothicvania-Town/Art/Sprites/undertale-textbox/UndertaleBox.png
-  artifactKey: Guid(4c5fe23751b2e4b028dc0ff2d7ce873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Sprites/undertale-textbox/UndertaleBox.png using Guid(4c5fe23751b2e4b028dc0ff2d7ce873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0280246b35d892edefb3c6254e119b5') in 0.091699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 28.421138 seconds.
-  path: Assets/Gothicvania-Town/Art/Sprites/undertale-textbox/UndertaleBox.png
-  artifactKey: Guid(4c5fe23751b2e4b028dc0ff2d7ce873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Sprites/undertale-textbox/UndertaleBox.png using Guid(4c5fe23751b2e4b028dc0ff2d7ce873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501a915013046fe1ef0bf190f446e25c') in 0.030635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 23.403246 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wall-b.png
-  artifactKey: Guid(987628a106b254d74bdd14018a463290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wall-b.png using Guid(987628a106b254d74bdd14018a463290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd756c43afa321feee661adaf9c2659') in 0.020537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.092491 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wall.png
-  artifactKey: Guid(ab7aa97c98c68405e918264e216b9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/wall.png using Guid(ab7aa97c98c68405e918264e216b9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da2ecab0ad004f6bf4a64960ea5b803') in 0.016794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 54.487140 seconds.
-  path: Assets/Gothicvania-Town/Art/Sprites/undertale-textbox/UndertaleBox.png
-  artifactKey: Guid(4c5fe23751b2e4b028dc0ff2d7ce873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Sprites/undertale-textbox/UndertaleBox.png using Guid(4c5fe23751b2e4b028dc0ff2d7ce873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891b3070bd636212c49f63422afccdd5') in 0.019396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
