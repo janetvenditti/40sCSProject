@@ -51,17 +51,8 @@
  <h3> plans for this term </h3>
 
        - week 1: FINISH TILEMAPS FOR ROOMS! priority is main rooms first, work on extra aditional level rooms after 
-                 c: final room
-                 j: extra level room
-                 w: extra level room
-                 x: animation
        - week 2: get player in scenes, not phasing thru walls, colliders are working, etc.
-                 c: colliders
-                 j: text
-                 w: animations
-                 x: animation
        - week 3: PLAYER MOVEMENT!!!!!
-       - week 4: testing, interacting, making sure text works, etc.
   
 <details>
  <summary><h3> 🌸 Resources</h3></summary>
