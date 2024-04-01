@@ -48,12 +48,20 @@
   <br > https://assetstore.unity.com/packages/2d/gui/icons/2d-amulets-kit-196010
 
 </details>
- <h3> plans for upcoming weeks </h3>
+ <h3> plans for this term </h3>
 
-       - writing questions 
-       - diagram of each step of the game - detailed plan
-       - break up into coding background, players and effects 
-       - learn version control stuff
+       - week 1: FINISH TILEMAPS FOR ROOMS! priority is main rooms first, work on extra aditional level rooms after 
+                 c: final room
+                 j: extra level room
+                 w: extra level room
+                 x: animation
+       - week 2: get player in scenes, not phasing thru walls, colliders are working, etc.
+                 c: colliders
+                 j: text
+                 w: animations
+                 x: animation
+       - week 3: PLAYER MOVEMENT!!!!!
+       - week 4: testing, interacting, making sure text works, etc.
   
 <details>
  <summary><h3> 🌸 Resources</h3></summary>
