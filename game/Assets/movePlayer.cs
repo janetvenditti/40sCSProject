@@ -8,10 +8,9 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer Sr;
- 
-    private float dirX = 0f;
+
+    Vector2 movement;
     [SerializeField] private float RunSpeed = 7f;
-    [SerializeField] private float JumpHeight = 9f;
  
     private enum MovementState { idle, running, jumping, falling }
  
@@ -28,18 +27,19 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
  
-        PlayerControl();
+        PlayerControlUpdate();
+        FixedPlayerUpdate();
     }
  
-    private void PlayerControl()
+    private void PlayerControlUpdate()
     {
-        dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * RunSpeed, rb.velocity.y);
- 
- 
-        if (Input.GetButtonDown(""))
-        {
-            rb.velocity = new Vector3(rb.velocity.x, JumpHeight);
-        }
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+        
+    }
+
+    private void FixedPlayerUpdate()
+    {
+        rb.MovePosition(rb.position + movement * RunSpeed * Time.fixedDeltaTime);
     }
 }

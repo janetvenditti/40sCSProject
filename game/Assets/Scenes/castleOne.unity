@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 13018343}
   - component: {fileID: 13018342}
   - component: {fileID: 13018345}
+  - component: {fileID: 13018346}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -261,6 +262,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &13018346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13018341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb6adfe8f5ef7904a92ab11474487dfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 288285028}
 --- !u!1 &47755193
 GameObject:
   m_ObjectHideFlags: 0
@@ -4010,7 +4024,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288285024}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -4035,7 +4049,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.003989704, y: -0.0023938268}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4046,7 +4060,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.26540625, y: 0.17922893}
   m_EdgeRadius: 0
 --- !u!114 &288285030
 MonoBehaviour:
@@ -4061,7 +4075,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RunSpeed: 7
-  JumpHeight: 9
 --- !u!50 &288285031
 Rigidbody2D:
   serializedVersion: 4
@@ -4101,7 +4114,8 @@ GameObject:
   - component: {fileID: 356875357}
   - component: {fileID: 356875358}
   - component: {fileID: 356875359}
-  m_Layer: 0
+  - component: {fileID: 356875360}
+  m_Layer: 5
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16326,8 +16340,8 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!19719996 &356875359
-TilemapCollider2D:
+--- !u!68 &356875359
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -16359,9 +16373,82 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0
-  m_UseDelaunayMesh: 0
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -19.772203, y: 8.747402}
+  - {x: -20.204523, y: 8.772048}
+  - {x: 25.186989, y: 8.856358}
+  - {x: 25.04166, y: -9.115469}
+  m_AdjacentStartPoint: {x: -2e+20, y: -3.4028235e+38}
+  m_AdjacentEndPoint: {x: 15, y: -9}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &356875360
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356875355}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -20.04722, y: 8.747402}
+  - {x: -19.999117, y: 3.9330063}
+  - {x: -20.003883, y: -0.26151657}
+  - {x: -19.956242, y: -4.2087893}
+  - {x: -19.970701, y: -9.009872}
+  - {x: -18.576603, y: -8.968371}
+  - {x: -10.074881, y: -9.013578}
+  - {x: -9.937892, y: -9.080953}
+  - {x: -9.972594, y: -10.411786}
+  - {x: -9.999618, y: -11.870534}
+  - {x: -9.962749, y: -15.019607}
+  - {x: -3.9100065, y: -15.037601}
+  - {x: -2.9148426, y: -15.082782}
+  - {x: -2.9534495, y: -18.638935}
+  - {x: -2.9988735, y: -21.283318}
+  - {x: -2.992466, y: -27.134462}
+  - {x: 5.8992777, y: -26.963745}
+  - {x: 5.9405, y: -14.976899}
+  - {x: 14.993, y: -15.018822}
+  - {x: 15.043934, y: -9.056339}
+  - {x: 25.036232, y: -8.988189}
+  - {x: 25.04615, y: -8.215361}
+  - {x: 25.058056, y: -5.937311}
+  - {x: 25.1021, y: -1.0352602}
+  - {x: 25.131893, y: 5.367297}
+  - {x: 25.186989, y: 8.856358}
+  - {x: 25.04166, y: -9.115469}
+  m_AdjacentStartPoint: {x: -2e+20, y: -3.4028235e+38}
+  m_AdjacentEndPoint: {x: 15, y: -9}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &459253006
 GameObject:
   m_ObjectHideFlags: 0
