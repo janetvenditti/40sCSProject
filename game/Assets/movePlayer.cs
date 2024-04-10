@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     [SerializeField] private float WalkSpeed = 7f;
     [SerializeField] private float RunSpeed = 14f;
+    [SerializeField] private float JumpHeight = 7f;
 
     private enum MovementState { idle, walking }
     private MovementState state = MovementState.idle;   
