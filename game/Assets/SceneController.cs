@@ -26,6 +26,7 @@ public class SceneController : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadSceneAsync(sceneName);
+
     }
 
     IEnumerator LoadLevel()
@@ -35,5 +36,10 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
         transistionAnim.SetTrigger("Enter");
 
+    }
+
+    public static int getBuildIndex()
+    {
+        return SceneManager.GetActiveScene().buildIndex;
     }
 }
