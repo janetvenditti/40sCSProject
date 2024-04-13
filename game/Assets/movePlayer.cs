@@ -10,15 +10,21 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer Sr;
+
     public InputAction playerMovementTopDown;
     public InputAction playerMovementLeftRight;
+    public InputAction playerSprint;
+    public InputAction playerJump;
     public InputAction playerInteract;
     public InputAction playerEmote;
-    public InputAction playerSprint;
+
+    public InputActions inputAction;
+  
 
     Vector2 movement = Vector2.zero;
     Vector2 movementOutside = Vector2.zero;
-    private float speed = 0f;
+
+    [SerializeField] private float speed = 0f;
     [SerializeField] private float WalkSpeed = 7f;
     [SerializeField] private float RunSpeed = 14f;
     [SerializeField] private float JumpHeight = 7f;
@@ -28,9 +34,10 @@ public class PlayerMovement : MonoBehaviour
     private MovementState state = MovementState.idle;
 
     // Start is called before the first frame update
+
+
     private void Start()
     {
-
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         Sr = GetComponent<SpriteRenderer>();
@@ -50,7 +57,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
         PlayerControlUpdate();
         FixedPlayerUpdate();
         AnimationUpdate(GetState());
@@ -61,12 +67,8 @@ public class PlayerMovement : MonoBehaviour
         //movement.x = Input.GetAxisRaw("Horizontal");
         //movement.y = Input.GetAxisRaw("Vertical");
 
-        
-            
-            movement = playerMovementTopDown.ReadValue<Vector2>();
+        movement = playerMovementTopDown.ReadValue<Vector2>();
         movementOutside = playerMovementLeftRight.ReadValue<Vector2>();
-
-
     }
     private void FixedPlayerUpdate()
     {
@@ -94,18 +96,13 @@ public class PlayerMovement : MonoBehaviour
                 Sr.flipX = false;
 
                 state = MovementState.walking;
-
             }
             if (movement.x < 0)
             {
                 Sr.flipX = true;
 
-
                 state = MovementState.walking;
-
             }
-
-            
         }
         else
         {
@@ -114,7 +111,6 @@ public class PlayerMovement : MonoBehaviour
                 Sr.flipX = false;
 
                 state = MovementState.walking;
-
             }
             if (movement.x < 0 || movement.y < 0)
             {
@@ -122,7 +118,6 @@ public class PlayerMovement : MonoBehaviour
 
 
                 state = MovementState.walking;
-
             }
         }
         anim.SetInteger("state", value: (int)state);
