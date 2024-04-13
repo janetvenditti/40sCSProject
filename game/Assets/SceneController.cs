@@ -38,5 +38,8 @@ public class SceneController : MonoBehaviour
 
     }
 
-   
+    public static int getBuildIndex()
+    {
+        return SceneManager.GetActiveScene().buildIndex;
+    }
 }
