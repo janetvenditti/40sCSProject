@@ -26,12 +26,16 @@ public class PlayerMovement : MonoBehaviour
     private enum MovementState { idle, walking }
     private MovementState state = MovementState.idle;
 
-    public InputAction TopDown;
+    //public InputAction TopDown;
     public InputAction LeftRight;
     public InputAction Sprint;
     public InputAction Interact;
     public InputAction Jump;
+    
 
+    public MasterInput Controls;
+    private InputAction move;
+    private InputAction fire;
 
 
 
@@ -40,24 +44,31 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
+        Controls = new MasterInput();
+
       
     }
     private void OnEnable()
     {
-        TopDown.Enable();
+        //TopDown.Enable();
         LeftRight.Enable();
         Sprint.Enable();
         Interact.Enable();
         Jump.Enable();
+
+        move = Controls.Player.Move;
+        move.Enable();
     }
 
     private void OnDisable()
     {
-        TopDown.Disable();  
+        //TopDown.Disable();  
         LeftRight.Disable();
         Sprint.Disable();
         Interact.Disable();
         Jump.Disable();
+
+        move.Disable();
     }
     void Start()
     {
@@ -70,8 +81,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex >= 4)
         {
-            movement = TopDown.ReadValue<Vector2>();
-            isGrounded = Jump.ReadValue<bool>();
+            movement = move.ReadValue<Vector2>();
+           
         }
         else
         {
@@ -84,16 +95,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        if (SceneManager.GetActiveScene().buildIndex >= 4)
-        {
+        //if (SceneManager.GetActiveScene().buildIndex >= 4)
+        
             rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y * WalkSpeed);
 
-        }
-        else
-        {
-            rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
+        
+        //else
+        
+            //rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
 
-        }
+        
     }
 
     private MovementState GetState()
