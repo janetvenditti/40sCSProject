@@ -92532,6 +92532,7 @@ GameObject:
   - component: {fileID: 919379418}
   - component: {fileID: 919379419}
   - component: {fileID: 919379420}
+  - component: {fileID: 919379422}
   m_Layer: 22
   m_Name: Cat2
   m_TagString: Player
@@ -92642,7 +92643,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 10
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -92714,6 +92715,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.19957635, y: 0.12521148}
   m_EdgeRadius: 0
+--- !u!114 &919379422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919379414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cafbe7c58b98c8549ab474127e8750f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WalkSpeed: 7
+  RunSpeed: 14
+  JumpHeight: 7
 --- !u!1 &960242466
 GameObject:
   m_ObjectHideFlags: 0

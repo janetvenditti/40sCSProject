@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,10 +15,19 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float RunSpeed = 14f;
     [SerializeField] private float JumpHeight = 7f;
 
+
+
     private enum MovementState { idle, walking }
-    private MovementState state = MovementState.idle;   
-    
+    private MovementState state = MovementState.idle;
+
+
+
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        
+    }
     void Start()
     {
 
@@ -26,14 +36,17 @@ public class PlayerMovement : MonoBehaviour
         Sr = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
+    {
+        
+    }
+
+    private void OnDisbale()
     {
 
-        PlayerControlUpdate();
-        FixedPlayerUpdate();
-        AnimationUpdate(GetState());
     }
+    // Update is called once per frame
+
 
     private void PlayerControlUpdate()
     {
@@ -48,6 +61,8 @@ public class PlayerMovement : MonoBehaviour
             rb.MovePosition(rb.position + movement * WalkSpeed * Time.fixedDeltaTime);
        
     }
+
+   
 
     private MovementState GetState()
     {
