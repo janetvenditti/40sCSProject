@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     private InputAction fire;
 
-
+  
 
     // Start is called before the first frame update
     private void Awake()
@@ -41,9 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
         Controls = new MasterInput();
 
-       
-
-       
+        GameObject.DontDestroyOnLoad(this.gameObject);
 
 
     }
@@ -72,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
         anim = GetComponent<Animator>();
         Sr = GetComponent<SpriteRenderer>();
+        GameObject.DontDestroyOnLoad(this.gameObject);
     }
     private void Update()
     {
