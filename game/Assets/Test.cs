@@ -6,7 +6,7 @@ public class Test : MonoBehaviour
 {
     private Rigidbody2D rb;
     private PlayerInput playerInput;
-    private PlayerControls playerControls;
+    //private PlayerControls playerControls;
     private InputAction action;
 
     Vector2 movement = Vector2.zero;
@@ -18,21 +18,21 @@ public class Test : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerInput = GetComponent<PlayerInput>();
 
-        PlayerControls playerControls = new PlayerControls();
+        //PlayerControls playerControls = new PlayerControls();
         //playerControls.Player.Enable();
-        playerControls.Player.Jump.performed += Jump;
-        playerControls.Player.TopDown.performed += TopDown;
+        //playerControls.Player.Jump.performed += Jump;
+        //playerControls.Player.TopDown.performed += TopDown;
 
     }
 
     private void OnEnable()
     {
-        playerControls.Enable();
+        //playerControls.Enable();
     }
 
     private void OnDisable()
     {
-        playerControls.Disable();
+        //playerControls.Disable();
     }
     public void Jump(InputAction.CallbackContext context)
     {

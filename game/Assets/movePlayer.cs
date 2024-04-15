@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static Unity.Burst.Intrinsics.X86.Avx;
 using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class PlayerMovement : MonoBehaviour
@@ -14,27 +15,21 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer Sr;
 
     Vector2 movement = Vector2.zero;
-   
-    
+
+
     [SerializeField] private float WalkSpeed = 7f;
     [SerializeField] private float RunSpeed = 14f;
     [SerializeField] private float JumpHeight = 7f;
-   
-
-
 
     private enum MovementState { idle, walking }
     private MovementState state = MovementState.idle;
 
-    //public InputAction TopDown;
-    public InputAction LeftRight;
-    public InputAction Sprint;
-    public InputAction Interact;
-    public InputAction Jump;
-    
-
     public MasterInput Controls;
+    private PlayerInput playerInput;
     private InputAction move;
+    private InputAction moveSide;
+    private InputAction jump;
+
     private InputAction fire;
 
 
@@ -46,29 +41,31 @@ public class PlayerMovement : MonoBehaviour
 
         Controls = new MasterInput();
 
-      
+       
+
+       
+
+
     }
     private void OnEnable()
     {
-        //TopDown.Enable();
-        LeftRight.Enable();
-        Sprint.Enable();
-        Interact.Enable();
-        Jump.Enable();
+        moveSide = Controls.Player.RightLeft;
+        move = Controls.Player.TopDown;
+        jump = Controls.Player.Jump;
 
-        move = Controls.Player.Move;
         move.Enable();
+        moveSide.Enable();
+        jump.Enable();
+
+       
     }
 
     private void OnDisable()
     {
-        //TopDown.Disable();  
-        LeftRight.Disable();
-        Sprint.Disable();
-        Interact.Disable();
-        Jump.Disable();
-
+        
         move.Disable();
+        moveSide.Disable();
+        jump.Disable();
     }
     void Start()
     {
@@ -79,14 +76,14 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
 
-        if (SceneManager.GetActiveScene().buildIndex >= 4)
+        if (SceneManager.GetActiveScene().buildIndex >= 3)
         {
             movement = move.ReadValue<Vector2>();
-           
+
         }
         else
         {
-            movement = LeftRight.ReadValue<Vector2>();
+            movement = moveSide.ReadValue<Vector2>();
         }
 
         AnimationUpdate(state);
@@ -95,16 +92,27 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        //if (SceneManager.GetActiveScene().buildIndex >= 4)
-        
+        if (SceneManager.GetActiveScene().buildIndex >= 3)
+        {
             rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y * WalkSpeed);
 
+        }
+        else
+        {
+            jump.performed += Jump;
+            rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
+        }
         
-        //else
-        
-            //rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
+    }
 
-        
+    public void Jump(InputAction.CallbackContext context)
+    {
+        Debug.Log(context);
+        if (context.performed)
+        {
+            Debug.Log("TEST" + context.phase);
+            rb.velocity = new Vector3(rb.velocity.x, JumpHeight);
+        }
     }
 
     private MovementState GetState()
@@ -114,7 +122,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void AnimationUpdate(MovementState state)
     {
-        if (SceneManager.GetActiveScene().buildIndex >= 4)
+        if (SceneManager.GetActiveScene().buildIndex >= 3)
         {
             if (movement.x > 0 || movement.y > 0)
             {
