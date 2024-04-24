@@ -101,7 +101,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            //jump.performed += Jump;
+            jump.performed += Jump;
             rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
         }
         jump.performed += Jump;
@@ -112,14 +112,14 @@ public class PlayerMovement : MonoBehaviour
     public void Jump(InputAction.CallbackContext context)
     {
         Debug.Log(context);
-        if (context.performed)
+        if (context.performed)  
         {
             Debug.Log("TEST" + context.phase);
-            rb.velocity = new Vector3(movement.x, JumpHeight);
+            rb.velocity = new Vector3(rb.velocity.x, JumpHeight);
         }
     }
 
-    public void Interact(InputAction.CallbackContext context)
+    public void Interact(InputAction.CallbackContext context) 
     {
         Debug.Log(context);
         if (context.performed) 

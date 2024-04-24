@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class TriggerPoint : MonoBehaviour
 {
-    [SerializeField] public bool goNextScene { get; set; }
-    [SerializeField] public string SceneName { get; set; }
+    [SerializeField] public bool goNextScene; 
+    [SerializeField] public string levelName;
 
     public bool isNextScene = true;
     [SerializeField] public SceneInfo sceneInfo;
@@ -15,15 +15,13 @@ public class TriggerPoint : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            sceneInfo.isNextScene = isNextScene;
-            if (goNextScene)
+            if (!isNextScene)
             {
-
                 SceneController.instance.NextScene();
             }
             else
             {
-                SceneController.instance.LoadScene(SceneName);
+                SceneController.instance.LoadScene(levelName);
             }
         }
     }

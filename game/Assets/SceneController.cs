@@ -26,14 +26,16 @@ public class SceneController : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadSceneAsync(sceneName);
+        StartCoroutine(LoadLevel());
+
     }
 
     IEnumerator LoadLevel()
     {
-        transistionAnim.SetTrigger("Exit");
+        transistionAnim.SetTrigger("Scene Exit");
         yield return new WaitForSeconds(1);
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
-        transistionAnim.SetTrigger("Enter");
-
+        transistionAnim.SetTrigger("Scene Exit");
     }
 }
+
