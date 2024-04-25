@@ -25,14 +25,15 @@ public class PlayerMovement : MonoBehaviour
     private MovementState state = MovementState.idle;
 
     public MasterInput Controls;
-    private PlayerInput playerInput;
     private InputAction move;
     private InputAction moveSide;
     private InputAction jump;
     private InputAction E;
-    private InputAction fire;
+    
 
-  
+    
+
+
 
     // Start is called before the first frame update
     private void Awake()
@@ -41,8 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         Controls = new MasterInput();
 
-        GameObject.DontDestroyOnLoad(this.gameObject);
-
+        //Controls.Player.Jump.performed += Jump;
 
     }
     private void OnEnable()
@@ -56,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
         moveSide.Enable();
         jump.Enable();
         E.Enable();
+        Controls.Enable ();
 
        
     }
@@ -67,13 +68,13 @@ public class PlayerMovement : MonoBehaviour
         moveSide.Disable();
         jump.Disable();
         E.Disable();
+        Controls.Disable();
     }
     void Start()
     {
 
         anim = GetComponent<Animator>();
         Sr = GetComponent<SpriteRenderer>();
-        //GameObject.DontDestroyOnLoad(this.gameObject);
     }
     private void Update()
     {
@@ -85,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            
             movement = moveSide.ReadValue<Vector2>();
         }
 
@@ -101,21 +103,23 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            jump.performed += Jump;
+            Controls.Player.Jump.performed += Jump;
             rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
         }
-        jump.performed += Jump;
+       
         E.performed += Interact;
         
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
-        Debug.Log(context);
-        if (context.performed)  
+
+        if (context.performed)
         {
             Debug.Log("TEST" + context.phase);
             rb.velocity = new Vector3(rb.velocity.x, JumpHeight);
+            //WalkSpeed = WalkSpeed * 2;
+            
         }
     }
 
@@ -125,7 +129,7 @@ public class PlayerMovement : MonoBehaviour
         if (context.performed) 
         {
             Debug.Log("TEST" + context.phase);
-         
+            
         }
     }
 
