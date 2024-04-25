@@ -1,0 +1,653 @@
+Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.7 (Build 20G817)
+Darwin version:          20.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/claire/Documents/GitHub/40sCSProject/game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57435
+Successfully changed project path to: /Users/claire/Documents/GitHub/40sCSProject/game
+/Users/claire/Documents/GitHub/40sCSProject/game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4415864128] Host "[IP] 10.200.2.18 [Port] 0 [Flags] 2 [Guid] 3209432109 [EditorId] 3209432109 [Version] 1048832 [Id] OSXEditor(0,claires-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4415864128] Host "[IP] 10.200.2.18 [Port] 0 [Flags] 2 [Guid] 3209432109 [EditorId] 3209432109 [Version] 1048832 [Id] OSXEditor(0,claires-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 14.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/claire/Documents/GitHub/40sCSProject/game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56774
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002145 seconds.
+- Loaded All Assemblies, in  0.312 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.174 seconds
+Domain Reload Profiling: 486ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (132ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.565 seconds
+Domain Reload Profiling: 1149ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (225.2 KB). Loaded Objects now: 4534.
+Memory consumption went from 264.9 MB to 264.7 MB.
+Total: 3.832041 ms (FindLiveObjects: 0.135208 ms CreateObjectMapping: 0.051833 ms MarkObjects: 3.431167 ms  DeleteObjects: 0.212834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62607.064133 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b633a0baf6d71af8bcc359b4c8163306') in 0.008238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29d977000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.436 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.025 seconds
+Domain Reload Profiling: 1462ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1026ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (411ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (201.2 KB). Loaded Objects now: 4540.
+Memory consumption went from 260.6 MB to 260.4 MB.
+Total: 3.384416 ms (FindLiveObjects: 0.180458 ms CreateObjectMapping: 0.057542 ms MarkObjects: 2.948333 ms  DeleteObjects: 0.197583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 283.829597 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_1 2.prefab
+  artifactKey: Guid(0d8783d1af2ae4b6db9acf43bf5db7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_1 2.prefab using Guid(0d8783d1af2ae4b6db9acf43bf5db7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1994fdcdc50ef9ced5413779d75efde1') in 0.061791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_38 2.prefab
+  artifactKey: Guid(8a3e4317fa4ae4a23bbc2f0bcf29643d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_38 2.prefab using Guid(8a3e4317fa4ae4a23bbc2f0bcf29643d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aca92b3ce18fa27076667fccba3c753') in 0.002888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_36 2.prefab
+  artifactKey: Guid(2ca60dca7141e4ab4b0567d3cc4d4e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_36 2.prefab using Guid(2ca60dca7141e4ab4b0567d3cc4d4e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2779b951e51f4232cc021f013f2179') in 0.001189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_40 2.prefab
+  artifactKey: Guid(8ae705deab84849d288b77bb94368802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_40 2.prefab using Guid(8ae705deab84849d288b77bb94368802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4cd79c36edefe194f18cd205728102') in 0.001005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_22 2.prefab
+  artifactKey: Guid(8e765803ad2e94ec89498f265bc5052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_22 2.prefab using Guid(8e765803ad2e94ec89498f265bc5052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90b5ff946ea5a6a473ed51410dd6b2c') in 0.000962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_44 2.prefab
+  artifactKey: Guid(d5f40869d8d054658bb6a9e058f0cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_44 2.prefab using Guid(d5f40869d8d054658bb6a9e058f0cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203c38030bc1ffb4ab2d373b581c146c') in 0.000899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_11 2.prefab
+  artifactKey: Guid(3875e95cb0ca2417ea5b6b4269b85bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_11 2.prefab using Guid(3875e95cb0ca2417ea5b6b4269b85bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89508b546969cfa72fb72d6688d60e36') in 0.000976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_46 2.prefab
+  artifactKey: Guid(89203d41f494e4899a4a3f9109849576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_46 2.prefab using Guid(89203d41f494e4899a4a3f9109849576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3caeac96a203776b58c4cebc7ba977') in 0.001028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_18 2.prefab
+  artifactKey: Guid(6d2bf5615b078473e8ecb6f231fcbdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_18 2.prefab using Guid(6d2bf5615b078473e8ecb6f231fcbdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ff6e63ea08aba523cdecc28714f1c7') in 0.003360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_20 2.prefab
+  artifactKey: Guid(257260390a27b4938b4d8d07eadf34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_20 2.prefab using Guid(257260390a27b4938b4d8d07eadf34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375cfa421db55e6e584fc9eea3a4b31a') in 0.001339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_37 2.prefab
+  artifactKey: Guid(f6793eb4dd22f4f3b8ad813e2afda7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_37 2.prefab using Guid(f6793eb4dd22f4f3b8ad813e2afda7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9017d15d85f8b7a55098c51da6bc3515') in 0.001034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_19 2.prefab
+  artifactKey: Guid(bbfe96701c1514a4797d409804ade3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_19 2.prefab using Guid(bbfe96701c1514a4797d409804ade3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fff9c54faf382240b8cd6ebeb353c2') in 0.000965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_33 2.prefab
+  artifactKey: Guid(7eacf72a3c24143498182771af817a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_33 2.prefab using Guid(7eacf72a3c24143498182771af817a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30aa1477517533932336ec57952bde59') in 0.002517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_41 2.prefab
+  artifactKey: Guid(e4e6185d48bf74bc7aea5bf5a76d0cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_41 2.prefab using Guid(e4e6185d48bf74bc7aea5bf5a76d0cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1062436807548eecba8cbe19f2822074') in 0.001393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_12 2.prefab
+  artifactKey: Guid(194e8da193b9247efbe1fc9519cea833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_12 2.prefab using Guid(194e8da193b9247efbe1fc9519cea833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca588496eb6a384a8cc988fd4782419c') in 0.000831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_16 2.prefab
+  artifactKey: Guid(d0b9e9f96de8e4e82a31fb7b9035b9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_16 2.prefab using Guid(d0b9e9f96de8e4e82a31fb7b9035b9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0314a57570e13db1bf2c83c56056e657') in 0.000756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_27 2.prefab
+  artifactKey: Guid(0a18b776900de4e7dab7d496282b3675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_27 2.prefab using Guid(0a18b776900de4e7dab7d496282b3675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2916a50c694744bf2ffc5a9bbf3915f5') in 0.000761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_17 2.prefab
+  artifactKey: Guid(800ec6bfd84da42b0bd32c0282b32255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_17 2.prefab using Guid(800ec6bfd84da42b0bd32c0282b32255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5d56132423586f2dbde8da6795a33c') in 0.000922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_26 2.prefab
+  artifactKey: Guid(526277d760b464ed29d55654048bfbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_26 2.prefab using Guid(526277d760b464ed29d55654048bfbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3255ab0eb5c938b276cd9036c70a97fb') in 0.004080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_2 2.prefab
+  artifactKey: Guid(600c181d13edc4838bbddedbf001329c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_2 2.prefab using Guid(600c181d13edc4838bbddedbf001329c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c71a91e41d355849c419c623e09bdb3') in 0.001100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_3 2.prefab
+  artifactKey: Guid(c7bf349b29cc646ce83c220316bf4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_3 2.prefab using Guid(c7bf349b29cc646ce83c220316bf4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a4d183b300835b9711473fa9f6bb76') in 0.000974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_13 2.prefab
+  artifactKey: Guid(050a8244fe69949a383b5c2b1ca50d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/64x64 Prefabs/Amulets 64x64 Outline_13 2.prefab using Guid(050a8244fe69949a383b5c2b1ca50d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12ee7fa00ec650a6651aa24f6a85b09') in 0.001170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 21.097580 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_1 2.prefab
+  artifactKey: Guid(a2f287bce57a6484186f6554f2cd1d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_1 2.prefab using Guid(a2f287bce57a6484186f6554f2cd1d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493734a0c0fd5c94fde7deb3cf645dc6') in 0.004135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_6 2.prefab
+  artifactKey: Guid(e4b5a9904effb4653b047b70d719fc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_6 2.prefab using Guid(e4b5a9904effb4653b047b70d719fc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a897e866c85a9074cbd20c9794ff3076') in 0.001627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_9 2.prefab
+  artifactKey: Guid(6d28722fba6ac4fc5b288562c7fee956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_9 2.prefab using Guid(6d28722fba6ac4fc5b288562c7fee956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f293c3e062bb106176bf04847c3de7') in 0.000956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_3 2.prefab
+  artifactKey: Guid(1013ab7ff6fb04e28aac48118e9af383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_3 2.prefab using Guid(1013ab7ff6fb04e28aac48118e9af383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afa12a9555a1ee4fd7529dbb4a9edb0') in 0.000984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_11 2.prefab
+  artifactKey: Guid(87b057ff7cf0a4b1ca9c20b31546d46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_11 2.prefab using Guid(87b057ff7cf0a4b1ca9c20b31546d46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7630432c4bb293088ff4211ef173877') in 0.000778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_13 2.prefab
+  artifactKey: Guid(9e3d1fd40a855466babe04e73bdfd360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_13 2.prefab using Guid(9e3d1fd40a855466babe04e73bdfd360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444cb401633d7499bd87c674cb57d303') in 0.000722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_14 2.prefab
+  artifactKey: Guid(68194e20342ee40828c75b8ab3c47aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_14 2.prefab using Guid(68194e20342ee40828c75b8ab3c47aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d143303ad761979304dbb5fff4caa3e') in 0.000711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_16 2.prefab
+  artifactKey: Guid(4da3b3ef37d9e4a5ba5c253a7c1da43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_16 2.prefab using Guid(4da3b3ef37d9e4a5ba5c253a7c1da43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131c660eb1f2765218dba4b43a8d0edf') in 0.000822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_18 2.prefab
+  artifactKey: Guid(5056d8e9830434609b0be4aaf211b03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_18 2.prefab using Guid(5056d8e9830434609b0be4aaf211b03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5787ce00db3ff819f3b37cbb52062ab') in 0.000691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_20 2.prefab
+  artifactKey: Guid(3d5cf77daae204749a90b6133b5dc0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_20 2.prefab using Guid(3d5cf77daae204749a90b6133b5dc0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af12f8d332ab505dfff0ea1fc2965353') in 0.000748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_22 2.prefab
+  artifactKey: Guid(003a36fff824e4af5a4aac82f2a0893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_22 2.prefab using Guid(003a36fff824e4af5a4aac82f2a0893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a28eb20e1b0c619ef9cd4fed1dd8a0d') in 0.000706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_24 2.prefab
+  artifactKey: Guid(a8cc61ca7f7324bc3a6586c95e82344b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_24 2.prefab using Guid(a8cc61ca7f7324bc3a6586c95e82344b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a9af0a47df12c304a9065b8654b977') in 0.000733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_26 2.prefab
+  artifactKey: Guid(36285d20eb6804e92a3b91c847a4cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_26 2.prefab using Guid(36285d20eb6804e92a3b91c847a4cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afd39176eccf827525ead349bdefec9') in 0.000726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_28 2.prefab
+  artifactKey: Guid(aba53ba30f8944822b8a3c32ce6d93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_28 2.prefab using Guid(aba53ba30f8944822b8a3c32ce6d93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9301d019251d47a4197a0df547900d5') in 0.000717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_30 2.prefab
+  artifactKey: Guid(98a7f26d2a4a24c909faf61ae4c63148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_30 2.prefab using Guid(98a7f26d2a4a24c909faf61ae4c63148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73acfde796e3e5a500e0ced9c927f846') in 0.000750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_32 2.prefab
+  artifactKey: Guid(ab6a18b66ae534a4eb716220123f6273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_32 2.prefab using Guid(ab6a18b66ae534a4eb716220123f6273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd67668eb3e63c19d33e4cce670e3be') in 0.000690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_34 2.prefab
+  artifactKey: Guid(6a4d5d9095a964eef9e1c27efe115255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_34 2.prefab using Guid(6a4d5d9095a964eef9e1c27efe115255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9319ebdf32626d50005e876695d479cb') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_36 2.prefab
+  artifactKey: Guid(fadbd49c24f9740c3b65ebc743a1c9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_36 2.prefab using Guid(fadbd49c24f9740c3b65ebc743a1c9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafc26194a4a7bcc6dc4bd14519736e5') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_38 2.prefab
+  artifactKey: Guid(ff212f40c672745e696a3f1e7f25c42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_38 2.prefab using Guid(ff212f40c672745e696a3f1e7f25c42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38c6266ff6e22e52cac479f472784fd') in 0.000707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_40 2.prefab
+  artifactKey: Guid(8b1df58c8e1a944e8992a697712a460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_40 2.prefab using Guid(8b1df58c8e1a944e8992a697712a460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9325ca4cb4cda9f3248d66818324a30') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_42 2.prefab
+  artifactKey: Guid(e8df42e8e64684b82a59b5fbcd7aad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_42 2.prefab using Guid(e8df42e8e64684b82a59b5fbcd7aad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1a0c66b77307f39542d6843cc2f12a') in 0.000716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_44 2.prefab
+  artifactKey: Guid(cb0bb8faa561642dfb6f9cd549f36817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_44 2.prefab using Guid(cb0bb8faa561642dfb6f9cd549f36817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ffe71fec522890457da326bb9ab966') in 0.000694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_46 2.prefab
+  artifactKey: Guid(949c8cdb63b2a46b48a904d588bcb75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_46 2.prefab using Guid(949c8cdb63b2a46b48a904d588bcb75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaee5e69a2568e9ff43978238357cf90') in 0.000724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_48 2.prefab
+  artifactKey: Guid(3b7d43c8d51da4e0eab31349e54d1b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Amulets KIT/Prefabs/100x100 Prefabs/Amulets 100x100 Outline_48 2.prefab using Guid(3b7d43c8d51da4e0eab31349e54d1b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d4ce8be82213b18598a78ddfa1fa61') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5

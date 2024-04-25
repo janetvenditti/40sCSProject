@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     private InputAction move;
     private InputAction moveSide;
     private InputAction jump;
-
+    private InputAction E;
     private InputAction fire;
 
   
@@ -50,10 +50,12 @@ public class PlayerMovement : MonoBehaviour
         moveSide = Controls.Player.RightLeft;
         move = Controls.Player.TopDown;
         jump = Controls.Player.Jump;
+        E = Controls.Player.Interact;
 
         move.Enable();
         moveSide.Enable();
         jump.Enable();
+        E.Enable();
 
        
     }
@@ -64,13 +66,14 @@ public class PlayerMovement : MonoBehaviour
         move.Disable();
         moveSide.Disable();
         jump.Disable();
+        E.Disable();
     }
     void Start()
     {
 
         anim = GetComponent<Animator>();
         Sr = GetComponent<SpriteRenderer>();
-        GameObject.DontDestroyOnLoad(this.gameObject);
+        //GameObject.DontDestroyOnLoad(this.gameObject);
     }
     private void Update()
     {
@@ -101,16 +104,28 @@ public class PlayerMovement : MonoBehaviour
             jump.performed += Jump;
             rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
         }
+        jump.performed += Jump;
+        E.performed += Interact;
         
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
         Debug.Log(context);
-        if (context.performed)
+        if (context.performed)  
         {
             Debug.Log("TEST" + context.phase);
             rb.velocity = new Vector3(rb.velocity.x, JumpHeight);
+        }
+    }
+
+    public void Interact(InputAction.CallbackContext context) 
+    {
+        Debug.Log(context);
+        if (context.performed) 
+        {
+            Debug.Log("TEST" + context.phase);
+         
         }
     }
 
