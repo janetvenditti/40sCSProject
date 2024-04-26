@@ -1,12 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class Test : MonoBehaviour
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using static Unity.Burst.Intrinsics.X86.Avx;
+using static UnityEditor.Timeline.TimelinePlaybackControls;
+
+public class JumpScrpitTEST : MonoBehaviour
 {
     private Rigidbody2D rb;
     private PlayerInput playerInput;
-    private PlayerControls playerControls;
+    private MasterInput playerControls;
     private InputAction action;
 
     Vector2 movement = Vector2.zero;
@@ -18,10 +24,10 @@ public class Test : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerInput = GetComponent<PlayerInput>();
 
-        PlayerControls playerControls = new PlayerControls();
+        MasterInput playerControls = new MasterInput();
         playerControls.Player.Enable();
         playerControls.Player.Jump.performed += Jump;
-        playerControls.Player.TopDown.performed += TopDown;
+        
 
     }
 
@@ -38,21 +44,8 @@ public class Test : MonoBehaviour
     {
         if (context.performed)
         {
-            
+
             rb.velocity = new Vector3(rb.velocity.x, 5f);
         }
-    }
-
-    private void FixedUpdate()
-    {
-        movement = action.ReadValue<Vector2>();
-        //rb.velocity = (new Vector2(inputVector.x, inputVector.y) * WalkSpeed);
-    }
-
-    public void TopDown(InputAction.CallbackContext context)
-    {
-       
-        //Vector2 inputVector = context.ReadValue<Vector2>();
-        rb.velocity = (new Vector2(movement.x, movement.y) * WalkSpeed);
     }
 }

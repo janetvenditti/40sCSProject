@@ -29,9 +29,10 @@ public class PlayerMovement : MonoBehaviour
     private InputAction moveSide;
     private InputAction jump;
     private InputAction E;
-    
 
-    
+    private MasterInput playerControls;
+
+
 
 
 
@@ -42,6 +43,10 @@ public class PlayerMovement : MonoBehaviour
 
         Controls = new MasterInput();
 
+        MasterInput playerControls = new MasterInput();
+        playerControls.Player.Enable();
+        playerControls.Player.Jump.performed += Jump;
+
         //Controls.Player.Jump.performed += Jump;
 
     }
@@ -49,16 +54,17 @@ public class PlayerMovement : MonoBehaviour
     {
         moveSide = Controls.Player.RightLeft;
         move = Controls.Player.TopDown;
-        jump = Controls.Player.Jump;
+        //jump = Controls.Player.Jump;
         E = Controls.Player.Interact;
 
         move.Enable();
         moveSide.Enable();
-        jump.Enable();
+        //jump.Enable();
         E.Enable();
         Controls.Enable ();
+        playerControls.Enable();
 
-       
+
     }
 
     private void OnDisable()
@@ -66,9 +72,10 @@ public class PlayerMovement : MonoBehaviour
         
         move.Disable();
         moveSide.Disable();
-        jump.Disable();
+        //jump.Disable();
         E.Disable();
         Controls.Disable();
+        playerControls.Disable();
     }
     void Start()
     {
@@ -103,10 +110,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            Controls.Player.Jump.performed += Jump;
+            //Controls.Player.Jump.performed += Jump;
             rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
         }
-       
+
         E.performed += Interact;
         
     }
@@ -117,9 +124,7 @@ public class PlayerMovement : MonoBehaviour
         if (context.performed)
         {
             Debug.Log("TEST" + context.phase);
-            rb.velocity = new Vector3(rb.velocity.x, JumpHeight);
-            //WalkSpeed = WalkSpeed * 2;
-            
+            rb.velocity = new Vector3(rb.velocity.x, 5f);
         }
     }
 
