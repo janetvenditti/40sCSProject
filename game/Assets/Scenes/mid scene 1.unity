@@ -483,6 +483,8 @@ GameObject:
   m_Component:
   - component: {fileID: 288285028}
   - component: {fileID: 288285027}
+  - component: {fileID: 288285029}
+  - component: {fileID: 288285030}
   m_Layer: 0
   m_Name: Cat-1-Walk_0
   m_TagString: Player
@@ -551,12 +553,47 @@ Transform:
   m_GameObject: {fileID: 288285024}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5270631, y: 1673314.4, z: 43248.957}
+  m_LocalPosition: {x: -5270633.5, y: 1673312.5, z: 43248.957}
   m_LocalScale: {x: 10, y: 10, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 434069951}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &288285029
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288285024}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab9056ad5e81b4d2dbb52b038faeabd7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &288285030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288285024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8c58f48b09a453790122774a922d0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RunSpeed: 7
+  JumpHeight: 9
 --- !u!1 &291325044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,8 +1915,8 @@ Transform:
   m_GameObject: {fileID: 975079030}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5270625, y: 1673316, z: 43248.957}
-  m_LocalScale: {x: 9, y: 8, z: 1}
+  m_LocalPosition: {x: -5270625, y: 1673316.2, z: 43248.957}
+  m_LocalScale: {x: 9, y: 8.3592, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 116081121}
