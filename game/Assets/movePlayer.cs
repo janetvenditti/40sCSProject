@@ -43,9 +43,10 @@ public class PlayerMovement : MonoBehaviour
 
         Controls = new MasterInput();
 
+
         MasterInput playerControls = new MasterInput();
-        playerControls.Player.Enable();
-        playerControls.Player.Jump.performed += Jump;
+        //playerControls.Player.Enable();
+        
 
         //Controls.Player.Jump.performed += Jump;
 
@@ -54,12 +55,12 @@ public class PlayerMovement : MonoBehaviour
     {
         moveSide = Controls.Player.RightLeft;
         move = Controls.Player.TopDown;
-        //jump = Controls.Player.Jump;
+        jump = Controls.Player.Jump;
         E = Controls.Player.Interact;
 
         move.Enable();
         moveSide.Enable();
-        //jump.Enable();
+        jump.Enable();
         E.Enable();
         Controls.Enable ();
         playerControls.Enable();
@@ -72,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
         
         move.Disable();
         moveSide.Disable();
-        //jump.Disable();
+        jump.Disable();
         E.Disable();
         Controls.Disable();
         playerControls.Disable();
@@ -110,7 +111,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            //Controls.Player.Jump.performed += Jump;
+            Controls.Player.Jump.performed += Jump;
             rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
         }
 
@@ -120,7 +121,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
-
+        Debug.Log(context);
         if (context.performed)
         {
             Debug.Log("TEST" + context.phase);
