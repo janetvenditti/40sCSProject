@@ -53,16 +53,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void OnEnable()
     {
-        moveSide = Controls.Player.RightLeft;
-        move = Controls.Player.TopDown;
-        jump = Controls.Player.Jump;
-        E = Controls.Player.Interact;
-
-        move.Enable();
-        moveSide.Enable();
-        jump.Enable();
-        E.Enable();
-        Controls.Enable ();
+       
         playerControls.Enable();
 
 
@@ -71,11 +62,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnDisable()
     {
         
-        move.Disable();
-        moveSide.Disable();
-        jump.Disable();
-        E.Disable();
-        Controls.Disable();
+       
         playerControls.Disable();
     }
     void Start()
