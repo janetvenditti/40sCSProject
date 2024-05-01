@@ -87,16 +87,6 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
 
-        if (SceneManager.GetActiveScene().buildIndex >= 3)
-        {
-            movement = move.ReadValue<Vector2>();
-
-        }
-        else
-        {
-            
-            movement = moveSide.ReadValue<Vector2>();
-        }
 
         AnimationUpdate(state);
     }
@@ -106,14 +96,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex >= 3)
         {
-            rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y * WalkSpeed);
+            movement = move.ReadValue<Vector2>();
 
         }
         else
         {
 
-            jump.performed += Jump;
-            rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y);
+            movement = moveSide.ReadValue<Vector2>();
         }
 
         E.performed += Interact;
@@ -122,13 +111,28 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
-        //Debug.Log(context.phase);
+        
         Debug.Log(context.phase);
-        
-        rb.velocity = new Vector2(rb.velocity.x, JumpHeight);
-        
+        if(context.performed) { rb.velocity = new Vector2(rb.velocity.x, JumpHeight); }
+       
+    }
+    public void TopDown()
+    {
+        if (SceneManager.GetActiveScene().buildIndex >= 3)
+        {
+            rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y * WalkSpeed);
+
+        }
     }
 
+    public void RightLeft()
+    {
+        if (SceneManager.GetActiveScene().buildIndex < 3)
+        {
+            rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y * WalkSpeed);
+
+        }
+    }
     public void Interact(InputAction.CallbackContext context) 
     {
         Debug.Log(context);
