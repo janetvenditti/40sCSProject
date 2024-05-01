@@ -32,9 +32,10 @@ public class SceneController : MonoBehaviour
 
     IEnumerator LoadLevel()
     {
-        transistionAnim.SetTrigger("Scene Exit");
+        transistionAnim.SetTrigger("Scene Enter");
         yield return new WaitForSeconds(1);
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        yield return new WaitForSeconds(1);
         transistionAnim.SetTrigger("Scene Exit");
     }
 }
