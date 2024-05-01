@@ -32,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
 
     private MasterInput playerControls;
 
+    Vector2 inputVector;
+
 
 
 
@@ -86,8 +88,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-
-
+        
         AnimationUpdate(state);
     }
 
@@ -96,16 +97,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex >= 3)
         {
-            movement = move.ReadValue<Vector2>();
-
+            TopDown();
         }
         else
         {
-
-            movement = moveSide.ReadValue<Vector2>();
+            RightLeft();
         }
 
-        E.performed += Interact;
+            E.performed += Interact;
         
     }
 
@@ -118,20 +117,17 @@ public class PlayerMovement : MonoBehaviour
     }
     public void TopDown()
     {
-        if (SceneManager.GetActiveScene().buildIndex >= 3)
-        {
-            rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y * WalkSpeed);
-
-        }
+        Vector2 movement = new Vector2(inputVector.x * WalkSpeed * Time.deltaTime, inputVector.y * WalkSpeed);
+        transform.Translate(movement);
     }
 
     public void RightLeft()
     {
-        if (SceneManager.GetActiveScene().buildIndex < 3)
-        {
-            rb.velocity = new Vector2(movement.x * WalkSpeed, movement.y * WalkSpeed);
 
-        }
+        Vector2 movement = new Vector2(inputVector.x * WalkSpeed * Time.deltaTime, 0);
+        transform.Translate(movement);
+
+        
     }
     public void Interact(InputAction.CallbackContext context) 
     {
@@ -142,7 +138,11 @@ public class PlayerMovement : MonoBehaviour
             
         }
     }
+    public void SetVector(InputAction.CallbackContext context)
+    {
+        inputVector = context.ReadValue<Vector2>();
 
+    }
     private MovementState GetState()
     {
         return state;
@@ -152,14 +152,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex >= 3)
         {
-            if (movement.x > 0 || movement.y > 0)
+            if (inputVector.x > 0 || inputVector.y > 0)
             {
                 Sr.flipX = false;
 
                 state = MovementState.walking;
 
             }
-            if (movement.x < 0 || movement.y < 0)
+            if (inputVector.x < 0 || inputVector.y < 0)
             {
                 Sr.flipX = true;
 
@@ -170,14 +170,14 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (movement.x > 0)
+            if (inputVector.x > 0)
             {
                 Sr.flipX = false;
 
                 state = MovementState.walking;
 
             }
-            if (movement.x < 0)
+            if (inputVector.x < 0)
             {
                 Sr.flipX = true;
 
