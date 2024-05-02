@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         playerControls.Player.Enable();
         
 
-        //Controls.Player.Jump.performed += Jump;
+        
 
     }
     private void OnEnable()
@@ -134,8 +134,9 @@ public class PlayerMovement : MonoBehaviour
         Debug.Log(context);
         if (context.performed) 
         {
-            Debug.Log("TEST" + context.phase);
             
+
+
         }
     }
     public void SetVector(InputAction.CallbackContext context)
