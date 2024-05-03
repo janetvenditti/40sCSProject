@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement = Vector2.zero;
 
+    private TriggerPoint triggerPoint;
+
 
     [SerializeField] private float WalkSpeed = 7f;
     [SerializeField] private float RunSpeed = 14f;
@@ -31,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
     private InputAction E;
 
     private MasterInput playerControls;
+    private bool isPressed;
 
     Vector2 inputVector;
 
@@ -48,6 +51,8 @@ public class PlayerMovement : MonoBehaviour
 
         MasterInput playerControls = new MasterInput();
         playerControls.Player.Enable();
+
+        isPressed = false;
         
 
         
@@ -90,6 +95,7 @@ public class PlayerMovement : MonoBehaviour
     {
         
         AnimationUpdate(state);
+        getKeyPress();
     }
 
     // Update is called once per frame
@@ -104,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
             RightLeft();
         }
 
-            E.performed += Interact;
+            //E.performed += Interact;
         
     }
 
@@ -132,12 +138,21 @@ public class PlayerMovement : MonoBehaviour
     public void Interact(InputAction.CallbackContext context) 
     {
         Debug.Log(context);
-        if (context.performed) 
+        if(context.performed)
         {
-            
-
-
+          isPressed = true;
+          Debug.Log(isPressed);
+            //triggerPoint.inputRequired();
         }
+        
+   
+    }
+
+    public bool getKeyPress()
+    {
+        Debug.Log(isPressed);
+        return isPressed;
+        
     }
     public void SetVector(InputAction.CallbackContext context)
     {

@@ -8,16 +8,21 @@ public class TriggerPoint : MonoBehaviour
 {
     [SerializeField] public bool goNextScene; 
     [SerializeField] public string levelName;
-    public bool isInCollider;
-    [SerializeField] public Collider2D collision;
+    [SerializeField] public bool needInput;
+   private bool isInCollider;
+    //[SerializeField] public Collider2D collision;
 
-    public bool isNextScene = true;
+
+    private bool isNextScene = true;
     [SerializeField] public SceneInfo sceneInfo;
+
+    private PlayerMovement playerInput;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+
             isInCollider = true;
             if (!isNextScene)
             {
@@ -27,14 +32,20 @@ public class TriggerPoint : MonoBehaviour
             {
                 SceneController.instance.LoadScene(levelName);
             }
-        }
-        isInCollider = false;
 
+        }
         
     }
-     
+
+    public bool IsInside()
+    { 
+        return isInCollider; 
+    }
+
    
 
 
-    
+
+
+
 }
