@@ -37,10 +37,7 @@ public class TriggerPoint : MonoBehaviour
         
     }
 
-    public bool IsInside()
-    { 
-        return isInCollider; 
-    }
+
 
    
 

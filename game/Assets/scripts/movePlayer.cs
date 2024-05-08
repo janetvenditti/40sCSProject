@@ -46,11 +46,11 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        Controls = new MasterInput();
+        //Controls = new MasterInput();
 
 
-        MasterInput playerControls = new MasterInput();
-        playerControls.Player.Enable();
+        //MasterInput playerControls = new MasterInput();
+        
 
         isPressed = false;
         
@@ -60,15 +60,9 @@ public class PlayerMovement : MonoBehaviour
     }
     private void OnEnable()
     {
-        moveSide = Controls.Player.RightLeft;
-        move = Controls.Player.TopDown;
-        jump = Controls.Player.Jump;
-        E = Controls.Player.Interact;
+      
 
-        move.Enable();
-        moveSide.Enable();
-        jump.Enable();
-        E.Enable();
+        
         //Controls.Enable ();
         //playerControls.Enable();
 
@@ -78,10 +72,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnDisable()
     {
         
-        move.Disable();
-        moveSide.Disable();
-        jump.Disable();
-        E.Disable();
+        
         //Controls.Disable();
         //playerControls.Disable();
     }
@@ -90,12 +81,13 @@ public class PlayerMovement : MonoBehaviour
 
         anim = GetComponent<Animator>();
         Sr = GetComponent<SpriteRenderer>();
+        
     }
     private void Update()
     {
         
         AnimationUpdate(state);
-        getKeyPress();
+        //getKeyPress();
     }
 
     // Update is called once per frame
@@ -104,26 +96,36 @@ public class PlayerMovement : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex >= 3)
         {
             TopDown();
+            rb.gravityScale = 0;
         }
         else
         {
             RightLeft();
+            rb.gravityScale = 2;
         }
 
-            //E.performed += Interact;
         
+
+            //E.performed += Interact;
+
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
         
         Debug.Log(context.phase);
-        if(context.performed) { rb.velocity = new Vector2(rb.velocity.x, JumpHeight); }
+        if(context.performed) 
+        {
+            if (SceneManager.GetActiveScene().buildIndex < 3)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, JumpHeight);
+            }
+        }
        
     }
     public void TopDown()
     {
-        Vector2 movement = new Vector2(inputVector.x * WalkSpeed * Time.deltaTime, inputVector.y * WalkSpeed);
+        Vector2 movement = new Vector2(inputVector.x * WalkSpeed * Time.deltaTime, inputVector.y * WalkSpeed * Time.deltaTime);
         transform.Translate(movement);
     }
 
@@ -141,11 +143,24 @@ public class PlayerMovement : MonoBehaviour
         if(context.performed)
         {
           isPressed = true;
-          Debug.Log(isPressed);
-            //triggerPoint.inputRequired();
+          
         }
         
    
+    }
+
+    public void Sprint(InputAction.CallbackContext context)
+    {
+        Debug.Log(context);
+        if (context.performed)
+        {
+            WalkSpeed = RunSpeed;
+
+        }
+        else
+        {
+            
+        }
     }
 
     public bool getKeyPress()
