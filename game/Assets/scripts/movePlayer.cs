@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     private InputAction E;
 
     private MasterInput playerControls;
-    private bool isPressed;
+    private bool interacted;
 
     Vector2 inputVector;
 
@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         //MasterInput playerControls = new MasterInput();
         
 
-        isPressed = false;
+        interacted = false;
         
 
         
@@ -140,11 +140,10 @@ public class PlayerMovement : MonoBehaviour
     public void Interact(InputAction.CallbackContext context) 
     {
         Debug.Log(context);
-        if(context.performed)
-        {
-          isPressed = true;
+        
+          interacted = true;
           
-        }
+        
         
    
     }
@@ -163,10 +162,9 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public bool getKeyPress()
+    public bool IsInteracted()
     {
-        Debug.Log(isPressed);
-        return isPressed;
+        return interacted;
         
     }
     public void SetVector(InputAction.CallbackContext context)
