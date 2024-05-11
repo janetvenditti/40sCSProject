@@ -6711,7 +6711,7 @@ GameObject:
   - component: {fileID: 1462157018}
   - component: {fileID: 1462157021}
   - component: {fileID: 1462157020}
-  - component: {fileID: 1462157019}
+  - component: {fileID: 1462157022}
   m_Layer: 0
   m_Name: Exit 2
   m_TagString: Untagged
@@ -6734,22 +6734,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 203232634}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1462157019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462157017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38b61cd025130974b8f3f756ea20fbbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goNextScene: 0
-  levelName: castle One
-  needInput: 0
-  sceneInfo: {fileID: 11400000, guid: ef455e005bbee6244a69468daf44c42c, type: 2}
 --- !u!61 &1462157020
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6848,6 +6832,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1462157022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462157017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88839d43976ecf644b7c45b316c243da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  next: 
 --- !u!1 &1641804350
 GameObject:
   m_ObjectHideFlags: 0
@@ -6859,7 +6856,7 @@ GameObject:
   - component: {fileID: 1641804351}
   - component: {fileID: 1641804354}
   - component: {fileID: 1641804353}
-  - component: {fileID: 1641804352}
+  - component: {fileID: 1641804355}
   m_Layer: 0
   m_Name: Exit 1
   m_TagString: Untagged
@@ -6882,22 +6879,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 203232634}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1641804352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641804350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38b61cd025130974b8f3f756ea20fbbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goNextScene: 0
-  levelName: castle One
-  needInput: 0
-  sceneInfo: {fileID: 11400000, guid: ef455e005bbee6244a69468daf44c42c, type: 2}
 --- !u!61 &1641804353
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6996,6 +6977,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1641804355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641804350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88839d43976ecf644b7c45b316c243da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  next: 
 --- !u!1 &1706745202
 GameObject:
   m_ObjectHideFlags: 0
