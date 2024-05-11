@@ -18,25 +18,19 @@ public class SceneController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    public void NextScene()
-    {
-        StartCoroutine(LoadLevel());
-    }
     
     public void LoadScene(string sceneName)
     {
-        SceneManager.LoadSceneAsync(sceneName);
-        //StartCoroutine(LoadLevel());
+        StartCoroutine(LoadLevel(sceneName));
 
     }
 
-    IEnumerator LoadLevel()
+    IEnumerator LoadLevel(string sceneName)
     {
-        transistionAnim.SetTrigger("Scene Enter");
+        transistionAnim.SetTrigger("End");
         yield return new WaitForSeconds(1);
-        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
-        yield return new WaitForSeconds(1);
-        transistionAnim.SetTrigger("Scene Exit");
+        SceneManager.LoadSceneAsync(sceneName);
+        transistionAnim.SetTrigger("Start");
     }
 }
 

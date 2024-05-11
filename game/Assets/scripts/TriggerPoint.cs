@@ -23,15 +23,9 @@ public class TriggerPoint : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
 
-            isInCollider = true;
-            if (!isNextScene)
-            {
-                SceneController.instance.NextScene();
-            }
-            else
-            {
-                SceneController.instance.LoadScene(levelName);
-            }
+            
+           SceneController.instance.LoadScene(levelName);
+            
 
         }
         
