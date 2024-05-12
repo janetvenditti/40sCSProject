@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -14,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private SpriteRenderer Sr;
 
-    Vector2 movement = Vector2.zero;
+    //Vector2 movement = Vector2.zero;
 
     private TriggerPoint triggerPoint;
 
@@ -27,15 +28,15 @@ public class PlayerMovement : MonoBehaviour
     private MovementState state = MovementState.idle;
 
     public MasterInput Controls;
-    private InputAction move;
-    private InputAction moveSide;
-    private InputAction jump;
-    private InputAction E;
+ 
 
     private MasterInput playerControls;
     private bool interacted;
+  
 
     Vector2 inputVector;
+
+   public bool isJumping;
 
 
 
@@ -46,13 +47,10 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        //Controls = new MasterInput();
-
-
-        //MasterInput playerControls = new MasterInput();
-        
-
+       
         interacted = false;
+
+        //if(rb.y)
         
 
         
@@ -87,6 +85,7 @@ public class PlayerMovement : MonoBehaviour
     {
         
         AnimationUpdate(state);
+      
         //getKeyPress();
     }
 
@@ -106,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
 
         
 
-            //E.performed += Interact;
+            
 
     }
 
@@ -114,15 +113,32 @@ public class PlayerMovement : MonoBehaviour
     {
         
         Debug.Log(context.phase);
-        if(context.performed) 
-        {
-            if (SceneManager.GetActiveScene().buildIndex < 3)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, JumpHeight);
-            }
-        }
+      
        
+       if (SceneManager.GetActiveScene().buildIndex < 3)
+        {
+            if (context.performed && !isJumping)
+            {
+                isJumping = true;
+                rb.velocity = new Vector2(rb.velocity.x, JumpHeight);
+                
+         
+            }
+
+        }
+
+
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    { 
+        if(other.gameObject.CompareTag("Ground"))
+        {
+            isJumping = false;
+        }
+    }
+
+
     public void TopDown()
     {
         Vector2 movement = new Vector2(inputVector.x * WalkSpeed * Time.deltaTime, inputVector.y * WalkSpeed * Time.deltaTime);
