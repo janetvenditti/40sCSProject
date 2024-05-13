@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float WalkSpeed = 7f;
     [SerializeField] private float RunSpeed = 14f;
     [SerializeField] private float JumpHeight = 7f;
+    private float speed;
 
     private enum MovementState { idle, walking }
     private MovementState state = MovementState.idle;
@@ -49,6 +50,8 @@ public class PlayerMovement : MonoBehaviour
 
        
         interacted = false;
+
+        speed = WalkSpeed;
 
         //if(rb.y)
         
@@ -141,14 +144,14 @@ public class PlayerMovement : MonoBehaviour
 
     public void TopDown()
     {
-        Vector2 movement = new Vector2(inputVector.x * WalkSpeed * Time.deltaTime, inputVector.y * WalkSpeed * Time.deltaTime);
+        Vector2 movement = new Vector2(inputVector.x * speed * Time.deltaTime, inputVector.y * speed * Time.deltaTime);
         transform.Translate(movement);
     }
 
     public void RightLeft()
     {
 
-        Vector2 movement = new Vector2(inputVector.x * WalkSpeed * Time.deltaTime, 0);
+        Vector2 movement = new Vector2(inputVector.x * speed * Time.deltaTime, 0);
         transform.Translate(movement);
 
         
@@ -169,12 +172,12 @@ public class PlayerMovement : MonoBehaviour
         Debug.Log(context);
         if (context.performed)
         {
-            WalkSpeed = RunSpeed;
+            speed = RunSpeed;
 
         }
-        else
+        if(context.canceled)
         {
-            
+            speed = WalkSpeed;
         }
     }
 
