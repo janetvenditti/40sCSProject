@@ -1912,6 +1912,7 @@ GameObject:
   - component: {fileID: 1159167453}
   - component: {fileID: 1159167452}
   - component: {fileID: 1159167454}
+  - component: {fileID: 1159167455}
   m_Layer: 22
   m_Name: walls
   m_TagString: Untagged
@@ -9612,6 +9613,54 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!68 &1159167455
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159167450}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 9.387835, y: -41.214077}
+  - {x: -2.7200737, y: -41.213512}
+  - {x: -2.684922, y: -45.80297}
+  - {x: -7.1331763, y: -45.802315}
+  - {x: -7.2528644, y: -41.125355}
+  - {x: -19.628138, y: -41.08433}
+  - {x: -19.602882, y: -29.608784}
+  - {x: 9.342756, y: -29.857601}
+  - {x: 9.617892, y: -41.91851}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1643944437
 GameObject:
   m_ObjectHideFlags: 0
