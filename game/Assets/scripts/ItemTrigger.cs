@@ -9,7 +9,13 @@ public class ItemTrigger : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private bool IsPickedUp;
     Vector2 gone = new Vector2(0,100);
+    public GameObject item;
 
+    private void Awake()
+    {
+        item = GetComponent<GameObject>();
+        item.SetActive(true);
+    }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -17,7 +23,7 @@ public class ItemTrigger : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 IsPickedUp = true;
-                transform.Translate(gone);
+                item.SetActive(false);
             }
 
         }
