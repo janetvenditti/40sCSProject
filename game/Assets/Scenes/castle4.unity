@@ -5844,6 +5844,7 @@ GameObject:
   - component: {fileID: 93432444}
   - component: {fileID: 93432446}
   - component: {fileID: 93432445}
+  - component: {fileID: 93432447}
   m_Layer: 7
   m_Name: Tilemap
   m_TagString: Untagged
@@ -16985,6 +16986,90 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!68 &93432447
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93432443}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -19.130903, y: 11.337201}
+  - {x: -25.03476, y: 11.34511}
+  - {x: -25.118639, y: 2.3106313}
+  - {x: -12.648772, y: 2.3601565}
+  - {x: -12.725033, y: 7.136219}
+  - {x: -1.7469504, y: 7.0938034}
+  - {x: -1.6563458, y: 13.92375}
+  - {x: -2.0178301, y: 14.974172}
+  - {x: -8.5705805, y: 14.835699}
+  - {x: -8.475649, y: 21.529543}
+  - {x: 1.6451099, y: 21.612803}
+  - {x: 1.633702, y: 6.4631515}
+  - {x: 9.30459, y: 6.5316505}
+  - {x: 9.295975, y: 10.490631}
+  - {x: 14.278978, y: 10.462309}
+  - {x: 14.246254, y: 26.587149}
+  - {x: 17.283382, y: 26.654512}
+  - {x: 17.524023, y: 30.718416}
+  - {x: 27.103622, y: 30.505447}
+  - {x: 27.233528, y: 34.41385}
+  - {x: 28.558844, y: 35.827457}
+  - {x: 31.44077, y: 35.890476}
+  - {x: 32.98542, y: 34.56704}
+  - {x: 33.147095, y: 30.568874}
+  - {x: 42.818974, y: 30.717476}
+  - {x: 42.845036, y: 26.60681}
+  - {x: 45.977364, y: 26.605211}
+  - {x: 46.026855, y: 10.93358}
+  - {x: 25.098833, y: 10.8699255}
+  - {x: 25.065733, y: 6.974647}
+  - {x: 23.01338, y: 6.969496}
+  - {x: 22.944635, y: 5.018234}
+  - {x: 21.010315, y: 5.0589027}
+  - {x: 21.01423, y: -0.052840114}
+  - {x: 17.060865, y: -0.06671506}
+  - {x: 17.229729, y: -1.0572582}
+  - {x: 13.184595, y: -1.0982316}
+  - {x: 13.142131, y: -7.22607}
+  - {x: -13.109519, y: -7.2009454}
+  - {x: -13.108962, y: -1.6218008}
+  - {x: -28.803211, y: -1.6000284}
+  - {x: -28.718082, y: 19.698175}
+  - {x: -19.23909, y: 19.68362}
+  - {x: -19.312136, y: 13}
+  - {x: -19.325157, y: 11.533086}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &195455389
 GameObject:
   m_ObjectHideFlags: 0
@@ -17818,6 +17903,7 @@ GameObject:
   - component: {fileID: 953153620}
   - component: {fileID: 953153622}
   - component: {fileID: 953153621}
+  - component: {fileID: 953153623}
   m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
@@ -18129,6 +18215,51 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!61 &953153623
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953153619}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 30.026321, y: 30.2821}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.4022217, y: 2.6556683}
+  m_EdgeRadius: 0
 --- !u!1 &1009783863
 GameObject:
   m_ObjectHideFlags: 0
