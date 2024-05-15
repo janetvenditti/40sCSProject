@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61055
+55150
 Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 /Users/janetvenditti/Documents/GitHub/40sCSProject/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/janetvenditti/Documents/GitHub/40sC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704395401152] Host "[IP] 10.200.2.17 [Port] 0 [Flags] 2 [Guid] 3927516441 [EditorId] 3927516441 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704395401152] Host "[IP] 10.200.0.198 [Port] 0 [Flags] 2 [Guid] 2498527757 [EditorId] 2498527757 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704395401152] Host "[IP] 10.200.2.17 [Port] 0 [Flags] 2 [Guid] 3927516441 [EditorId] 3927516441 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704395401152] Host "[IP] 10.200.0.198 [Port] 0 [Flags] 2 [Guid] 2498527757 [EditorId] 2498527757 [Version] 1048832 [Id] OSXEditor(0,Janets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 14.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 12.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -77,44 +77,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.006886 seconds.
-- Loaded All Assemblies, in  0.866 seconds
+Registered in 0.005572 seconds.
+- Loaded All Assemblies, in  0.984 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.524 seconds
-Domain Reload Profiling: 1390ms
-	BeginReloadAssembly (348ms)
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 1658ms
+	BeginReloadAssembly (210ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (105ms)
-	LoadAllAssembliesAndSetupDomain (295ms)
-		LoadAssemblies (349ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (588ms)
+		LoadAssemblies (212ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (291ms)
-			TypeCache.Refresh (287ms)
-				TypeCache.ScanAssembly (260ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (525ms)
+		AnalyzeDomain (582ms)
+			TypeCache.Refresh (557ms)
+				TypeCache.ScanAssembly (483ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (675ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (398ms)
+		SetupLoadedEditorAssemblies (447ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (19ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,52 +122,52 @@ Domain Reload Profiling: 1390ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.298 seconds
-Refreshing native plugins compatible for Editor in 2.64 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.178 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.896 seconds
-Domain Reload Profiling: 2193ms
-	BeginReloadAssembly (253ms)
+- Finished resetting the current domain, in  0.905 seconds
+Domain Reload Profiling: 2083ms
+	BeginReloadAssembly (266ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (834ms)
-		LoadAssemblies (681ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (742ms)
+		LoadAssemblies (612ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (266ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (194ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (897ms)
+	FinalizeReload (906ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (589ms)
+		SetupLoadedEditorAssemblies (583ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (406ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
-Refreshing native plugins compatible for Editor in 3.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 66 unused Assets / (0.6 MB). Loaded Objects now: 4214.
-Memory consumption went from 154.5 MB to 153.9 MB.
-Total: 5.972699 ms (FindLiveObjects: 0.365883 ms CreateObjectMapping: 0.379262 ms MarkObjects: 4.574102 ms  DeleteObjects: 0.651885 ms)
+Memory consumption went from 154.3 MB to 153.7 MB.
+Total: 7.517674 ms (FindLiveObjects: 0.611744 ms CreateObjectMapping: 0.595230 ms MarkObjects: 5.500430 ms  DeleteObjects: 0.808185 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,57 +184,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 101074.999786 seconds.
+  Time since last request: 140286.415418 seconds.
   path: Assets/Scenes/mid scene 1.unity
   artifactKey: Guid(9dd9ef399bca248d895a23c4b579de20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mid scene 1.unity using Guid(9dd9ef399bca248d895a23c4b579de20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5252815d877c555a878443665b727d29') in 0.002718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 306.565545 seconds.
-  path: Assets/scripts/Dialouge UI.cs
-  artifactKey: Guid(70bc571a23916405b85cba23e33529f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Dialouge UI.cs using Guid(70bc571a23916405b85cba23e33529f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80a87f4d03dd8fea7f7a02794e4b86c') in 0.004357 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1942.489913 seconds.
-  path: Assets/scripts/Dialouge UI.cs
-  artifactKey: Guid(70bc571a23916405b85cba23e33529f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Dialouge UI.cs using Guid(70bc571a23916405b85cba23e33529f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4739ecb0df2a7c098f4b9d52e79c0116') in 0.044134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 209.731934 seconds.
-  path: Assets/scripts/TypeWritterEffect.cs
-  artifactKey: Guid(59809898c2647440b951c288a1fa69af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/TypeWritterEffect.cs using Guid(59809898c2647440b951c288a1fa69af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c98f8f51de0f050cf38036bf6fad3c2') in 0.020180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 304.062761 seconds.
-  path: Assets/scripts/Dialouge UI.cs
-  artifactKey: Guid(70bc571a23916405b85cba23e33529f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Dialouge UI.cs using Guid(70bc571a23916405b85cba23e33529f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167fba47fd4dfeb1ea09aa825cbd7fe1') in 0.020077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 176.794372 seconds.
-  path: Assets/scripts/DialougeUI.cs
-  artifactKey: Guid(70bc571a23916405b85cba23e33529f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/DialougeUI.cs using Guid(70bc571a23916405b85cba23e33529f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98575ff3a054945036f1953d88a95f9a') in 0.011730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.957817 seconds.
-  path: Assets/scripts/Dialouge UI.cs
-  artifactKey: Guid(3f4674ef518b94005abd6ae0f4d4c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Dialouge UI.cs using Guid(3f4674ef518b94005abd6ae0f4d4c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afbafce262d1f00bcf4d48414a08e98') in 0.006996 seconds
+Start importing Assets/Scenes/mid scene 1.unity using Guid(9dd9ef399bca248d895a23c4b579de20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f56064a69d0630cffaf2a67e18d1d9c') in 0.003400 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
