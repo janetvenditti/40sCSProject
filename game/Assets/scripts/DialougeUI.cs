@@ -8,7 +8,7 @@ public class DialougeUI : MonoBehaviour
 
     private void Start()
     {
-    //    GetComponent<TypeWritterEffect>().Run("This is text\n Hey", textlabel);
-    textLabel.text = "Hello\nThis is the next line.";
+       GetComponent<TypeWritterEffect>().Run("This is text\n Hey", textlabel);
+       // textLabel.text = "Hello\nThis is the next line.";
     }
 }

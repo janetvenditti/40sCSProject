@@ -14,7 +14,7 @@ public class NewBehaviourScript : MonoBehaviour
    }
 
 
-    //types the text
+    //types the text onto the label
    private IEnumerator TypeText(string textToType, TMP_Text textLabel)
    {
         //time elapsed since writting starts 
@@ -25,9 +25,9 @@ public class NewBehaviourScript : MonoBehaviour
         while (charIndex < textToType.Length)
         {
             //becomes 1 after 1 second etc. 
-            T += Time.deltaTime;
+            t += Time.deltaTime;
 
-            //stored the floored value of the timer (rounded value)
+            //stored the rounded value of the timer 
             charIndex = Mathf.FloorToInt(t);
 
             //only typing for the message duration needed 
