@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52842
+62000
 Successfully changed project path to: /Users/Wendy/Documents/GitHub/40sCSProject/game
 /Users/Wendy/Documents/GitHub/40sCSProject/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/Wendy/Documents/GitHub/40sCSProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704718481280] Host "[IP] 10.200.0.20 [Port] 0 [Flags] 2 [Guid] 3932668012 [EditorId] 3932668012 [Version] 1048832 [Id] OSXEditor(0,xiaonings-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704718481280] Host "[IP] 10.200.0.38 [Port] 0 [Flags] 2 [Guid] 1586823240 [EditorId] 1586823240 [Version] 1048832 [Id] OSXEditor(0,xiaonings-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704718481280] Host "[IP] 10.200.0.20 [Port] 0 [Flags] 2 [Guid] 3932668012 [EditorId] 3932668012 [Version] 1048832 [Id] OSXEditor(0,xiaonings-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704718481280] Host "[IP] 10.200.0.38 [Port] 0 [Flags] 2 [Guid] 1586823240 [EditorId] 1586823240 [Version] 1048832 [Id] OSXEditor(0,xiaonings-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 36.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -77,46 +77,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56898
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56279
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.013072 seconds.
-- Loaded All Assemblies, in  1.769 seconds
+Registered in 0.011910 seconds.
+- Loaded All Assemblies, in  1.647 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.902 seconds
-Domain Reload Profiling: 2671ms
-	BeginReloadAssembly (596ms)
+- Finished resetting the current domain, in  1.171 seconds
+Domain Reload Profiling: 2818ms
+	BeginReloadAssembly (636ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (145ms)
+	RebuildCommonClasses (152ms)
 	RebuildNativeTypeToScriptingClass (48ms)
-	initialDomainReloadingComplete (225ms)
-	LoadAllAssembliesAndSetupDomain (753ms)
-		LoadAssemblies (598ms)
+	initialDomainReloadingComplete (214ms)
+	LoadAllAssembliesAndSetupDomain (595ms)
+		LoadAssemblies (637ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (744ms)
-			TypeCache.Refresh (737ms)
-				TypeCache.ScanAssembly (673ms)
+		AnalyzeDomain (587ms)
+			TypeCache.Refresh (581ms)
+				TypeCache.ScanAssembly (535ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (904ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1173ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (682ms)
+		SetupLoadedEditorAssemblies (878ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (15ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (25ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (469ms)
-			ProcessInitializeOnLoadMethodAttributes (165ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (635ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,8 +124,8 @@ Domain Reload Profiling: 2671ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.545 seconds
-Refreshing native plugins compatible for Editor in 8.60 ms, found 2 plugins.
+- Loaded All Assemblies, in  2.219 seconds
+Refreshing native plugins compatible for Editor in 7.94 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 System.Reflection.TargetException: Non-static method requires a target.
@@ -141,58 +141,55 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.542 seconds
-Domain Reload Profiling: 5086ms
-	BeginReloadAssembly (507ms)
+- Finished resetting the current domain, in  1.794 seconds
+Domain Reload Profiling: 4014ms
+	BeginReloadAssembly (414ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (111ms)
-	RebuildCommonClasses (141ms)
-	RebuildNativeTypeToScriptingClass (58ms)
-	initialDomainReloadingComplete (215ms)
-	LoadAllAssembliesAndSetupDomain (1622ms)
-		LoadAssemblies (1108ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (752ms)
+	LoadAllAssembliesAndSetupDomain (932ms)
+		LoadAssemblies (769ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (747ms)
-			TypeCache.Refresh (610ms)
-				TypeCache.ScanAssembly (564ms)
-			ScanForSourceGeneratedMonoScriptInfo (97ms)
-			ResolveRequiredComponents (34ms)
-	FinalizeReload (2543ms)
+		AnalyzeDomain (359ms)
+			TypeCache.Refresh (293ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1797ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1801ms)
+		SetupLoadedEditorAssemblies (1195ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (251ms)
-			ProcessInitializeOnLoadAttributes (1354ms)
-			ProcessInitializeOnLoadMethodAttributes (170ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (831ms)
+			ProcessInitializeOnLoadMethodAttributes (197ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 1.03 seconds
-Refreshing native plugins compatible for Editor in 4.81 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.36 seconds
+Refreshing native plugins compatible for Editor in 4.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4170 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (52.1 KB). Loaded Objects now: 4640.
-Memory consumption went from 159.6 MB to 159.5 MB.
-Total: 53.024536 ms (FindLiveObjects: 0.679337 ms CreateObjectMapping: 0.678657 ms MarkObjects: 51.344223 ms  DeleteObjects: 0.319379 ms)
+Unloading 4172 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (52.2 KB). Loaded Objects now: 4642.
+Memory consumption went from 159.7 MB to 159.7 MB.
+Total: 25.664607 ms (FindLiveObjects: 3.758979 ms CreateObjectMapping: 1.894476 ms MarkObjects: 19.562462 ms  DeleteObjects: 0.446276 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/CameraMovement.cs: c8be60a4d80d349a8abcde1df4c10f34 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -200,752 +197,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22215.999868 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Mode@2x.png
-  artifactKey: Guid(ff2aa9ebc8aee604caa5f8459ac4ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Mode@2x.png using Guid(ff2aa9ebc8aee604caa5f8459ac4ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efabd7980db16186cd607a9a2a01c9d') in 0.544247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_playhead.png
-  artifactKey: Guid(9ea72647c24be493ba6f15a9cd2a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_playhead.png using Guid(9ea72647c24be493ba6f15a9cd2a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b0700fed85691e863b7998958fff57') in 0.038996 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.002568 seconds.
-  path: Packages/com.unity.2d.common/Path/Editor/Handles/Path/pointNormal.png
-  artifactKey: Guid(2792173d76a5f4d2ebe800b6b4b096cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.common/Path/Editor/Handles/Path/pointNormal.png using Guid(2792173d76a5f4d2ebe800b6b4b096cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27072b21b013e678125eb7d1a3651b7') in 0.128322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.049578 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/right-roof.png
-  artifactKey: Guid(8fda6f3fa68a04d50868eac837501e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/right-roof.png using Guid(8fda6f3fa68a04d50868eac837501e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f01ad47f3137a1ffa30a2a59afb193') in 0.056745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-6.png
-  artifactKey: Guid(3d8a9c6df455a44fdbf025c92771f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-6.png using Guid(3d8a9c6df455a44fdbf025c92771f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bf4057ccd196c5a954551029bfa929') in 0.028491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000575 seconds.
-  path: Packages/com.unity.2d.common/Path/Editor/Handles/TangentBrokenPro.png
-  artifactKey: Guid(8bdd64764208642f9adc3509ebbe41a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.common/Path/Editor/Handles/TangentBrokenPro.png using Guid(8bdd64764208642f9adc3509ebbe41a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8ebb01478bcf1cd03706424ca40343') in 0.041749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Mode@4x.png
-  artifactKey: Guid(2223b0a570b66ee42b3e0a79f0789b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Mode@4x.png using Guid(2223b0a570b66ee42b3e0a79f0789b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c93d76bb6d1089b00ab9fa61e609e84') in 0.037611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Thaleah_PixelFont/Materials/Thaleah_DemoBackground.png
-  artifactKey: Guid(b324a4685d480b346b084e8a5dbacbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thaleah_PixelFont/Materials/Thaleah_DemoBackground.png using Guid(b324a4685d480b346b084e8a5dbacbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a416611ee6146768a622a357520f26dc') in 0.041282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Influence@3x.png
-  artifactKey: Guid(563e4d2d28c2241fbbb33e85f9b27efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Influence@3x.png using Guid(563e4d2d28c2241fbbb33e85f9b27efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e02534dd67c2d83b47dd35fa1c8a686') in 0.069707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Paste.png
-  artifactKey: Guid(50eb3d76f731b5e46a7b8a0a52d93ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Paste.png using Guid(50eb3d76f731b5e46a7b8a0a52d93ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93edcc4c1765420cb4ff79f011b802f') in 0.041501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@2x.png
-  artifactKey: Guid(cfe99a1afb609b4488d6fc9224a62f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@2x.png using Guid(cfe99a1afb609b4488d6fc9224a62f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b8ff7850b0e4fcbadc7724925ac308') in 0.032245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-mirror-left.png
-  artifactKey: Guid(c9c0121df426946c4a17cf572c4abfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-mirror-left.png using Guid(c9c0121df426946c4a17cf572c4abfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec565d0310064e6637359e20a2afb72') in 0.039478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/SetPivot16.png
-  artifactKey: Guid(e7ae402e1190249f4a2be52eb7ec09c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/SetPivot16.png using Guid(e7ae402e1190249f4a2be52eb7ec09c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb2929a3a8ba7f1dff50e811963c50') in 0.198572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/SetPivot128.png
-  artifactKey: Guid(51e0c1c1bb4924d41bab2ecec79e8956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/SetPivot128.png using Guid(51e0c1c1bb4924d41bab2ecec79e8956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7065fd27ec6ac634936c5d6df04fab52') in 0.037353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.055768 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Parent_Bone.png
-  artifactKey: Guid(1b8ac2bef8a060f4ca19b22a3720cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Parent_Bone.png using Guid(1b8ac2bef8a060f4ca19b22a3720cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d09274217166b10ad9e460f9ea2620') in 0.021222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.009800 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-run-shot/player-run-shot-7.png
-  artifactKey: Guid(9aa18040731904d79afd670e2953be6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run-shot/player-run-shot-7.png using Guid(9aa18040731904d79afd670e2953be6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273ac9e539c2462ad076e89ba42147a5') in 0.026567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/karsiori/Sprites/Spark/Sprites/Spark - 0006.png
-  artifactKey: Guid(087c57f3e28dec04aaaaad91e52c63a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/Spark/Sprites/Spark - 0006.png using Guid(087c57f3e28dec04aaaaad91e52c63a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afa181423b62faa8a7e727937c89105') in 0.026271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-8.png
-  artifactKey: Guid(859d202d134124591a5842707b580b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-8.png using Guid(859d202d134124591a5842707b580b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f3ec893f4b419421fd63e3cd22716b') in 0.035784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/SetPivot256.png
-  artifactKey: Guid(cf571779d45114b29b2641744a545123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/SetPivot256.png using Guid(cf571779d45114b29b2641744a545123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9707078fd7e6897668971fc48ed0649c') in 0.045862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000865 seconds.
-  path: Assets/karsiori/Sprites/Spark/Sprites/Spark - 0004.png
-  artifactKey: Guid(26015cc1c3779654f810d32591117a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/Spark/Sprites/Spark - 0004.png using Guid(26015cc1c3779654f810d32591117a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54c483492ddf39f3851cae36f9e99e7') in 0.038746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Paste@4x.png
-  artifactKey: Guid(5d4fa2fdecdadcb468baaedc792cc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Paste@4x.png using Guid(5d4fa2fdecdadcb468baaedc792cc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93039c37cc9fc55fc3c704278a1a0267') in 0.023772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-right.png
-  artifactKey: Guid(d9f50f119881d4482b730509af83ef67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-right.png using Guid(d9f50f119881d4482b730509af83ef67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c084ebad6ad597eb5c069ce8a8968d6') in 0.025221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001133 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split Bones@3x.png
-  artifactKey: Guid(6b35476d10ed5614a949de8f7c45b534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split Bones@3x.png using Guid(6b35476d10ed5614a949de8f7c45b534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61eabc3734d3377c57f3e95faaf09f0b') in 0.040941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.071142 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-mirror-right.png
-  artifactKey: Guid(0da3760f971774ab2b579f57ea9d257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-mirror-right.png using Guid(0da3760f971774ab2b579f57ea9d257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c6dd3be9e7041d64f06ce47f575a24') in 0.028640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-duck/player-duck.png
-  artifactKey: Guid(037f4355400544ba2b7a278f7017ca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-duck/player-duck.png using Guid(037f4355400544ba2b7a278f7017ca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99839c6113e0acd49ade281aa04c0ad') in 0.076368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_rightrange.png
-  artifactKey: Guid(ee5df01235032491c8b180741ea820fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_rightrange.png using Guid(ee5df01235032491c8b180741ea820fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac23e8e4d4d389fa9a5aba5d8ffe178') in 0.037179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000992 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Influence.png
-  artifactKey: Guid(768531f76566d4b18bfe4ed7b21e5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Influence.png using Guid(768531f76566d4b18bfe4ed7b21e5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb68e50913f675a4183fa0c63d8ef01') in 0.031204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split Bones@2x.png
-  artifactKey: Guid(180eeff5b9e615349907ea53344202fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split Bones@2x.png using Guid(180eeff5b9e615349907ea53344202fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d8a6137ac378a3159132d9b2106595') in 0.028095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Packages/com.unity.2d.common/Path/Editor/Handles/ShapeTool.png
-  artifactKey: Guid(2fd4f13c38edc483ba5fce64269a434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.common/Path/Editor/Handles/ShapeTool.png using Guid(2fd4f13c38edc483ba5fce64269a434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9fc95708dd40df92ed6fa85f68b509') in 0.032084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Parent_Bone@3x.png
-  artifactKey: Guid(6f4409ce938bf9447a36e531f7755ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Parent_Bone@3x.png using Guid(6f4409ce938bf9447a36e531f7755ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496c96eec85e7bdfa3e60846e7ad024d') in 0.025782 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
-  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11fdf69a865d6a1ee3c5a8f198c188d') in 0.029183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001162 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Paste@2x.png
-  artifactKey: Guid(cd0250057a3f07346b60675b355c3e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Paste@2x.png using Guid(cd0250057a3f07346b60675b355c3e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb43468b71496e6bff1c5f5ccd75ce9') in 0.030352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001046 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/SetPivot128.png
-  artifactKey: Guid(6e69868210a834182b29ea52c36a0a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/SetPivot128.png using Guid(6e69868210a834182b29ea52c36a0a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474bf4cb93f0c89842cacd9175c2460b') in 0.030835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/karsiori/Sprites/Spark/Sprites/Spark - 0003.png
-  artifactKey: Guid(6b83ac617aedb0c429a02a59fcea8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/Spark/Sprites/Spark - 0003.png using Guid(6b83ac617aedb0c429a02a59fcea8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31b0164c6e04cba8e06383e2749761e') in 0.044295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-stand/player-stand-3.png
-  artifactKey: Guid(4149834ededb3446eab6190dd4e0ff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-stand/player-stand-3.png using Guid(4149834ededb3446eab6190dd4e0ff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346eb809f8c8722c02fefa126ca01148') in 0.023155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Packages/com.unity.2d.common/Path/Editor/Handles/TangentBroken.png
-  artifactKey: Guid(fe95aee6edcd44a18bb5f5ff8269e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.common/Path/Editor/Handles/TangentBroken.png using Guid(fe95aee6edcd44a18bb5f5ff8269e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76b2ca2207214204073a793c3af3ee9') in 0.027889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/Props/plant-small.png
-  artifactKey: Guid(a77f62efa515f402db40ed83d40adbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/Props/plant-small.png using Guid(a77f62efa515f402db40ed83d40adbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8f6bbf7b27c92f01fcf8f3fe0adf7f') in 0.079824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/Props/plant-big.png
-  artifactKey: Guid(c5f562f1c91da468b9c01eaf24858791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/Props/plant-big.png using Guid(c5f562f1c91da468b9c01eaf24858791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c0c7bdf78e2d99741b08ffa9af3665') in 0.032556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001098 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Textures/Sprite Shape Corner.png
-  artifactKey: Guid(608e61deb05c54660bebf5a4dd2ee02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Textures/Sprite Shape Corner.png using Guid(608e61deb05c54660bebf5a4dd2ee02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04d88d1e2886d4a13e22c119711de28') in 0.039928 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.066081 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Split Bones@3x.png
-  artifactKey: Guid(29f90cd6202745c448e74a1398b1c731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Split Bones@3x.png using Guid(29f90cd6202745c448e74a1398b1c731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7725bc018f72caa3bbd37a115c8bc583') in 0.020480 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001667 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split Bones.png
-  artifactKey: Guid(59bc7a7ca0683ac439e255a533670885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split Bones.png using Guid(59bc7a7ca0683ac439e255a533670885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448575a9280b708a8340aade6eb65fea') in 0.048086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/SetPivot256.png
-  artifactKey: Guid(b51dea53643c34332b1c8cfc0865d0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/SetPivot256.png using Guid(b51dea53643c34332b1c8cfc0865d0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835144c8dc35032835f07bf51569c5a7') in 0.021032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode.png
-  artifactKey: Guid(2ad84ec7182471b4d8c44de568e22df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode.png using Guid(2ad84ec7182471b4d8c44de568e22df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a8c44ccba5ea531dfb7b9c31d39c21') in 0.072232 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Influence@4x.png
-  artifactKey: Guid(e959cb82696cd4dbf9e6b448af425c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Influence@4x.png using Guid(e959cb82696cd4dbf9e6b448af425c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057b26c9b743563452386a455594ebcc') in 0.022734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png
-  artifactKey: Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png using Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a150b5e776e7638e87cf0abde90734c6') in 0.025300 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/SetPivot32.png
-  artifactKey: Guid(2a637fd14bfd64d0e965e4c9e4a7d8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/SetPivot32.png using Guid(2a637fd14bfd64d0e965e4c9e4a7d8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bf7bf278c5c32c74191706b21f6cc7') in 0.029119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-idle/player-idle-1.png
-  artifactKey: Guid(c2c08c932c2054a0da13bc4dd9db298d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-idle/player-idle-1.png using Guid(c2c08c932c2054a0da13bc4dd9db298d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c1b94aa06cf1dd8698eb071e25e19f') in 0.022945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-left.png
-  artifactKey: Guid(9b3f5e3b1c9ca42abbd9656c79a457c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-left.png using Guid(9b3f5e3b1c9ca42abbd9656c79a457c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c523d24710e82be4c80970f50e5576') in 0.018805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-run-shot/player-run-shot-9.png
-  artifactKey: Guid(0d48d2d6d338846c682bddd0f13e6093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run-shot/player-run-shot-9.png using Guid(0d48d2d6d338846c682bddd0f13e6093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9307c64bb3342b8f15b7278faf86f020') in 0.031136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000975 seconds.
-  path: Packages/com.unity.2d.common/Path/Editor/Handles/TangentLinearPro.png
-  artifactKey: Guid(5315c047999aa4d869298f6988dfeb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.common/Path/Editor/Handles/TangentLinearPro.png using Guid(5315c047999aa4d869298f6988dfeb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a271f87805aa8fca2323dd1d7d856a89') in 0.035802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000844 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/SetPivot16.png
-  artifactKey: Guid(a2e0c70949436438eb2f97e6849191b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/SetPivot16.png using Guid(a2e0c70949436438eb2f97e6849191b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7522b6f82bb9577436c47e80e2e39b') in 0.027276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000945 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Parent_Bone@2x.png
-  artifactKey: Guid(698621c9178225f4b8fbaffd383d579e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Parent_Bone@2x.png using Guid(698621c9178225f4b8fbaffd383d579e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efa102e4f471a2356f2ba4c9c005e03') in 0.032777 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@4x.png
-  artifactKey: Guid(554a30a45860f494ca38586c54b7e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@4x.png using Guid(554a30a45860f494ca38586c54b7e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bee30c4cf6105fbc601f5345cd7c0e6') in 0.033088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/karsiori/Sprites/Spark/Sprites/Spark - 0002.png
-  artifactKey: Guid(66d444c02f446994aa1c76b7d359fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/Spark/Sprites/Spark - 0002.png using Guid(66d444c02f446994aa1c76b7d359fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d721f7c88b39a3d5b27c848a932437b') in 0.026815 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/karsiori/Sprites/Spark/Sprites/Spark - 0007.png
-  artifactKey: Guid(20001efd5ffd2d647a7165850e823aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/Spark/Sprites/Spark - 0007.png using Guid(20001efd5ffd2d647a7165850e823aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089ea8834e25f01d2948a91e3937b514') in 0.031168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror-right.png
-  artifactKey: Guid(a15be16791e2a4bf9926da9c40933bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror-right.png using Guid(a15be16791e2a4bf9926da9c40933bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a3be716ccd212ee2177c85f2b3ecd0') in 0.049474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Parent_Bone@4x.png
-  artifactKey: Guid(03b3f669dc5706a4592344c6385af858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Parent_Bone@4x.png using Guid(03b3f669dc5706a4592344c6385af858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd2aaec1c7b55d8f3dc047136676101') in 0.036113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split Bones@4x.png
-  artifactKey: Guid(e530623cd53f3ea46ac09b786f0c49ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split Bones@4x.png using Guid(e530623cd53f3ea46ac09b786f0c49ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c32c1fbfae8b4bf84975a1fea111405') in 0.026155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-5.png
-  artifactKey: Guid(2f270f338bc0a47ccba57837832c2e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-5.png using Guid(2f270f338bc0a47ccba57837832c2e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee97bec2659025e40ccd56fff3fd4c7e') in 0.033012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Paste@3x.png
-  artifactKey: Guid(e6fe7bda78bd09a46bb7f4a684a91927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Paste@3x.png using Guid(e6fe7bda78bd09a46bb7f4a684a91927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e943d31aa88296e0f8169237eecc24') in 0.018858 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001046 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@3x.png
-  artifactKey: Guid(71d8b2e508f1d9947ba51013600a5eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@3x.png using Guid(71d8b2e508f1d9947ba51013600a5eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d350e68526c51f5299e72b2f15b0ef4') in 0.038914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Paste@2x.png
-  artifactKey: Guid(54b8604d8a7085842917d5b83ca73854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Paste@2x.png using Guid(54b8604d8a7085842917d5b83ca73854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69702bd40e729a2c34ec49698d781f5') in 0.028353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.003807 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Parent_Bone@2x.png
-  artifactKey: Guid(fc9e5a25e0610a347b46fd10daa3f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Parent_Bone@2x.png using Guid(fc9e5a25e0610a347b46fd10daa3f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf6a4f2d71ea157b510bb2c80fc3dd8') in 0.056710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.004420 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Mode.png
-  artifactKey: Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Mode.png using Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c9d761cad385b83343efc58dd71a0e') in 0.063076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Textures/Sprite Shape Fill.png
-  artifactKey: Guid(b281b91a70a624a0da1c43adc1c30c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Textures/Sprite Shape Fill.png using Guid(b281b91a70a624a0da1c43adc1c30c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aabeb6a26efdd67c069d58d1a02696c') in 0.048340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-stand/player-stand-2.png
-  artifactKey: Guid(426b706446ade402eaf3f3d592a2a97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-stand/player-stand-2.png using Guid(426b706446ade402eaf3f3d592a2a97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395cb6330952a5f77f9b0723ee50fba9') in 0.046417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001167 seconds.
-  path: Packages/com.unity.2d.common/Path/Editor/Handles/TangentContinuousPro.png
-  artifactKey: Guid(25c4e987877a046bd994284ffeabc78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.common/Path/Editor/Handles/TangentContinuousPro.png using Guid(25c4e987877a046bd994284ffeabc78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71c2da0b9b919068b3b234d8e1f0be8') in 0.028129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001024 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/street-lamp.png
-  artifactKey: Guid(4f21d02d3ca1c4521bbeffb4c158b72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/street-lamp.png using Guid(4f21d02d3ca1c4521bbeffb4c158b72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9540d32136535923388d635deb777e90') in 0.023520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Packages/com.unity.2d.common/Path/Editor/Handles/ShapeToolPro.png
-  artifactKey: Guid(766cfa1430bc448ed93c5817e7682f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.common/Path/Editor/Handles/ShapeToolPro.png using Guid(766cfa1430bc448ed93c5817e7682f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4afe9e10640ae43bf11a8d522c869a') in 0.031997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Parent_Bone@4x.png
-  artifactKey: Guid(d0604e80537a4ff4881a6182ae5afe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Parent_Bone@4x.png using Guid(d0604e80537a4ff4881a6182ae5afe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbae33a3d2b1d5f4a1796a01368812e2') in 0.021768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001117 seconds.
-  path: Assets/karsiori/Sprites/Spark/Sprites/Spark - 0001.png
-  artifactKey: Guid(d8866ed1b9a2f5845b3a487f92d4bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/Spark/Sprites/Spark - 0001.png using Guid(d8866ed1b9a2f5845b3a487f92d4bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64aa8156b8ee1c5ebd207de65e77b7e') in 0.027340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/Props/stone.png
-  artifactKey: Guid(1bc4bb9b4192d48ed95e89571e15d14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/Props/stone.png using Guid(1bc4bb9b4192d48ed95e89571e15d14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d879ae9aa0edf15d6c3d7559e3ad80a') in 0.029273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000713 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/roof.png
-  artifactKey: Guid(e4e395b3e8b6242bb8cadcc8cc984dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/roof.png using Guid(e4e395b3e8b6242bb8cadcc8cc984dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29518f6b0eaf236b5b846f5885417f9d') in 0.029942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/right-corner.png
-  artifactKey: Guid(af4e3be53e9b641998a9eace67f71d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/right-corner.png using Guid(af4e3be53e9b641998a9eace67f71d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e562f51f45684734839e78afa074676d') in 0.023307 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-shoot-up/player-shoot-up.png
-  artifactKey: Guid(b6c2d3a1d0b194296ac57df14d20e8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-shoot-up/player-shoot-up.png using Guid(b6c2d3a1d0b194296ac57df14d20e8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61be953c510a13d94076f284ee54db8e') in 0.029196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-hurt/player-hurt-1.png
-  artifactKey: Guid(41ea03351725e4179bd9c76ebf4488cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-hurt/player-hurt-1.png using Guid(41ea03351725e4179bd9c76ebf4488cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407c3aa1a61c1af36cc0736f5eff9212') in 0.030717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000637 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Paste.png
-  artifactKey: Guid(94cc0d3ec6363a94c8802f10ef239744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Paste.png using Guid(94cc0d3ec6363a94c8802f10ef239744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d76527280053a9b7acbb94a608575f2') in 0.029269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-7.png
-  artifactKey: Guid(9c843823fb6a54ceb9ebf200520c2f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-7.png using Guid(9c843823fb6a54ceb9ebf200520c2f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52a337d175b2c0a6448ecf7302a1e96') in 0.035423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001885 seconds.
-  path: Assets/karsiori/Sprites/Spark/Sprites/Spark - 0009.png
-  artifactKey: Guid(d3ed1ee8c2643cf449f472e11c64cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/Spark/Sprites/Spark - 0009.png using Guid(d3ed1ee8c2643cf449f472e11c64cab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa47992216d47c4b53a56208379739e7') in 0.026035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001370 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png
-  artifactKey: Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png using Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdea49496cc28c1bb6fa4514ccb80dea') in 0.036235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001757 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/sign.png
-  artifactKey: Guid(799dd867b58aa4efd917360b1747174a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/sign.png using Guid(799dd867b58aa4efd917360b1747174a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302cf46c49bf254430622b67f852a0cc') in 0.024026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/player/player-run-shot/player-run-shot-3.png
-  artifactKey: Guid(6c2828ee666b8459a965b5fa132aa927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run-shot/player-run-shot-3.png using Guid(6c2828ee666b8459a965b5fa132aa927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3415d9981804701d98aa6334d23dc307') in 0.031366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Split Bones@2x.png
-  artifactKey: Guid(652f381007a2d2247a40aa63c91c2565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Split Bones@2x.png using Guid(652f381007a2d2247a40aa63c91c2565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b067165b5b578fd89618b292b1397e1') in 0.031003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split_Edge@4x.png
-  artifactKey: Guid(21d43e7114c758c49886cb9fc604dd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Split_Edge@4x.png using Guid(21d43e7114c758c49886cb9fc604dd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f45f084ffb8b9555aeec109cd00b8d') in 0.031522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror.png
-  artifactKey: Guid(8d62eb9e1c1cf4f189a234c4d966ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror.png using Guid(8d62eb9e1c1cf4f189a234c4d966ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0065a284850eadf9bda192a1c05618af') in 0.033111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Influence.png
-  artifactKey: Guid(a2db0b51e2c0e418b8d5f85cee0d4876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Sprite_Influence.png using Guid(a2db0b51e2c0e418b8d5f85cee0d4876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b79b5535ce5becc6b022e2c57af062') in 0.051773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+  Time since last request: 90665.448364 seconds.
+  path: Assets/RF Castle/Animated/floating text 1.controller
+  artifactKey: Guid(bb2efcdc4eb074f18bbddee985932fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/floating text 1.controller using Guid(bb2efcdc4eb074f18bbddee985932fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ed2874760aba1bb5f8adfde8eb329f') in 0.066285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.709 seconds
-Refreshing native plugins compatible for Editor in 9.13 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-System.Reflection.TargetException: Non-static method requires a target.
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.987 seconds
-Domain Reload Profiling: 4696ms
-	BeginReloadAssembly (694ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (131ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (245ms)
-	RebuildCommonClasses (109ms)
-	RebuildNativeTypeToScriptingClass (51ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (761ms)
-		LoadAssemblies (946ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (50ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (2988ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1025ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (182ms)
-			ProcessInitializeOnLoadAttributes (691ms)
-			ProcessInitializeOnLoadMethodAttributes (120ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 3.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 22.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4142 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4694.
-Memory consumption went from 160.2 MB to 160.2 MB.
-Total: 12.062423 ms (FindLiveObjects: 0.839849 ms CreateObjectMapping: 0.982747 ms MarkObjects: 10.089790 ms  DeleteObjects: 0.147723 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4643.
+Memory consumption went from 88.1 MB to 88.1 MB.
+Total: 26.720935 ms (FindLiveObjects: 1.342366 ms CreateObjectMapping: 0.511619 ms MarkObjects: 24.740536 ms  DeleteObjects: 0.124478 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -953,7 +218,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/CameraMovement.cs: c8be60a4d80d349a8abcde1df4c10f34 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -963,10 +227,18 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 278.297138 seconds.
+  path: Assets/RF Castle/Animated/floating text 1.controller
+  artifactKey: Guid(bb2efcdc4eb074f18bbddee985932fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/floating text 1.controller using Guid(bb2efcdc4eb074f18bbddee985932fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d96566f00614fbdf465fd247734a1c4') in 0.021696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.643 seconds
-Refreshing native plugins compatible for Editor in 9.23 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.560 seconds
+Refreshing native plugins compatible for Editor in 11.12 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 System.Reflection.TargetException: Non-static method requires a target.
@@ -982,46 +254,1404 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.828 seconds
-Domain Reload Profiling: 6478ms
-	BeginReloadAssembly (1584ms)
+- Finished resetting the current domain, in  3.750 seconds
+Domain Reload Profiling: 5309ms
+	BeginReloadAssembly (592ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (159ms)
+		DisableScriptedObjects (57ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (573ms)
-	RebuildCommonClasses (187ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (91ms)
-	LoadAllAssembliesAndSetupDomain (750ms)
-		LoadAssemblies (1388ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (224ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (733ms)
+		LoadAssemblies (854ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (43ms)
-			TypeCache.Refresh (20ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (68ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (3829ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3751ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (890ms)
+		SetupLoadedEditorAssemblies (1004ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (683ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 6.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4648.
+Memory consumption went from 157.5 MB to 157.4 MB.
+Total: 22.412332 ms (FindLiveObjects: 0.763293 ms CreateObjectMapping: 0.846407 ms MarkObjects: 19.895904 ms  DeleteObjects: 0.904645 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.536 seconds
+Refreshing native plugins compatible for Editor in 7.99 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.249 seconds
+Domain Reload Profiling: 4787ms
+	BeginReloadAssembly (485ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (42ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (186ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (152ms)
+	LoadAllAssembliesAndSetupDomain (748ms)
+		LoadAssemblies (888ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3250ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (889ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 5.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4652.
+Memory consumption went from 163.1 MB to 163.1 MB.
+Total: 12.269807 ms (FindLiveObjects: 0.674477 ms CreateObjectMapping: 1.034125 ms MarkObjects: 10.384683 ms  DeleteObjects: 0.172542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.988 seconds
+Refreshing native plugins compatible for Editor in 4.35 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.789 seconds
+Domain Reload Profiling: 3776ms
+	BeginReloadAssembly (342ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (129ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (543ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2790ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (886ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (627ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 3.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4656.
+Memory consumption went from 168.5 MB to 168.5 MB.
+Total: 8.068985 ms (FindLiveObjects: 0.633184 ms CreateObjectMapping: 0.559080 ms MarkObjects: 6.789789 ms  DeleteObjects: 0.084686 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.784 seconds
+Refreshing native plugins compatible for Editor in 7.96 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.882 seconds
+Domain Reload Profiling: 5669ms
+	BeginReloadAssembly (584ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (62ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (179ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (128ms)
+	LoadAllAssembliesAndSetupDomain (913ms)
+		LoadAssemblies (1108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (68ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (3884ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1231ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (818ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 5.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4660.
+Memory consumption went from 173.9 MB to 173.9 MB.
+Total: 10.794686 ms (FindLiveObjects: 0.547878 ms CreateObjectMapping: 0.735805 ms MarkObjects: 9.423006 ms  DeleteObjects: 0.084670 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.122 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.206 seconds
+Domain Reload Profiling: 4328ms
+	BeginReloadAssembly (386ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (136ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (643ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3208ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1125ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (753ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 3.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.2 KB). Loaded Objects now: 4664.
+Memory consumption went from 179.3 MB to 179.3 MB.
+Total: 11.306547 ms (FindLiveObjects: 0.891565 ms CreateObjectMapping: 0.739331 ms MarkObjects: 9.571955 ms  DeleteObjects: 0.100967 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.064 seconds
+Refreshing native plugins compatible for Editor in 5.36 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.306 seconds
+Domain Reload Profiling: 4369ms
+	BeginReloadAssembly (341ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (112ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (644ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3307ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1107ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (775ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 11.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4668.
+Memory consumption went from 184.8 MB to 184.7 MB.
+Total: 25.250534 ms (FindLiveObjects: 1.012392 ms CreateObjectMapping: 1.090567 ms MarkObjects: 22.977992 ms  DeleteObjects: 0.167538 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.424 seconds
+Refreshing native plugins compatible for Editor in 4.48 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.725 seconds
+Domain Reload Profiling: 5150ms
+	BeginReloadAssembly (368ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (829ms)
+		LoadAssemblies (919ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (3727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (811ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 6.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4672.
+Memory consumption went from 190.2 MB to 190.1 MB.
+Total: 9.202696 ms (FindLiveObjects: 0.533515 ms CreateObjectMapping: 0.540547 ms MarkObjects: 8.026315 ms  DeleteObjects: 0.098766 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.023 seconds
+Refreshing native plugins compatible for Editor in 5.12 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.495 seconds
+Domain Reload Profiling: 4517ms
+	BeginReloadAssembly (348ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (122ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (467ms)
+		LoadAssemblies (584ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (3496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1271ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (888ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 7.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4676.
+Memory consumption went from 195.6 MB to 195.5 MB.
+Total: 10.207130 ms (FindLiveObjects: 0.648118 ms CreateObjectMapping: 0.638540 ms MarkObjects: 8.806097 ms  DeleteObjects: 0.110683 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 702.494428 seconds.
+  path: Assets/RF Castle/Animated/floating text 1.controller
+  artifactKey: Guid(bb2efcdc4eb074f18bbddee985932fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/floating text 1.controller using Guid(bb2efcdc4eb074f18bbddee985932fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a8d8ab7b8950a6e90f72b8d4a9dd55') in 0.037357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.143 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.484 seconds
+Domain Reload Profiling: 4626ms
+	BeginReloadAssembly (332ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (696ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1050ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (713ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 5.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4680.
+Memory consumption went from 200.9 MB to 200.9 MB.
+Total: 12.685916 ms (FindLiveObjects: 0.727217 ms CreateObjectMapping: 0.592091 ms MarkObjects: 11.203932 ms  DeleteObjects: 0.159777 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.116 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.205 seconds
+Domain Reload Profiling: 4319ms
+	BeginReloadAssembly (372ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (142ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (613ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3206ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (944ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (646ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 6.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.2 KB). Loaded Objects now: 4684.
+Memory consumption went from 206.6 MB to 206.6 MB.
+Total: 11.642006 ms (FindLiveObjects: 0.882014 ms CreateObjectMapping: 0.864296 ms MarkObjects: 9.790106 ms  DeleteObjects: 0.102074 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.227 seconds
+Refreshing native plugins compatible for Editor in 5.50 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.657 seconds
+Domain Reload Profiling: 5884ms
+	BeginReloadAssembly (430ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (147ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (754ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (4657ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1050ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (717ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 4.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4688.
+Memory consumption went from 212.0 MB to 212.0 MB.
+Total: 10.002899 ms (FindLiveObjects: 0.560943 ms CreateObjectMapping: 0.749779 ms MarkObjects: 8.607102 ms  DeleteObjects: 0.082958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.382 seconds
+Refreshing native plugins compatible for Editor in 6.45 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.373 seconds
+Domain Reload Profiling: 4754ms
+	BeginReloadAssembly (341ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (140ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (794ms)
+		LoadAssemblies (880ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3374ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1087ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (765ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 5.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4692.
+Memory consumption went from 217.4 MB to 217.4 MB.
+Total: 13.148954 ms (FindLiveObjects: 0.574282 ms CreateObjectMapping: 0.894093 ms MarkObjects: 11.526867 ms  DeleteObjects: 0.152021 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.111 seconds
+Refreshing native plugins compatible for Editor in 7.36 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.164 seconds
+Domain Reload Profiling: 4273ms
+	BeginReloadAssembly (392ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (136ms)
+	RebuildCommonClasses (139ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (470ms)
+		LoadAssemblies (601ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3165ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1118ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (741ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 3.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4696.
+Memory consumption went from 222.8 MB to 222.8 MB.
+Total: 9.295991 ms (FindLiveObjects: 0.630876 ms CreateObjectMapping: 0.628901 ms MarkObjects: 7.932726 ms  DeleteObjects: 0.100994 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.395 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.599 seconds
+Domain Reload Profiling: 4992ms
+	BeginReloadAssembly (380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (128ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (775ms)
+		LoadAssemblies (877ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (806ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 5.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4700.
+Memory consumption went from 228.2 MB to 228.2 MB.
+Total: 11.335865 ms (FindLiveObjects: 0.579118 ms CreateObjectMapping: 0.564449 ms MarkObjects: 10.064790 ms  DeleteObjects: 0.125404 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.906 seconds
+Refreshing native plugins compatible for Editor in 4.80 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.098 seconds
+Domain Reload Profiling: 6006ms
+	BeginReloadAssembly (631ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (232ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1041ms)
+		LoadAssemblies (1159ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (49ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (69ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (4099ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (785ms)
+			ProcessInitializeOnLoadMethodAttributes (226ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Refreshing native plugins compatible for Editor in 8.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4704.
+Memory consumption went from 233.6 MB to 233.6 MB.
+Total: 12.123803 ms (FindLiveObjects: 1.003931 ms CreateObjectMapping: 0.804137 ms MarkObjects: 10.214829 ms  DeleteObjects: 0.096676 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.463 seconds
+Refreshing native plugins compatible for Editor in 7.47 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.684 seconds
+Domain Reload Profiling: 5145ms
+	BeginReloadAssembly (408ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (819ms)
+		LoadAssemblies (930ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (3685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (843ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 4.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4708.
+Memory consumption went from 239.0 MB to 239.0 MB.
+Total: 11.887658 ms (FindLiveObjects: 0.579037 ms CreateObjectMapping: 0.749108 ms MarkObjects: 10.431933 ms  DeleteObjects: 0.125199 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.913 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.624 seconds
+Domain Reload Profiling: 5536ms
+	BeginReloadAssembly (672ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (49ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (228ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (950ms)
+		LoadAssemblies (1140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (69ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (3625ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (312ms)
+			ProcessInitializeOnLoadAttributes (869ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 5.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4712.
+Memory consumption went from 244.4 MB to 244.4 MB.
+Total: 9.893015 ms (FindLiveObjects: 0.814617 ms CreateObjectMapping: 0.678142 ms MarkObjects: 8.296921 ms  DeleteObjects: 0.101234 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.370 seconds
+Refreshing native plugins compatible for Editor in 4.58 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.721 seconds
+Domain Reload Profiling: 5090ms
+	BeginReloadAssembly (607ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (134ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (531ms)
+		LoadAssemblies (875ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (3722ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (791ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 7.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4716.
+Memory consumption went from 249.8 MB to 249.8 MB.
+Total: 15.209297 ms (FindLiveObjects: 0.764658 ms CreateObjectMapping: 1.534248 ms MarkObjects: 12.793508 ms  DeleteObjects: 0.112653 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.742 seconds
+Refreshing native plugins compatible for Editor in 5.31 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.004 seconds
+Domain Reload Profiling: 5749ms
+	BeginReloadAssembly (547ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (223ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (156ms)
+	LoadAllAssembliesAndSetupDomain (881ms)
+		LoadAssemblies (1032ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (4005ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1111ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (589ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (770ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Refreshing native plugins compatible for Editor in 7.01 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (32.2 KB). Loaded Objects now: 4698.
-Memory consumption went from 163.8 MB to 163.8 MB.
-Total: 10.176659 ms (FindLiveObjects: 1.016170 ms CreateObjectMapping: 0.742143 ms MarkObjects: 8.256740 ms  DeleteObjects: 0.157322 ms)
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4720.
+Memory consumption went from 255.2 MB to 255.2 MB.
+Total: 14.629011 ms (FindLiveObjects: 0.603434 ms CreateObjectMapping: 1.043273 ms MarkObjects: 12.841006 ms  DeleteObjects: 0.138765 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1029,7 +1659,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/CameraMovement.cs: c8be60a4d80d349a8abcde1df4c10f34 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -1040,17 +1669,400 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 63994.189325 seconds.
-  path: Assets/Scenes 1/castleTwo.unity
-  artifactKey: Guid(8b6db85ee52d040c79866dbf59735edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes 1/castleTwo.unity using Guid(8b6db85ee52d040c79866dbf59735edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b495f8462fbce6571ec8845d1ddbffd7') in 0.013314 seconds
+  Time since last request: 899.707152 seconds.
+  path: Assets/Pet Cats pack/Sprites/Cat-2/Cat-2-Idle.png
+  artifactKey: Guid(bd9215b6d78dec547b18a2109c9e50e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pet Cats pack/Sprites/Cat-2/Cat-2-Idle.png using Guid(bd9215b6d78dec547b18a2109c9e50e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c673e06136007584ace9f228e3d6a77') in 0.394941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.050 seconds
+Refreshing native plugins compatible for Editor in 6.49 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.736 seconds
+Domain Reload Profiling: 5796ms
+	BeginReloadAssembly (650ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (53ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (231ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (127ms)
+	LoadAllAssembliesAndSetupDomain (1129ms)
+		LoadAssemblies (1218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (37ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (80ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (3737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1111ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (753ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 4.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4730.
+Memory consumption went from 263.0 MB to 263.0 MB.
+Total: 12.766285 ms (FindLiveObjects: 0.585022 ms CreateObjectMapping: 0.740076 ms MarkObjects: 11.221857 ms  DeleteObjects: 0.217293 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.277 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.295 seconds
+Domain Reload Profiling: 4571ms
+	BeginReloadAssembly (392ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (134ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (672ms)
+		LoadAssemblies (789ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3296ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1040ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (712ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 6.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.5 KB). Loaded Objects now: 4734.
+Memory consumption went from 268.6 MB to 268.6 MB.
+Total: 11.619647 ms (FindLiveObjects: 0.840679 ms CreateObjectMapping: 0.654888 ms MarkObjects: 9.928321 ms  DeleteObjects: 0.193728 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.231 seconds
+Refreshing native plugins compatible for Editor in 4.68 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.373 seconds
+Domain Reload Profiling: 4606ms
+	BeginReloadAssembly (363ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (130ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (641ms)
+		LoadAssemblies (734ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (3375ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1106ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (757ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 4.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.5 KB). Loaded Objects now: 4738.
+Memory consumption went from 274.0 MB to 274.0 MB.
+Total: 10.315636 ms (FindLiveObjects: 0.756491 ms CreateObjectMapping: 1.116480 ms MarkObjects: 8.332883 ms  DeleteObjects: 0.108095 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.225 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.418 seconds
+Domain Reload Profiling: 4643ms
+	BeginReloadAssembly (397ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (138ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (593ms)
+		LoadAssemblies (713ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1153ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 5.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4742.
+Memory consumption went from 279.5 MB to 279.4 MB.
+Total: 15.208494 ms (FindLiveObjects: 0.508189 ms CreateObjectMapping: 0.544774 ms MarkObjects: 13.467096 ms  DeleteObjects: 0.686483 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.051 seconds
+Refreshing native plugins compatible for Editor in 7.72 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.305 seconds
+Domain Reload Profiling: 6358ms
+	BeginReloadAssembly (729ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (70ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (274ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (1031ms)
+		LoadAssemblies (1277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (57ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (4307ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (771ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 4.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4746.
+Memory consumption went from 284.8 MB to 284.8 MB.
+Total: 12.444315 ms (FindLiveObjects: 0.727212 ms CreateObjectMapping: 0.647749 ms MarkObjects: 10.949759 ms  DeleteObjects: 0.117286 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 594.249017 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44941a143fefd75b218e823382c0cb82') in 0.027200 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.559 seconds
-Refreshing native plugins compatible for Editor in 4.31 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.529 seconds
+Refreshing native plugins compatible for Editor in 7.20 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 System.Reflection.TargetException: Non-static method requires a target.
@@ -1066,46 +2078,46 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.505 seconds
-Domain Reload Profiling: 5064ms
-	BeginReloadAssembly (485ms)
+- Finished resetting the current domain, in  3.528 seconds
+Domain Reload Profiling: 5055ms
+	BeginReloadAssembly (560ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (40ms)
+		DisableScriptedObjects (37ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (181ms)
-	RebuildCommonClasses (136ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (92ms)
-	LoadAllAssembliesAndSetupDomain (813ms)
-		LoadAssemblies (923ms)
+		CreateAndSetChildDomain (169ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (770ms)
+		LoadAssemblies (1006ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (80ms)
-			TypeCache.Refresh (40ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (22ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (3506ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (3529ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (975ms)
+		SetupLoadedEditorAssemblies (915ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (154ms)
-			ProcessInitializeOnLoadAttributes (682ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (623ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 7.90 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 4.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4142 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (32.3 KB). Loaded Objects now: 4702.
-Memory consumption went from 169.2 MB to 169.1 MB.
-Total: 11.194230 ms (FindLiveObjects: 0.730333 ms CreateObjectMapping: 0.945380 ms MarkObjects: 9.390824 ms  DeleteObjects: 0.125653 ms)
+Unloading 4144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4750.
+Memory consumption went from 290.2 MB to 290.2 MB.
+Total: 13.545293 ms (FindLiveObjects: 0.552344 ms CreateObjectMapping: 0.956721 ms MarkObjects: 11.930267 ms  DeleteObjects: 0.104077 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1113,7 +2125,156 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/CameraMovement.cs: c8be60a4d80d349a8abcde1df4c10f34 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.058 seconds
+Refreshing native plugins compatible for Editor in 4.29 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.178 seconds
+Domain Reload Profiling: 4236ms
+	BeginReloadAssembly (368ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (122ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (604ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3180ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1066ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (734ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 6.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4754.
+Memory consumption went from 295.9 MB to 295.9 MB.
+Total: 9.484643 ms (FindLiveObjects: 0.584634 ms CreateObjectMapping: 0.581615 ms MarkObjects: 8.215823 ms  DeleteObjects: 0.100603 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.139 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f646c7a159d243a7909d5204af0f0c56>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.162 seconds
+Domain Reload Profiling: 4300ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (649ms)
+		LoadAssemblies (737ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3163ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (951ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (664ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 6.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.4 KB). Loaded Objects now: 4758.
+Memory consumption went from 301.3 MB to 301.3 MB.
+Total: 9.602275 ms (FindLiveObjects: 0.572543 ms CreateObjectMapping: 0.584886 ms MarkObjects: 8.337401 ms  DeleteObjects: 0.105244 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
