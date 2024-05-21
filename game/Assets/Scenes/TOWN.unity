@@ -91981,7 +91981,7 @@ GameObject:
   - component: {fileID: 656296984}
   m_Layer: 0
   m_Name: 9-Sliced
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92000,6 +92000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsPickedUp: 0
   item: {fileID: 656296983}
+  move: {fileID: 919379419}
 --- !u!61 &656296985
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -92263,7 +92264,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.46371078, y: 1.5813546}
+  m_Offset: {x: -0.6526756, y: 1.5813546}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -92274,7 +92275,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9274216, y: 4.1627083}
+  m_Size: {x: 2.3053513, y: 4.1627083}
   m_EdgeRadius: 0
 --- !u!212 &699738925
 SpriteRenderer:
@@ -92343,6 +92344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemTrigger: {fileID: 656296984}
   next: castleOne
+  move: {fileID: 919379419}
 --- !u!1 &704094410
 GameObject:
   m_ObjectHideFlags: 0

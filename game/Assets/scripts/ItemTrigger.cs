@@ -10,17 +10,18 @@ public class ItemTrigger : MonoBehaviour
     [SerializeField] private bool IsPickedUp;
     Vector2 gone = new Vector2(0,100);
     public GameObject item;
+    public PlayerMovement move;
 
     private void Awake()
     {
-        item = GetComponent<GameObject>();
+        
         item.SetActive(true);
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (move.IsInteracted() == true)
             {
                 IsPickedUp = true;
                 item.SetActive(false);

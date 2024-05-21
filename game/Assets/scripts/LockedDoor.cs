@@ -7,11 +7,12 @@ public class LockedDoor : MonoBehaviour
 {
     public ItemTrigger itemTrigger;
     [SerializeField] private string next;
+    public PlayerMovement move;
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (move.IsInteracted() == true)
             {
                 if(itemTrigger.getIsPickedUp() == true)
                 {
