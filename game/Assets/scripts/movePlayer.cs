@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float JumpHeight = 7f;
     private float speed;
 
-    private enum MovementState { idle, walking, running }
+    private enum MovementState { idle, walking }
     private MovementState state = MovementState.idle;
 
     public MasterInput Controls;
@@ -203,28 +203,16 @@ public class PlayerMovement : MonoBehaviour
             if (inputVector.x > 0 || inputVector.y > 0)
             {
                 Sr.flipX = false;
-                
-                if (speed == WalkSpeed)
-                {
-                    state = MovementState.walking;
-                }
-                else
-                {
-                    state = MovementState.running;
-                }
+
+                state = MovementState.walking;
 
             }
             if (inputVector.x < 0 || inputVector.y < 0)
             {
                 Sr.flipX = true;
-                if (speed == WalkSpeed)
-                {
-                    state = MovementState.walking;
-                }
-                else
-                {
-                    state = MovementState.running;
-                }
+
+
+                state = MovementState.walking;
 
             }
         }
@@ -234,28 +222,15 @@ public class PlayerMovement : MonoBehaviour
             {
                 Sr.flipX = false;
 
-                if (speed == WalkSpeed)
-                {
-                    state = MovementState.walking;
-                }
-                else
-                {
-                    state = MovementState.running;
-                }
+                state = MovementState.walking;
 
             }
             if (inputVector.x < 0)
             {
                 Sr.flipX = true;
-                if (speed == WalkSpeed)
-                {
-                    state = MovementState.walking;
-                }
-                else
-                {
-                    state = MovementState.running;
-                }
 
+
+                state = MovementState.walking;
 
             }
         }
