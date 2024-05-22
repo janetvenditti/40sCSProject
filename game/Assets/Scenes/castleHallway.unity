@@ -435,7 +435,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 35.421104, y: -4.81582}
+  - {x: 43.11232, y: -4.6467824}
   - {x: -15.937717, y: -4.723125}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -469,7 +469,7 @@ Transform:
   m_GameObject: {fileID: 343672881}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.686844, y: 4.1338425, z: -3.2}
+  m_LocalPosition: {x: 34.56, y: 4.72, z: -3.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -488,6 +488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: castleThree
+  move: {fileID: 366864118}
 --- !u!61 &343672884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6041,7 +6042,7 @@ Transform:
   m_GameObject: {fileID: 454675111}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.64687, y: 4.160972, z: -0.4}
+  m_LocalPosition: {x: 34.64687, y: 4.46, z: -0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6105,6 +6106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: castle4
+  move: {fileID: 0}
 --- !u!212 &454675115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8154,7 +8156,7 @@ TilemapCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508981221}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -8649,7 +8651,7 @@ Transform:
   m_GameObject: {fileID: 1462157017}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.98, y: -2.62, z: 0}
+  m_LocalPosition: {x: 19.98, y: -2.54, z: 0}
   m_LocalScale: {x: 1.0356, y: 0.97981995, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8766,6 +8768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: castleTwo
+  move: {fileID: 366864118}
 --- !u!114 &1462157023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8808,7 +8811,7 @@ Transform:
   m_GameObject: {fileID: 1641804350}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.91, y: -1.09, z: 0}
+  m_LocalPosition: {x: 12.16, y: -2.63, z: 0}
   m_LocalScale: {x: 1.0356, y: 0.97981995, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8925,6 +8928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: castleOne
+  move: {fileID: 366864118}
 --- !u!114 &1641804356
 MonoBehaviour:
   m_ObjectHideFlags: 0
