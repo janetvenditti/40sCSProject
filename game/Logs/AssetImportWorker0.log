@@ -15,7 +15,7 @@ C:/Users/njsan/OneDrive/Documents/GitHub/40sCSProject/game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63482
+63653
 Successfully changed project path to: C:/Users/njsan/OneDrive/Documents/GitHub/40sCSProject/game
 C:/Users/njsan/OneDrive/Documents/GitHub/40sCSProject/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/njsan/OneDrive/Documents/GitHub/40sCSProject/game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [48120] Host "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 1135485351 [EditorId] 1135485351 [Version] 1048832 [Id] WindowsEditor(7,Pirate) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [38904] Host "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 2976810625 [EditorId] 2976810625 [Version] 1048832 [Id] WindowsEditor(7,Pirate) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [48120] Host "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 1135485351 [EditorId] 1135485351 [Version] 1048832 [Id] WindowsEditor(7,Pirate) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [38904] Host "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 2976810625 [EditorId] 2976810625 [Version] 1048832 [Id] WindowsEditor(7,Pirate) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 54.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 12.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.060711 seconds.
-- Loaded All Assemblies, in  3.133 seconds
+Registered in 0.007613 seconds.
+- Loaded All Assemblies, in  0.442 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.344 seconds
-Domain Reload Profiling: 4471ms
-	BeginReloadAssembly (1465ms)
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (187ms)
-	RebuildNativeTypeToScriptingClass (54ms)
-	initialDomainReloadingComplete (364ms)
-	LoadAllAssembliesAndSetupDomain (1054ms)
-		LoadAssemblies (1435ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (127ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (961ms)
-			TypeCache.Refresh (957ms)
-				TypeCache.ScanAssembly (905ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1348ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (340ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1085ms)
+		SetupLoadedEditorAssemblies (266ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (26ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (809ms)
-			ProcessInitializeOnLoadMethodAttributes (196ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 4471ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.173 seconds
-Refreshing native plugins compatible for Editor in 24.34 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.718 seconds
+Refreshing native plugins compatible for Editor in 6.03 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 System.Reflection.TargetException: Non-static method requires a target.
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <834b2ded5dad441e8c7a4287897d63c7>:0 
@@ -131,47 +131,47 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.429 seconds
-Domain Reload Profiling: 4592ms
-	BeginReloadAssembly (551ms)
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1454ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (97ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (121ms)
-	LoadAllAssembliesAndSetupDomain (1365ms)
-		LoadAssemblies (1244ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (352ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (508ms)
-			TypeCache.Refresh (411ms)
-				TypeCache.ScanAssembly (370ms)
-			ScanForSourceGeneratedMonoScriptInfo (72ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (2430ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (741ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1814ms)
+		SetupLoadedEditorAssemblies (532ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (313ms)
-			ProcessInitializeOnLoadAttributes (1240ms)
-			ProcessInitializeOnLoadMethodAttributes (192ms)
-			AfterProcessingInitializeOnLoad (33ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
-Refreshing native plugins compatible for Editor in 15.50 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 5.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4172 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 62 unused Assets / (57.9 KB). Loaded Objects now: 4643.
-Memory consumption went from 156.5 MB to 156.4 MB.
-Total: 10.977700 ms (FindLiveObjects: 0.656500 ms CreateObjectMapping: 0.317200 ms MarkObjects: 9.704900 ms  DeleteObjects: 0.288500 ms)
+Memory consumption went from 156.8 MB to 156.8 MB.
+Total: 8.592200 ms (FindLiveObjects: 0.680100 ms CreateObjectMapping: 0.398800 ms MarkObjects: 7.029800 ms  DeleteObjects: 0.479300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -188,425 +188,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 370054.398371 seconds.
-  path: Assets/RF Castle/decorative_28.asset
-  artifactKey: Guid(125f3004ccfc64b98bea37eb7f3887e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_28.asset using Guid(125f3004ccfc64b98bea37eb7f3887e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d318ef610f4bdc35fbf8191275cb5b') in 0.375099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/RF Castle/decorative_37.asset
-  artifactKey: Guid(3999c76428e514cdf93889353964a61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_37.asset using Guid(3999c76428e514cdf93889353964a61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b27d8562388585b52d26dd206799423') in 0.202506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/RF Castle/decorative_6.asset
-  artifactKey: Guid(1b9afafd928264dce941622c7e7c94cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_6.asset using Guid(1b9afafd928264dce941622c7e7c94cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e6ff3b3d10e6ad85607a1813c328f2') in 0.119295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/RF Castle/decorative_29.asset
-  artifactKey: Guid(3b0fd020f7f5f4646b167fa19ce07356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_29.asset using Guid(3b0fd020f7f5f4646b167fa19ce07356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2ea50e85c8c0c65ecd2e5ac84ecd1f') in 0.068611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/RF Castle/decorative_4.asset
-  artifactKey: Guid(1ee39ebb687ee4292a204a8f54eebf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_4.asset using Guid(1ee39ebb687ee4292a204a8f54eebf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c1f0fb1826ca9bf734bf5f23fd4e46') in 0.223002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/RF Castle/decorative_8.asset
-  artifactKey: Guid(6af18ad92c5614d7cab66a9ebcde51bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_8.asset using Guid(6af18ad92c5614d7cab66a9ebcde51bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aab2f6557b099d71f6d083747e229f3') in 0.140028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Pixel Skies DEMO
-  artifactKey: Guid(e9ccf38e777150b43aff3798ef7ca992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Skies DEMO using Guid(e9ccf38e777150b43aff3798ef7ca992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4dc1948035cfa77ed8140945385dc6') in 0.002442 seconds
+  Time since last request: 420252.522724 seconds.
+  path: Assets/Scripts 1
+  artifactKey: Guid(7db0116773d1bf74c8493b91ed7b9a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts 1 using Guid(7db0116773d1bf74c8493b91ed7b9a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4113ae280ba56eaa547b72e255bbe2') in 0.005769 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/RF Castle/decorative_25.asset
-  artifactKey: Guid(5070b1ef255c947c698dc8394576ad04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_25.asset using Guid(5070b1ef255c947c698dc8394576ad04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4699312ce9a4d3c996e8dc667edf9c84') in 0.091876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/RF Castle/decorative_2.asset
-  artifactKey: Guid(b2d7cfe6b7d5544538d5de7d193b917b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_2.asset using Guid(b2d7cfe6b7d5544538d5de7d193b917b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4a20fdd992d64fac3b4f8f510dede5') in 0.024907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/RF Castle/decorative_24.asset
-  artifactKey: Guid(386e567028f1f40d3890576b0867984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_24.asset using Guid(386e567028f1f40d3890576b0867984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb73bcf4f16673f570297a6db6c1285') in 0.048716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/RF Castle/decorative_43.asset
-  artifactKey: Guid(8ac99f751842b493eba7c329f952c8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_43.asset using Guid(8ac99f751842b493eba7c329f952c8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be92ea8d4291ed60c4b4a546119819e') in 0.208643 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/RF Castle/decorative_21.asset
-  artifactKey: Guid(662886f41f8ef4f38a533dd6f5d221fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_21.asset using Guid(662886f41f8ef4f38a533dd6f5d221fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8bc1fbf45a662f45d7df574982183a') in 0.052548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/RF Castle/decorative_48.asset
-  artifactKey: Guid(3d84eba53dfb24e9184919a95ec7ba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_48.asset using Guid(3d84eba53dfb24e9184919a95ec7ba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38aab9d4278a5f32cb9724d09b503b78') in 0.147201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/RF Castle/decorative_34.asset
-  artifactKey: Guid(e8be7a03ed3db4bc4b4a97e362e9069a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_34.asset using Guid(e8be7a03ed3db4bc4b4a97e362e9069a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e306b8654b349e753133694817322649') in 0.041562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/RF Castle/decorative_49.asset
-  artifactKey: Guid(440fa17e7dc4b47229dac9091a30f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_49.asset using Guid(440fa17e7dc4b47229dac9091a30f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c528c97f3feae35d3ce34ad76d8efe') in 0.147039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/RF Castle/decorative_45.asset
-  artifactKey: Guid(4ef5eb1574d9c441ab3c24188fb27dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_45.asset using Guid(4ef5eb1574d9c441ab3c24188fb27dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd9370d2b85c2bc33005f03767ddc2f') in 0.051350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/RF Castle/decorative_11.asset
-  artifactKey: Guid(544e7e756d8ed4c12a1df0ac98f4b01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_11.asset using Guid(544e7e756d8ed4c12a1df0ac98f4b01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd4ecf22c82cd4f83546026eca86736') in 0.105757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/RF Castle/decorative_27.asset
-  artifactKey: Guid(64ce2e86ecc8d4a4da5431934102863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_27.asset using Guid(64ce2e86ecc8d4a4da5431934102863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98dac96e711a05d2ee3ab3adff4c3bf') in 0.124544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/RF Castle/decorative_22.asset
-  artifactKey: Guid(4ec92d253da214269bbdc17e899ef08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_22.asset using Guid(4ec92d253da214269bbdc17e899ef08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec2473298ee5a08378b3edc1deff9ca') in 0.074908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/RF Castle/decorative_13.asset
-  artifactKey: Guid(311fbd13cb50b471c9be00875c8c9690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_13.asset using Guid(311fbd13cb50b471c9be00875c8c9690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7e06d34fe64dd0fe30ac45e45ce6dd') in 0.042312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/RF Castle/decorative_40.asset
-  artifactKey: Guid(76765c064bb9a4764b49cce764691d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_40.asset using Guid(76765c064bb9a4764b49cce764691d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58358f5f919f80a177c757673b631ce') in 0.059804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/RF Castle/decorative_47.asset
-  artifactKey: Guid(50ab75a816ee74d33ad4634264843412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_47.asset using Guid(50ab75a816ee74d33ad4634264843412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff97e980cbcebb7ae55304543b7972f') in 0.083548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/RF Castle/decorative_31.asset
-  artifactKey: Guid(5f8b221b61df0415aadf55444b21ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_31.asset using Guid(5f8b221b61df0415aadf55444b21ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e962073522ffc69bec88c5e08981fa') in 0.085673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/RF Castle/decorative_7.asset
-  artifactKey: Guid(525b7920286ce4d0ca0d71ab6c55f0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_7.asset using Guid(525b7920286ce4d0ca0d71ab6c55f0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67362beda5b7e71e9bfed062caa5a574') in 0.084540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/RF Castle/decorative_16.asset
-  artifactKey: Guid(a6f838dbe58274d4f8d24003a3651a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_16.asset using Guid(a6f838dbe58274d4f8d24003a3651a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d399f503e58d840c20b8900eb0ddb36') in 0.105340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/RF Castle/decorative_39.asset
-  artifactKey: Guid(ceb66c263f5d74272ae48368464996fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_39.asset using Guid(ceb66c263f5d74272ae48368464996fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b850642a6291409bcb07fbd1ade337ba') in 0.055618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/RF Castle/decorative_1.asset
-  artifactKey: Guid(f7dbeae8aa9eb4cff89d912510f7abec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_1.asset using Guid(f7dbeae8aa9eb4cff89d912510f7abec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb0d4ce4232fabf7b591c2805beb149') in 0.166717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/RF Castle/decorative_17.asset
-  artifactKey: Guid(a139556fcb06e46dbb0ef81abee850f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_17.asset using Guid(a139556fcb06e46dbb0ef81abee850f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9beb077e7764c2323a04c792eedb7160') in 0.032694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/RF Castle/decorative_9.asset
-  artifactKey: Guid(113f76d14c7154d308058a1b24f5920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_9.asset using Guid(113f76d14c7154d308058a1b24f5920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd082b69dd242f7b7204c82b98c3af390') in 0.045645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/RF Castle/decorative_15.asset
-  artifactKey: Guid(8a4bd0caf6f8344ff99b2246eb218362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_15.asset using Guid(8a4bd0caf6f8344ff99b2246eb218362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0421067de6e54f78383c6984798b191') in 0.112705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/karsiori/Sprites
-  artifactKey: Guid(b64ff26b04885674399416fa9cd3ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites using Guid(b64ff26b04885674399416fa9cd3ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332d22757de750e4490005b24d386b9c') in 0.002321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000781 seconds.
-  path: Assets/RF Castle/decorative_5.asset
-  artifactKey: Guid(0e872d4fa5b944ada9bf93d2c5babd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_5.asset using Guid(0e872d4fa5b944ada9bf93d2c5babd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168e231889a9951ade11e4006ecf6951') in 0.139430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/karsiori/Sprites/GEM 1
-  artifactKey: Guid(9c7c39986755f754cb952e6f9f345d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1 using Guid(9c7c39986755f754cb952e6f9f345d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10e299ec8a02c390452c4cc6302664c') in 0.003732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/GEM 1 - BLUE - Spritesheet.png
-  artifactKey: Guid(f3f7321d2c87af4498111097d4ea1245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/GEM 1 - BLUE - Spritesheet.png using Guid(f3f7321d2c87af4498111097d4ea1245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d6ef57a3a83c1e52fe20d35d9277de') in 0.193758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/GEM 1 - TURQUOISE - Spritesheet.png
-  artifactKey: Guid(94253f9ee0c057447bcb5edb1f71cbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/GEM 1 - TURQUOISE - Spritesheet.png using Guid(94253f9ee0c057447bcb5edb1f71cbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e1dd2ce6fb1d61ae7a32492c35eef4') in 0.076885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/GEM 1 - LIGHT GREEN - Spritesheet.png
-  artifactKey: Guid(8fe34b2848af34b41b0a47c2d2fdc12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/GEM 1 - LIGHT GREEN - Spritesheet.png using Guid(8fe34b2848af34b41b0a47c2d2fdc12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e46f0d90ed9ad1118852b61dbb13fa8') in 0.101804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/GEM 1 - DARK BLUE - Spritesheet.png
-  artifactKey: Guid(1c38be83aff776d43bdd9e237f9afa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/GEM 1 - DARK BLUE - Spritesheet.png using Guid(1c38be83aff776d43bdd9e237f9afa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325d1ae391a9b8f57944dba6a24ea42e') in 0.074840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/GEM 1 - PURPLE - Spritesheet.png
-  artifactKey: Guid(afc8d5ab21dc42d47bd6951258829037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/GEM 1 - PURPLE - Spritesheet.png using Guid(afc8d5ab21dc42d47bd6951258829037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8502f5561497bea33668b54e44e052fc') in 0.064946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/GEM 1 - LILAC - Spritesheet.png
-  artifactKey: Guid(2a89f2164c163ae4d9288b3b39ca1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/GEM 1 - LILAC - Spritesheet.png using Guid(2a89f2164c163ae4d9288b3b39ca1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d71837821e868eea07437cfaa7327a4') in 0.086180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/GEM 1 - GOLD - Spritesheet.png
-  artifactKey: Guid(5e1f4801a8d2fe34295abd16260e6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/GEM 1 - GOLD - Spritesheet.png using Guid(5e1f4801a8d2fe34295abd16260e6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327ec3b190d1c3d634b6c823e39cb0b8') in 0.196586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/RF Castle/decorative_14.asset
-  artifactKey: Guid(4d2ede10bf8df4935b6431e4693acd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_14.asset using Guid(4d2ede10bf8df4935b6431e4693acd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948d8531a544fcf341eeccaaf5b76a77') in 0.101756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/RF Castle/decorative_18.asset
-  artifactKey: Guid(d81351d6cc45e456e945e1b26716d252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_18.asset using Guid(d81351d6cc45e456e945e1b26716d252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fa20d44e38506bbd85f9a076e12e48') in 0.205318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/RF Castle/decorative_19.asset
-  artifactKey: Guid(779b1fa559c2347dd98e51426afbb1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_19.asset using Guid(779b1fa559c2347dd98e51426afbb1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e264f1c41aa9fc65e10c0630496807f8') in 0.031900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/GEM 1 - RED - Spritesheet.png
-  artifactKey: Guid(36e34db6cc264964d8a09c698e841f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/GEM 1 - RED - Spritesheet.png using Guid(36e34db6cc264964d8a09c698e841f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54175dcadb8566d06e6b36eb1b41e38c') in 0.182400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/RF Castle/decorative_0.asset
-  artifactKey: Guid(12051ec4ad36c4be1bbd907163fa0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/decorative_0.asset using Guid(12051ec4ad36c4be1bbd907163fa0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b68c858e3c9d49d5ef0ca3bc27651a') in 0.032939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 15.347959 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/BLUE
-  artifactKey: Guid(af6056d51693890479705034ba0f075a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/BLUE using Guid(af6056d51693890479705034ba0f075a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335790033807216ba1022685a4f7a2ca') in 0.001903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.071809 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0000.png
-  artifactKey: Guid(1b0b3cf758b17614c977d9c05bf17deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0000.png using Guid(1b0b3cf758b17614c977d9c05bf17deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0a48f6a17146f80399fcaf7c54e6f2') in 0.041144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0004.png
-  artifactKey: Guid(5d1606bbec1abec4f9a863ed253957cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0004.png using Guid(5d1606bbec1abec4f9a863ed253957cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4dcefec886f825cbfb26d840b5fb75') in 0.030998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0010.png
-  artifactKey: Guid(6a3acf8937cd92d4eb4469e32feca8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0010.png using Guid(6a3acf8937cd92d4eb4469e32feca8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaacdeb2a2e800ffd460ffd25ba2bfb7') in 0.037700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0007.png
-  artifactKey: Guid(20e9c1a97d941db4093f47a46a594de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0007.png using Guid(20e9c1a97d941db4093f47a46a594de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc0afe4652876ddcd22cd742a4479d3') in 0.038165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0002.png
-  artifactKey: Guid(29ba8773d4dff534cbd735db1bf9f567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0002.png using Guid(29ba8773d4dff534cbd735db1bf9f567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f306b2d5fc0f282224f392044f6adf') in 0.041204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0006.png
-  artifactKey: Guid(5f54a0d8635d2af40aee60347362667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/karsiori/Sprites/GEM 1/BLUE/GEM 1 - BLUE - 0006.png using Guid(5f54a0d8635d2af40aee60347362667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7f8b089ef74fce1794b066a3536543') in 0.039873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 10.629 seconds
-Refreshing native plugins compatible for Editor in 24.62 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.463 seconds
+Refreshing native plugins compatible for Editor in 4.67 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 System.Reflection.TargetException: Non-static method requires a target.
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <834b2ded5dad441e8c7a4287897d63c7>:0 
@@ -619,190 +211,46 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 30.308 seconds
-Domain Reload Profiling: 40912ms
-	BeginReloadAssembly (655ms)
+- Finished resetting the current domain, in  2.044 seconds
+Domain Reload Profiling: 2504ms
+	BeginReloadAssembly (178ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (39ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (1921ms)
-	RebuildNativeTypeToScriptingClass (61ms)
-	initialDomainReloadingComplete (189ms)
-	LoadAllAssembliesAndSetupDomain (7777ms)
-		LoadAssemblies (8178ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (295ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (51ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (30309ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (544ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (337ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 8.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4144 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4660.
-Memory consumption went from 155.4 MB to 155.3 MB.
-Total: 4.094600 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.171200 ms MarkObjects: 3.494300 ms  DeleteObjects: 0.087900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.353 seconds
-Refreshing native plugins compatible for Editor in 32.38 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-System.Reflection.TargetException: Non-static method requires a target.
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7aeb7d7a52d04045b8a1c734633fa931>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.257 seconds
-Domain Reload Profiling: 5599ms
-	BeginReloadAssembly (447ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (149ms)
-	RebuildNativeTypeToScriptingClass (43ms)
-	initialDomainReloadingComplete (119ms)
-	LoadAllAssembliesAndSetupDomain (582ms)
-		LoadAssemblies (809ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (51ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (4259ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1263ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (19ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (393ms)
-			ProcessInitializeOnLoadAttributes (609ms)
-			ProcessInitializeOnLoadMethodAttributes (159ms)
-			AfterProcessingInitializeOnLoad (40ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (62ms)
-Refreshing native plugins compatible for Editor in 18.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4664.
-Memory consumption went from 157.5 MB to 157.5 MB.
-Total: 10.308100 ms (FindLiveObjects: 0.486600 ms CreateObjectMapping: 0.258500 ms MarkObjects: 9.435200 ms  DeleteObjects: 0.123600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.498 seconds
-Refreshing native plugins compatible for Editor in 21.53 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-System.Reflection.TargetException: Non-static method requires a target.
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7aeb7d7a52d04045b8a1c734633fa931>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.744 seconds
-Domain Reload Profiling: 6230ms
-	BeginReloadAssembly (424ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (105ms)
-	RebuildNativeTypeToScriptingClass (40ms)
-	initialDomainReloadingComplete (120ms)
-	LoadAllAssembliesAndSetupDomain (796ms)
-		LoadAssemblies (1010ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (43ms)
-			TypeCache.Refresh (19ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (4745ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2045ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1834ms)
+		SetupLoadedEditorAssemblies (651ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (14ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (388ms)
-			ProcessInitializeOnLoadAttributes (1124ms)
-			ProcessInitializeOnLoadMethodAttributes (213ms)
-			AfterProcessingInitializeOnLoad (66ms)
-			EditorAssembliesLoaded (2ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (94ms)
-Refreshing native plugins compatible for Editor in 31.73 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 20.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4668.
-Memory consumption went from 159.5 MB to 159.4 MB.
-Total: 11.893500 ms (FindLiveObjects: 0.824400 ms CreateObjectMapping: 0.787400 ms MarkObjects: 10.041200 ms  DeleteObjects: 0.235500 ms)
+Unloading 4144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4648.
+Memory consumption went from 151.3 MB to 151.3 MB.
+Total: 6.543400 ms (FindLiveObjects: 0.546100 ms CreateObjectMapping: 0.146600 ms MarkObjects: 5.624600 ms  DeleteObjects: 0.223000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -821,8 +269,8 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.079 seconds
-Refreshing native plugins compatible for Editor in 42.04 ms, found 2 plugins.
+- Loaded All Assemblies, in  2.373 seconds
+Refreshing native plugins compatible for Editor in 5.13 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 System.Reflection.TargetException: Non-static method requires a target.
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <834b2ded5dad441e8c7a4287897d63c7>:0 
@@ -835,46 +283,46 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 10.408 seconds
-Domain Reload Profiling: 12472ms
-	BeginReloadAssembly (673ms)
+- Finished resetting the current domain, in  2.618 seconds
+Domain Reload Profiling: 4977ms
+	BeginReloadAssembly (1169ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (52ms)
+		DisableScriptedObjects (125ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (97ms)
-	RebuildCommonClasses (150ms)
-	RebuildNativeTypeToScriptingClass (58ms)
-	initialDomainReloadingComplete (151ms)
-	LoadAllAssembliesAndSetupDomain (1029ms)
-		LoadAssemblies (1395ms)
+		CreateAndSetChildDomain (403ms)
+	RebuildCommonClasses (121ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (957ms)
+		LoadAssemblies (1352ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (58ms)
-			TypeCache.Refresh (19ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (65ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (37ms)
-	FinalizeReload (10411ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2618ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (5098ms)
+		SetupLoadedEditorAssemblies (367ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (323ms)
-			SetLoadedEditorAssemblies (49ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1694ms)
-			ProcessInitializeOnLoadAttributes (2683ms)
-			ProcessInitializeOnLoadMethodAttributes (289ms)
-			AfterProcessingInitializeOnLoad (59ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (92ms)
-Refreshing native plugins compatible for Editor in 40.05 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4672.
-Memory consumption went from 161.4 MB to 161.4 MB.
-Total: 10.470900 ms (FindLiveObjects: 0.693100 ms CreateObjectMapping: 0.654900 ms MarkObjects: 8.966800 ms  DeleteObjects: 0.149000 ms)
+Unloading 28 unused Assets / (32.1 KB). Loaded Objects now: 4652.
+Memory consumption went from 153.5 MB to 153.5 MB.
+Total: 3.580200 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.150800 ms MarkObjects: 3.058900 ms  DeleteObjects: 0.079800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
