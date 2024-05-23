@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour
+public class TypeWritterEffect : MonoBehaviour
 {
     //starts the routine (runs it)
     // string to type, then label to write it on
