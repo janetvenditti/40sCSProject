@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour
+public class TypeWritterEffect : MonoBehaviour
 {
     //starts the routine (runs it)
     // string to type, then label to write it on
@@ -15,32 +15,28 @@ public class NewBehaviourScript : MonoBehaviour
 
 
     //types the text onto the label
-   private IEnumerator TypeText(string textToType, TMP_Text textLabel)
-   {
-        //time elapsed since writting starts 
-        float t = 0;
-        //used to understand how many chars are typed at once
-        int charIndex = 0;
+     private IEnumerator TypeText(string textToType, TMP_Text textLabel)
+     {
+          // Used to understand how many chars are typed at once
+          int charIndex = 0;
 
-        while (charIndex < textToType.Length)
-        {
-            //becomes 1 after 1 second etc. 
-            t += Time.deltaTime;
+          while (charIndex < textToType.Length)
+          {
+               // Increment charIndex based on time
+               charIndex = Mathf.FloorToInt(Time.time);
 
-            //stored the rounded value of the timer 
-            charIndex = Mathf.FloorToInt(t);
+               // Only typing for the message duration needed 
+               charIndex = Mathf.Clamp(charIndex, 0, textToType.Length);
 
-            //only typing for the message duration needed 
-            charIndex = Mathf.Clamp(charIndex, 0, textToType.Length);
+               // Text left to type 
+               textLabel.text = textToType.Substring(0, charIndex);
 
-            //text left to type 
-            textLabel.text = textToType.Substring(0, charIndex);
+               // Wait one frame
+               yield return null; 
+          }
 
-            //wait one frame
-            yield return null; 
-        }
-
-        textLabel.text = textToType;
-   }
+          // Set the label to the complete text after typing finishes
+          textLabel.text = textToType;
+     }
 
 }

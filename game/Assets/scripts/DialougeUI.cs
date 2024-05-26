@@ -8,7 +8,8 @@ public class DialougeUI : MonoBehaviour
 
     private void Start()
     {
-       GetComponent<NewBehaviourScript>().Run("This is text\n Hey", textLabel);
-       // textLabel.text = "Hello\nThis is the next line.";
+        textLabel.text = "Hello!\nThis is another line";
+    //    GetComponent<TypeWritterEffect>().Run("This is text\n Hey", textLabel);
+
     }
 }
