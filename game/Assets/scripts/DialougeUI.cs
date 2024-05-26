@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro; //used to control the keyboard effect and most of the actual text 
 public class DialougeUI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private TMP_Text textLabel;
 
-    // Update is called once per frame
-    void Update()
+    //method to draw text in 
+
+    private void Start()
     {
-        
+       GetComponent<NewBehaviourScript>().Run("This is text\n Hey", textLabel);
+       // textLabel.text = "Hello\nThis is the next line.";
     }
 }

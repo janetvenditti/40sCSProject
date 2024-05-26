@@ -9,7 +9,7 @@ public class TypeWritterEffect : MonoBehaviour
     // string to type, then label to write it on
    public void Run(string textToType, TMP_Text textLabel)
    {
-        StartCoRoutine(routine: TypeText(textToType, textLabel));
+        StartCoroutine(routine: TypeText(textToType, textLabel));
 
    }
 
