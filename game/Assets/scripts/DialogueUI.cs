@@ -26,6 +26,7 @@ public class DialogueUI : MonoBehaviour
     //lets wait for each array entry to go through 
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
+        yield return new WaitForSeconds(2);
         foreach (string dialogue in dialogueObject. Dialogue)
         {
             yield return typewriterEffect.Run(dialogue, textLabel);
