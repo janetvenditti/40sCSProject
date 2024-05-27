@@ -7,11 +7,11 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private DialogueObject testDialogue;
     //method to draw text in 
 
-    private TypeWritterEffect typewritterEffect;
+    private TypewriterEffect typewriterEffect;
     private void Start()
     {
         //get typwritter 
-       typewritterEffect = GetComponent<TypewritterEffect>();
+       typewriterEffect = GetComponent<TypewriterEffect>();
        //pass in the object, then go to the coroutine to run through typewriter effect
        ShowDialogue(testDialogue);
 
@@ -20,7 +20,7 @@ public class DialogueUI : MonoBehaviour
     //this takes in the dialogue object who's content we wnat to show
     public void ShowDialogue(DialogueObject dialogueObject)
     {
-        StartCorountine(StepThroughDialogue(dialogueObject));
+        StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 
     //lets wait for each array entry to go through 
@@ -28,7 +28,7 @@ public class DialogueUI : MonoBehaviour
     {
         foreach (string dialogue in dialogueObject. Dialogue)
         {
-            yield return typewritterEffect.Run(dialogue, textLabel);
+            yield return typewriterEffect.Run(dialogue, textLabel);
         }
     }
 }
