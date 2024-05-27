@@ -3,20 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour
+public class TypewriterEffect : MonoBehaviour
 {
+     [SerializeField] private float typewriterSpeed = 50f;
+
     //starts the routine (runs it)
     // string to type, then label to write it on
-   public void Run(string textToType, TMP_Text textLabel)
+   public Coroutine Run(string textToType, TMP_Text textLabel)
    {
-        StartCoroutine(routine: TypeText(textToType, textLabel));
-
+        return StartCoroutine(routine: TypeText(textToType, textLabel));
    }
 
 
     //types the text onto the label
    private IEnumerator TypeText(string textToType, TMP_Text textLabel)
    {
+          //the box begins without any text!
+          textLabel.text = string.Empty;
+        
         //time elapsed since writting starts 
         float t = 0;
         //used to understand how many chars are typed at once
@@ -24,8 +28,9 @@ public class NewBehaviourScript : MonoBehaviour
 
         while (charIndex < textToType.Length)
         {
-            //becomes 1 after 1 second etc. 
-            t += Time.deltaTime;
+            //becomes 1 after 1 second etc. increments
+            //now the speed multiplier can change the time of text appearence 
+            t += Time.deltaTime * typewriterSpeed;
 
             //stored the rounded value of the timer 
             charIndex = Mathf.FloorToInt(t);
