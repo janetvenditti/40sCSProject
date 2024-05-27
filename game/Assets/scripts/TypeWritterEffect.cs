@@ -12,7 +12,6 @@ public class TypeWritterEffect : MonoBehaviour
    public Coroutine Run(string textToType, TMP_Text textLabel)
    {
         return StartCoroutine(routine: TypeText(textToType, textLabel));
-
    }
 
 
