@@ -6,6 +6,8 @@ public class SceneController : MonoBehaviour
 {
     public static SceneController instance;
     [SerializeField] Animator transistionAnim;
+    private enum TransistionState { exit, enter }
+    private TransistionState state = TransistionState.enter;
     private void Awake()
     {
         if (instance == null)
@@ -17,20 +19,25 @@ public class SceneController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        transistionAnim.SetInteger("state", value: (int)state);
     }
     
     public void LoadScene(string sceneName)
     {
+        //StartCoroutine(LoadLevel(sceneName));
         StartCoroutine(LoadLevel(sceneName));
-
+        
     }
 
     IEnumerator LoadLevel(string sceneName)
     {
-        transistionAnim.SetTrigger("End");
+        state = TransistionState.exit;
         yield return new WaitForSeconds(1);
         SceneManager.LoadSceneAsync(sceneName);
-        transistionAnim.SetTrigger("Start");
+        state= TransistionState.enter;
+       
     }
+  
 }
 
