@@ -7,13 +7,14 @@ public class Interacttriggerpoint : MonoBehaviour
 {
     [SerializeField] private string next;
     public PlayerMovement move;
+   
     private void OnTriggerStay2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
             if(move.IsInteracted() == true) 
             {
-                SceneManager.LoadScene(next);
+                SceneController.instance.LoadScene(next);
             }
         }
     }
