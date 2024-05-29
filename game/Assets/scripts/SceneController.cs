@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
@@ -20,22 +21,21 @@ public class SceneController : MonoBehaviour
             Destroy(gameObject);
         }
 
-        transistionAnim.SetInteger("state", value: (int)state);
+        
     }
     
     public void LoadScene(string sceneName)
     {
-        //StartCoroutine(LoadLevel(sceneName));
         StartCoroutine(LoadLevel(sceneName));
         
     }
 
     IEnumerator LoadLevel(string sceneName)
     {
-        state = TransistionState.exit;
+        transistionAnim.SetTrigger("End");
         yield return new WaitForSeconds(1);
         SceneManager.LoadSceneAsync(sceneName);
-        state= TransistionState.enter;
+        transistionAnim.SetTrigger("Start");
        
     }
   
