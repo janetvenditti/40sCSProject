@@ -14,7 +14,7 @@ public class ItemTrigger : MonoBehaviour
 
     private void Awake()
     {
-        
+        GameObject.DontDestroyOnLoad(item);
         item.SetActive(true);
     }
     private void OnTriggerStay2D(Collider2D collision)
