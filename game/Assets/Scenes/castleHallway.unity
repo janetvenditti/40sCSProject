@@ -11574,6 +11574,7 @@ GameObject:
   - component: {fileID: 454675113}
   - component: {fileID: 454675115}
   - component: {fileID: 454675116}
+  - component: {fileID: 454675117}
   m_Layer: 0
   m_Name: Exit 4
   m_TagString: Untagged
@@ -11720,6 +11721,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubbleText: {fileID: 1160437502}
+--- !u!114 &454675117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454675111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d8659dace41e54f9ba8d46915899dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemTrigger: {fileID: 0}
+  next: 
+  move: {fileID: 0}
 --- !u!1 &508981221
 GameObject:
   m_ObjectHideFlags: 0
@@ -14695,7 +14711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: castleTwo
-  move: {fileID: 0}
+  move: {fileID: 366864118}
 --- !u!114 &1462157023
 MonoBehaviour:
   m_ObjectHideFlags: 0
