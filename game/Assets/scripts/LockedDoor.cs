@@ -8,6 +8,7 @@ public class LockedDoor : MonoBehaviour
     public ItemTrigger itemTrigger;
     [SerializeField] private string next;
     public PlayerMovement move;
+    public ItemOne item;
   
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -15,7 +16,7 @@ public class LockedDoor : MonoBehaviour
         {
             if (move.IsInteracted() == true)
             {
-                if(itemTrigger.getIsPickedUp() == true)
+                if(item.Item1 == true)
                 {
                     SceneController.instance.LoadScene(next);
                 }

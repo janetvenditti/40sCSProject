@@ -11,6 +11,7 @@ public class ItemTrigger : MonoBehaviour
     Vector2 gone = new Vector2(0,100);
     public GameObject item;
     public PlayerMovement move;
+    public ItemOne one;
 
     private void Awake()
     {
@@ -23,15 +24,12 @@ public class ItemTrigger : MonoBehaviour
         {
             if (move.IsInteracted() == true)
             {
-                IsPickedUp = true;
+                one.Item1 = true;
                 item.SetActive(false);
             }
 
         }
     }
 
-    public bool getIsPickedUp()
-    {
-        return IsPickedUp;
-    }
+   
 }
