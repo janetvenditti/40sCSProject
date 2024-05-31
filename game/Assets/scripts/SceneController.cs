@@ -5,7 +5,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
+    //instance of the scence controller
     public static SceneController instance;
+    //scene transition animator
     [SerializeField] Animator transistionAnim;
  
     private void Awake()
@@ -27,7 +29,6 @@ public class SceneController : MonoBehaviour
     {
         StartCoroutine(LoadLevel(sceneName));
     }
-
     IEnumerator LoadLevel(string sceneName)
     {
         //plays transitions and loads scene

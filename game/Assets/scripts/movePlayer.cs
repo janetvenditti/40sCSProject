@@ -11,23 +11,28 @@ using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class PlayerMovement : MonoBehaviour
 {
+    //player RigidBody, Animator and sprite
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer Sr;
    
+    //float values for runs speed, walk speed and jump height
     [SerializeField] private float WalkSpeed = 7f;
     [SerializeField] private float RunSpeed = 14f;
     [SerializeField] private float JumpHeight = 7f;
-
+    //variable for speed
     private float speed;
     
     //states for animation
     private enum MovementState { idle, walking, running }
+    //automatically sets animation to idle
     private MovementState state = MovementState.idle;
 
-    //scriptable object
+    //scriptable object checks if interact button is pressed
     public IsPressed pressed;
+    //vector2 variable for movement
     Vector2 inputVector;
+    //bool chekcs if player is currently jumping
     public bool isJumping;
 
     private void Awake()

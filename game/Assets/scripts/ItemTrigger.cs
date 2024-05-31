@@ -6,8 +6,11 @@ using UnityEngine;
 
 public class ItemTrigger : MonoBehaviour
 {
+    //item game object
     public GameObject item;
+    //Scriptable object checking if player picked up item
     public ItemOne one;
+    //Scriptable Object checking if interact button is pressed
     public IsPressed pressed;
 
     private void Awake()

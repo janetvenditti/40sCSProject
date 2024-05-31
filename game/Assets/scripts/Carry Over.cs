@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class CarryOver : MonoBehaviour
 {
+    //instance of game object
     public static GameObject instance;
     // Start is called before the first frame update
     private void Awake()

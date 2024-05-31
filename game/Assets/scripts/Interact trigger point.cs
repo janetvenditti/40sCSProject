@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Interacttriggerpoint : MonoBehaviour
 {
+    //name of what scene should be changed to
     [SerializeField] private string next;
+    //Scriptable object checking if interact button is pressed
     public IsPressed pressed;
     private void OnTriggerStay2D(Collider2D collision)
     {
