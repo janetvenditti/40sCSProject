@@ -6,25 +6,26 @@ using UnityEngine;
 
 public class ItemTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    [SerializeField] private bool IsPickedUp;
-    Vector2 gone = new Vector2(0,100);
     public GameObject item;
-    public PlayerMovement move;
     public ItemOne one;
+    public IsPressed pressed;
 
     private void Awake()
     {
-        
+        //item is visable 
         item.SetActive(true);
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
+        //compares 2D collider tag to object with player tag
         if (collision.CompareTag("Player"))
         {
-            if (move.IsInteracted() == true)
+            //checks if interact button is pressed
+            if (pressed.pressed == true)
             {
+                //sets scriptable object to true6
                 one.Item1 = true;
+                //sets object to no longer be visable
                 item.SetActive(false);
             }
 

@@ -14,87 +14,41 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer Sr;
-
-    //Vector2 movement = Vector2.zero;
-
-    private TriggerPoint triggerPoint;
-
-
+   
     [SerializeField] private float WalkSpeed = 7f;
     [SerializeField] private float RunSpeed = 14f;
     [SerializeField] private float JumpHeight = 7f;
-    private float speed;
 
+    private float speed;
+    
+    //states for animation
     private enum MovementState { idle, walking, running }
     private MovementState state = MovementState.idle;
 
-    public MasterInput Controls;
- 
-
-    private MasterInput playerControls;
-    private bool interacted;
-  
-
+    //scriptable object
+    public IsPressed pressed;
     Vector2 inputVector;
+    public bool isJumping;
 
-   public bool isJumping;
-
-
-
-
-
-    // Start is called before the first frame update
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-
-       
-        interacted = false;
-
-        speed = WalkSpeed;
-
-        //if(rb.y)
-        
-
-        
-
-    }
-    private void OnEnable()
-    {
-      
-
-        
-        //Controls.Enable ();
-        //playerControls.Enable();
-
-
-    }
-
-    private void OnDisable()
-    {
-        
-        
-        //Controls.Disable();
-        //playerControls.Disable();
-    }
-    void Start()
-    {
-
         anim = GetComponent<Animator>();
         Sr = GetComponent<SpriteRenderer>();
-        
-    }
-    private void Update()
-    {
-        
-        AnimationUpdate(state);
-      
-        //getKeyPress();
+       
+        //setting speed to normal walking
+        speed = WalkSpeed;
     }
 
-    // Update is called once per frame
+    private void Update()
+    {
+        //updating aninmation every frame
+        AnimationUpdate(state);
+    }
+
     private void FixedUpdate()
     {
+        //checking scene build index to activate needed controlls
         if (SceneManager.GetActiveScene().buildIndex >= 3)
         {
             TopDown();
@@ -105,110 +59,85 @@ public class PlayerMovement : MonoBehaviour
             RightLeft();
             rb.gravityScale = 2;
         }
-
-        
-
-            
-
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
-        
-        Debug.Log(context.phase);
-      
-       
-       if (SceneManager.GetActiveScene().buildIndex < 3)
+        //checking build index for scene than needs jump
+        if (SceneManager.GetActiveScene().buildIndex < 3)
         {
+            //checking if button is pressed and player is not
+            //currently jumping
             if (context.performed && !isJumping)
             {
                 isJumping = true;
                 rb.velocity = new Vector2(rb.velocity.x, JumpHeight);
-                
-         
             }
-
         }
-
-
     }
-
     private void OnCollisionEnter2D(Collision2D other)
     { 
+        //checking if player collider is in contact with ground tag collider
         if(other.gameObject.CompareTag("Ground"))
         {
             isJumping = false;
         }
     }
-
-
+    public void SetVector(InputAction.CallbackContext context)
+    {
+        //setting vector2 variable to vectore value recived from current frame
+        inputVector = context.ReadValue<Vector2>();
+    }
     public void TopDown()
     {
+        //using inputvector to change movement direction based on its value
         Vector2 movement = new Vector2(inputVector.x * speed * Time.deltaTime, inputVector.y * speed * Time.deltaTime);
         transform.Translate(movement);
     }
 
     public void RightLeft()
     {
-
+        //using inputvector to change movement direction based on its value
         Vector2 movement = new Vector2(inputVector.x * speed * Time.deltaTime, 0);
         transform.Translate(movement);
-
-        
     }
     public void Interact(InputAction.CallbackContext context) 
     {
-        Debug.Log(context);
         if (context.performed)
         {
-            interacted = true;
+            //setting pressed bool to true if button pressed
+            pressed.pressed = true;
         }
         else
         {
-            interacted = false;
+            pressed.pressed = false;
         }
-          
-        
-        
-   
     }
 
     public void Sprint(InputAction.CallbackContext context)
     {
-        Debug.Log(context);
         if (context.performed)
         {
+            //setting speed to running speed when button held
             speed = RunSpeed;
-
         }
         if(context.canceled)
         {
+            //setting speed to normal speed when button is let go
             speed = WalkSpeed;
         }
     }
 
-    public bool IsInteracted()
-    {
-        return interacted;
-        
-    }
-    public void SetVector(InputAction.CallbackContext context)
-    {
-        inputVector = context.ReadValue<Vector2>();
-
-    }
-    private MovementState GetState()
-    {
-        return state;
-    }
-
     private void AnimationUpdate(MovementState state)
     {
+        //checking if scene needs top down animation or left right
         if (SceneManager.GetActiveScene().buildIndex >= 3)
         {
+            //checking if player is moving up or to right
             if (inputVector.x > 0 || inputVector.y > 0)
             {
                 Sr.flipX = false;
+                //checking if player is sprinting
                 if (speed == WalkSpeed)
                 {
                     state = MovementState.walking;
@@ -219,9 +148,11 @@ public class PlayerMovement : MonoBehaviour
                 }
 
             }
+            //checking if player is moving down of to left
             if (inputVector.x < 0 || inputVector.y < 0)
             {
                 Sr.flipX = true;
+                //checking if player is sprinting
                 if (speed == WalkSpeed)
                 {
                     state = MovementState.walking;
@@ -236,9 +167,11 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            //checking if player is moving to right
             if (inputVector.x > 0)
             {
                 Sr.flipX = false;
+                //checking if player is sprinting
                 if (speed == WalkSpeed)
                 {
                     state = MovementState.walking;
@@ -249,9 +182,11 @@ public class PlayerMovement : MonoBehaviour
                 }
 
             }
+            //checking if player is moving to left
             if (inputVector.x < 0)
             {
                 Sr.flipX = true;
+                //checking if player is sprinting
                 if (speed == WalkSpeed)
                 {
                     state = MovementState.walking;
@@ -260,9 +195,9 @@ public class PlayerMovement : MonoBehaviour
                 {
                     state = MovementState.running;
                 }
-
             }
         }
+        //changing state variable to interger value for animator state tree in unity
         anim.SetInteger("state", value: (int)state);
     }  
 }

@@ -12,7 +12,7 @@ public class CarryOver : MonoBehaviour
     {
         if (instance == null)
         {
-            
+            //stops object from being destroyed if it doesnt exist in next scene
             DontDestroyOnLoad(instance);
         }
         else
