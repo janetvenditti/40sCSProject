@@ -5,19 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class LockedDoor : MonoBehaviour
 {
-    public ItemTrigger itemTrigger;
     [SerializeField] private string next;
-    public PlayerMovement move;
     public ItemOne item;
-  
+    public IsPressed pressed;
+
     private void OnTriggerStay2D(Collider2D collision)
     {
+        //compares 2D collider tag to object with player tag
         if (collision.CompareTag("Player"))
         {
-            if (move.IsInteracted() == true)
+            //checks if interact button is pressed
+            if (pressed.pressed == true)
             {
+                //checks if item was "picked up"
+                //is actually checking if bool is set true 
                 if(item.Item1 == true)
                 {
+                    //scene change
                     SceneController.instance.LoadScene(next);
                 }
             }

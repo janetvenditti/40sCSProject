@@ -17,7 +17,6 @@ public class TouchingDirections : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
     }
 
-
     private void FixedUpdate()
     {
         IsGround = col.Cast(Vector2.down, contactFilter, groundHits, groundDist) > 0;

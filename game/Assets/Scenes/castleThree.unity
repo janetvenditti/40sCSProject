@@ -650,6 +650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f8c58f48b09a453790122774a922d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pressed: {fileID: 0}
   WalkSpeed: 7
   RunSpeed: 14
   JumpHeight: 7
@@ -782,7 +783,7 @@ GameObject:
   - component: {fileID: 557491949}
   - component: {fileID: 557491948}
   m_Layer: 0
-  m_Name: 9-Sliced
+  m_Name: exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -801,7 +802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: castleHallway
-  move: {fileID: 494687955}
+  pressed: {fileID: 11400000, guid: 8df79df166b16c54c856071efec44d97, type: 2}
 --- !u!61 &557491949
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16116,10 +16117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9fd0ba295be354eaa20564081ae1df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsPickedUp: 0
   item: {fileID: 1574751482}
-  move: {fileID: 494687955}
   one: {fileID: 11400000, guid: 76898391f9d9ce64eba0ac13f664849d, type: 2}
+  pressed: {fileID: 0}
 --- !u!61 &1574751484
 BoxCollider2D:
   m_ObjectHideFlags: 0

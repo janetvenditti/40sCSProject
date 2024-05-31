@@ -6,14 +6,16 @@ using UnityEngine.SceneManagement;
 public class Interacttriggerpoint : MonoBehaviour
 {
     [SerializeField] private string next;
-    public PlayerMovement move;
-   
+    public IsPressed pressed;
     private void OnTriggerStay2D(Collider2D collision)
     {
+        //compares tag of 2D collider to colider with player tag
         if(collision.CompareTag("Player"))
         {
-            if(move.IsInteracted() == true) 
+            //checks if interact button is pressed
+            if(pressed.pressed == true) 
             {
+                //loads next scene
                 SceneController.instance.LoadScene(next);
             }
         }
