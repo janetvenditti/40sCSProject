@@ -5,6 +5,7 @@ using TMPro;
 
 public class TypewriterEffect : MonoBehaviour
 {
+     [SerializeField] private float typewriterSpeed = 50f;
     //starts the routine (runs it)
     // string to type, then label to write it on
    public Coroutine Run(string textToType, TMP_Text textLabel)
@@ -17,11 +18,14 @@ public class TypewriterEffect : MonoBehaviour
     //types the text onto the label
      private IEnumerator TypeText(string textToType, TMP_Text textLabel)
      {
+          textLabel.text = string.Empty;
+          float t = 0;
           // Used to understand how many chars are typed at once
           int charIndex = 0;
 
           while (charIndex < textToType.Length)
           {
+               t += Time.deltaTime * typewriterSpeed;
                // Increment charIndex based on time
                charIndex = Mathf.FloorToInt(Time.time);
 
