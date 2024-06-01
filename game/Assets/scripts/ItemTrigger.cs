@@ -7,11 +7,11 @@ using UnityEngine;
 public class ItemTrigger : MonoBehaviour
 {
     //item game object
-    public GameObject item;
+    [SerializeField] private GameObject item;
     //Scriptable object checking if player picked up item
-    public ItemOne one;
+    [SerializeField] private ItemOne one;
     //Scriptable Object checking if interact button is pressed
-    public IsPressed pressed;
+    [SerializeField] private IsPressed pressed;
 
     private void Awake()
     {

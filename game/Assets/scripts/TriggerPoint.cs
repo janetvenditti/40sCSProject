@@ -6,9 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TriggerPoint : MonoBehaviour
 {
-    [SerializeField] public bool goNextScene; 
     [SerializeField] public string levelName;
-    [SerializeField] public bool needInput;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

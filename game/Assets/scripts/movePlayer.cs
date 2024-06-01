@@ -29,11 +29,11 @@ public class PlayerMovement : MonoBehaviour
     private MovementState state = MovementState.idle;
 
     //scriptable object checks if interact button is pressed
-    public IsPressed pressed;
+    [SerializeField] private IsPressed pressed;
     //vector2 variable for movement
-    Vector2 inputVector;
+    private Vector2 inputVector;
     //bool chekcs if player is currently jumping
-    public bool isJumping;
+    private bool isJumping;
 
     private void Awake()
     {
