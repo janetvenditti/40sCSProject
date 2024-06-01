@@ -24,7 +24,6 @@ public class SceneController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
     public void LoadScene(string sceneName)
     {
         StartCoroutine(LoadLevel(sceneName));

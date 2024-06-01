@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
     }
     public void SetVector(InputAction.CallbackContext context)
     {
-        //setting vector2 variable to vectore value recived from current frame
+        //setting vector2 variable to vector2 value recived per every interaction
         inputVector = context.ReadValue<Vector2>();
     }
     public void TopDown()

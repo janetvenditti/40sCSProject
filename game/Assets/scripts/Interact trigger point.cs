@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Interacttriggerpoint : MonoBehaviour
+public class InteractTriggerPoint : MonoBehaviour
 {
     //name of what scene should be changed to
     [SerializeField] private string next;

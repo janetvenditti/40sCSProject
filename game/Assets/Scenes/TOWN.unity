@@ -92067,7 +92067,6 @@ MonoBehaviour:
   goNextScene: 0
   levelName: castleHallway
   needInput: 0
-  sceneInfo: {fileID: 0}
 --- !u!1 &704094410
 GameObject:
   m_ObjectHideFlags: 0
@@ -92552,7 +92551,6 @@ GameObject:
   - component: {fileID: 919379419}
   - component: {fileID: 919379420}
   - component: {fileID: 919379421}
-  - component: {fileID: 919379422}
   m_Layer: 22
   m_Name: Cat2
   m_TagString: Player
@@ -92690,6 +92688,7 @@ MonoBehaviour:
   WalkSpeed: 3
   RunSpeed: 7
   JumpHeight: 4
+  pressed: {fileID: 11400000, guid: 8df79df166b16c54c856071efec44d97, type: 2}
   isJumping: 0
 --- !u!61 &919379420
 BoxCollider2D:
@@ -92795,10 +92794,6 @@ MonoBehaviour:
     m_ActionId: d6c64521-2afe-48c3-ae46-84afda58c31d
     m_ActionName: Player/RightLeft[/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 54849dba-5e6d-45a1-8e71-3babdce50bb8
-    m_ActionName: Player/Fire[/Mouse/leftButton]
-  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 919379419}
         m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
@@ -92891,34 +92886,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &919379422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919379414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b7345fc7e9a70c4a8ee9f7d616536c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contactFilter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
-  groundDist: 0.05
-  grounded: 1
 --- !u!1 &960242466
 GameObject:
   m_ObjectHideFlags: 0
