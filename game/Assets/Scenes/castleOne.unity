@@ -16817,10 +16817,6 @@ MonoBehaviour:
     m_ActionId: d6c64521-2afe-48c3-ae46-84afda58c31d
     m_ActionName: Player/RightLeft[/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 54849dba-5e6d-45a1-8e71-3babdce50bb8
-    m_ActionName: Player/Fire[/Mouse/leftButton]
-  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 376630094}
         m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
@@ -16958,11 +16954,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f8c58f48b09a453790122774a922d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pressed: {fileID: 0}
   WalkSpeed: 7
   RunSpeed: 14
   JumpHeight: 7
-  isJumping: 0
+  pressed: {fileID: 11400000, guid: 8df79df166b16c54c856071efec44d97, type: 2}
 --- !u!50 &376630095
 Rigidbody2D:
   serializedVersion: 4
@@ -18805,7 +18800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1670379617}
   one: {fileID: 11400000, guid: 665131e4bf2f9aa489a190c616eaa845, type: 2}
-  pressed: {fileID: 0}
+  pressed: {fileID: 11400000, guid: 8df79df166b16c54c856071efec44d97, type: 2}
 --- !u!61 &1670379619
 BoxCollider2D:
   m_ObjectHideFlags: 0
