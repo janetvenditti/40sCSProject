@@ -2,7 +2,7 @@ using System.Collections; //lets us go through a list of collections, such as ou
 using UnityEngine;
 using TMPro;
 
-public class TypewriterEffect : MonoBehaviour //make a new class that inherits from monobehaviour so it can be used with game objects / components like the "test"
+public class TypewriterEffect : MonoBehaviour //make a class that inherits from monobehaviour so it can be used with game objects / components like the "test" object that shows an input 
 {
     [SerializeField] private float typewriterSpeed = 50f; //make a private variable that can be edited on unity 
 
@@ -11,10 +11,10 @@ public class TypewriterEffect : MonoBehaviour //make a new class that inherits f
         return StartCoroutine(TypeText(textToType, textLabel));
     }
 
-    private IEnumerator TypeText(string textToType, TMP_Text textLabel)
+    private IEnumerator TypeText(string textToType, TMP_Text textLabel) //lets code resume from pauses when going through the text objects 
     {
         textLabel.text = string.Empty;
-        int charIndex = 0;    //track index of charecter being typed along 
+        int charIndex = 0;    //track index of chars being typed along 
 
         float delay = 1 / typewriterSpeed;   // delay with typing a character based on typewriterSpeed
 
