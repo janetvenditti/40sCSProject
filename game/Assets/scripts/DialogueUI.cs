@@ -4,15 +4,13 @@ using TMPro; //used to control the keyboard effect and most of the actual text
 public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private TMP_Text textLabel;
-    [SerializeField] private DialogueObject testDialogue;
-    //method to draw text in 
+    [SerializeField] private DialogueObject testDialogue;   //method to draw text in, we can see them both in unity for ease of editing
 
     private TypewriterEffect typewriterEffect;
     private void Start()
     {
         //get typwritter 
-       typewriterEffect = GetComponent<TypewriterEffect>();
-       //pass in the object, then go to the coroutine to run through typewriter effect
+       typewriterEffect = GetComponent<TypewriterEffect>(); //pass in the object, then go to the coroutine to run through typewriter effect
        ShowDialogue(testDialogue);
 
     }
